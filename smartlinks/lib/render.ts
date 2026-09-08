@@ -366,7 +366,7 @@ ${renderSocial(s, socialIndex)}
 ${s.footer.note ? `<div>${esc(s.footer.note)}</div>` : ""}
 ${
   s.footer.credit
-    ? `<div>Hecho por <a href="https://juancitoads.netlify.app" target="_blank" rel="noopener">Juancito Ads</a></div>`
+    ? `<div>Hecho por <a href="https://juancitoads.com" target="_blank" rel="noopener">Juancito Ads</a></div>`
     : ""
 }
 </footer>

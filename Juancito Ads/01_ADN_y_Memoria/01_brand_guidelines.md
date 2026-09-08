@@ -13,7 +13,7 @@
 - **Rubro:** Agencia de marketing digital especializada en Meta Ads (Facebook/Instagram) potenciada con IA.
 - **Ubicación / mercado:** Panamá ("AGENCIA DE MARKETING DIGITAL · PANAMÁ"; footer "© 2026 Juancito Ads · Panamá").
 - **Modalidad:** 100% remoto, con una jornada de producción/grabación presencial mensual incluida cuando el plan lo contempla (no presencia diaria).
-- **Contacto:** WhatsApp/teléfono +507 6596-9428 (`wa.me/50765969428`) · email `juanarrietabusiness@gmail.com` · Instagram [@juancitoads](https://instagram.com/juancitoads) · web `juancitoads.netlify.app`.
+- **Contacto:** WhatsApp/teléfono +507 6596-9428 (`wa.me/50765969428`) · email `juanarrietabusiness@gmail.com` · Instagram [@juancitoads](https://instagram.com/juancitoads) · web **[juancitoads.com](https://juancitoads.com)** (dominio propio activo desde agosto 2026; `juancitoads.netlify.app` sigue respondiendo pero es la URL de la plataforma, no la de la marca — no se difunde).
 - **Métodos de pago:** Yappy 6910-3347 (titular: Juan David Arrieta Navarro).
 - **Respuesta:** en menos de 24 horas hábiles.
 
@@ -35,7 +35,7 @@
 
 - **Monograma "JA"** en 3D, azul cobalto/eléctrico con acabado brillante (render 3D), del que sale un **megáfono azul** hacia arriba, acompañado de una **constelación de estrellas y nodos naranja/ámbar**. Debajo, la palabra **"JUANCITO"** en azul (el wordmark del logo es "Juancito", no "Juancito Ads" completo).
 - **Metáfora de marca:** megáfono = publicidad/amplificación; constelación/estrellas = alcance, crecimiento, "apuntar alto". El motivo de estrellas conectadas por líneas (mapa estelar) se repite como patrón de fondo en el sitio (hero con constelaciones) — es un elemento gráfico recurrente, no solo decorativo.
-- **Archivo fuente:** `logo.png` (`juancitoads.netlify.app/logo.png`), 2048×2048, fondo claro no transparente.
+- **Archivo fuente:** `logo.png` (`juancitoads.com/logo.png`), 2048×2048, fondo claro no transparente.
 - **Especificaciones de producción (fuente Pomelli, igual patrón que otros clientes del sistema):**
   - Espacio de resguardo: 190px libres en cada lado.
   - Tamaño mínimo: 1.58 pulgadas / 152px de ancho.
@@ -127,6 +127,20 @@ Coincide exactamente entre CSS real del sitio y Pomelli:
 **Complementos:** redacción de textos desde $60/página · segundo idioma desde $180 · chatbot IA desde $350+$25/mes · SEO técnico continuo desde $120/mes · migración desde WordPress desde $250 · pasarela de pago adicional $150.
 
 **A medida (apps/sistemas web):** login/usuarios desde $450 · panel admin desde $650 · sistema de reservas/citas desde $600 · portal de clientes desde $750 · automatización IA/WhatsApp desde $250.
+
+**D) Servicio adicional — Agente CRM (pago único):**
+
+| Servicio | Precio | Entrega | Ajustes incluidos |
+|---|---|---|---|
+| Agente CRM | **$899** | 5–7 días | 14 días |
+
+Asistente que contesta por **WhatsApp, Instagram, Messenger y Telegram** a cualquier hora, con un **panel** donde el cliente ve cada conversación y cada cliente nuevo. Se le cargan hasta **30 preguntas** de entrada, para que el alcance sea medible. Contesta con los precios, horarios y políticas del negocio (no improvisa), entiende notas de voz, pasa la conversación a una persona cuando se la piden y se calla en cuanto el dueño responde.
+
+**Dos costes que la agencia NO cobra y van publicados junto al precio, nunca en letra chica:** el **alojamiento del agente** y la **llave de la IA** que lo mueve — ambos se pagan al proveedor y quedan **a nombre del cliente**, con su propio consumo.
+
+⚠️ **El nombre viejo era "Bot multicanal" ($499).** Se renombró el 2026-08-26 porque describía el canal y no el trabajo: lo que se entrega no es solo un contestador, es también el panel donde queda apuntado cada cliente nuevo. **No usar el nombre ni el precio viejos en ningún copy.**
+
+*(Fuente: `src/data/site.ts` del repositorio del sitio — es la fuente única de verdad del precio y el plazo; la página es `juancitoads.com/servicios/agente-crm`.)*
 
 **Gancho de entrada de bajo compromiso:** diagnóstico gratuito (análisis de velocidad + 3 oportunidades de mejora + plan de acción, sin compromiso, entregado en 48h) — vía WhatsApp.
 
