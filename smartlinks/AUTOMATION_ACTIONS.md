@@ -55,6 +55,11 @@ npx tsc --noEmit
 npm run --silent smartlinks     # debe imprimir la línea del cliente
 ```
 
+7. **Si el cliente es NUEVO (o le cambiaste el `slug`), falta un paso en el OTRO
+   repositorio.** Las landings se sirven en `https://juancitoads.com/<slug>`, y
+   quien resuelve esa URL es el sitio de Netlify, no este repo — ver §5. Sin ese
+   paso el cliente se publica en Pages pero `juancitoads.com/<slug>` da 404.
+
 ## 3. Despublicar un cliente
 
 ```yaml
@@ -77,13 +82,49 @@ Un manifiesto desactivado no necesita `theme` ni `buttons`.
 - Si añades un campo al manifiesto, actualiza el schema en `lib/config.ts` **y** el
   `dcasa.yml` de referencia.
 
-## 5. Publicación
+## 5. Publicación — dos capas, y la segunda vive en otro repo
 
-- El workflow `.github/workflows/smartlinks.yml` corre en push a `main` con cambios en
-  `smartlinks/**` o en los logos, y a mano desde la pestaña Actions.
+El HTML se hospeda en **GitHub Pages**, pero el link que se pega en la bio de
+Instagram es `https://juancitoads.com/<slug>`. Quien convierte una cosa en la otra
+es el sitio de **Netlify**, con una regla de proxy. Las dos capas son necesarias:
+
+| Capa | Dónde | Qué hace |
+|---|---|---|
+| Hospedaje | este repo → `.github/workflows/smartlinks.yml` → Pages | genera y sirve el HTML |
+| Dominio | `PAGINA-JUANCITO-ADS/public/_redirects` | `juancitoads.com/<slug>` → proxy al HTML de Pages |
+
+- El workflow corre en push a `main` con cambios en `smartlinks/**` o en los logos, y
+  a mano desde la pestaña Actions.
 - El Source de Pages es **GitHub Actions** (ya configurado por el humano). No lo cambies.
-- Los links quedan en el resumen del run. No hace falta tocar el workflow al añadir un
-  cliente: la lista se descubre sola desde `smartlinks/clients/`.
+- **Aquí no hace falta tocar nada al añadir un cliente:** la lista se descubre sola
+  desde `smartlinks/clients/`.
+- **Allí sí.** `npm run smartlinks` escribe el bloque de reglas ya generado en
+  `dist/netlify-redirects.txt`, y el resumen del run lo imprime listo para copiar.
+  Procedimiento al añadir/quitar un cliente o cambiarle el `slug`:
+
+  1. Abre el resumen del run (Actions → run → Summary) o el fichero local.
+  2. Reemplaza **el bloque entero** de SmartLinks en
+     `PAGINA-JUANCITO-ADS/public/_redirects` por el generado. No edites líneas
+     sueltas: el bloque es generado, se sustituye completo.
+  3. Commitea y pushea ese repo — Netlify despliega solo.
+
+  Mientras ese paso no se haga, el cliente responde en la URL de Pages pero
+  `juancitoads.com/<slug>` da 404. **La URL de Pages no se le pasa al cliente:**
+  el `canonical` de la landing apunta a `juancitoads.com`, así que dar la de Pages
+  contradice a la propia página.
+
+### Por qué el proxy y no un subdominio
+
+Se evaluaron tres formas (2026-09-08) y el humano eligió el proxy:
+
+- `juancitoads.com/<slug>` — **la elegida.** Es la URL más corta de dictar y deja la
+  autoridad SEO de cada landing en el dominio de la agencia. Precio: el paso
+  cruzado de arriba.
+- `enlaces.juancitoads.com/<slug>` — cero acoplamiento (un cliente nuevo aparece
+  solo), pero pide un registro CNAME en GoDaddy y una URL más larga.
+- `<slug>.juancitoads.com` — un subdominio por cliente. GitHub Pages solo admite un
+  dominio propio por repositorio, así que obligaría a mover el hospedaje y a un
+  registro DNS por cliente. Descartada.
 
 ## 6. Cosas que NUNCA debes hacer
 
@@ -93,3 +134,6 @@ Un manifiesto desactivado no necesita `theme` ni `buttons`.
 4. Poner precios en la landing sin que estén verificados en el ADN.
 5. Mezclar la cara consumer y la B2B de Feria del Lente en el mismo copy.
 6. Escribir el HTML de un cliente a mano fuera del generador.
+7. Escribir a mano las reglas de `_redirects` del repo de la web: se generan (§5).
+8. Publicar un cliente nuevo y dejarlo sin su regla en el repo de la web: la landing
+   quedaría viva solo en una URL que su propio `canonical` desmiente.
