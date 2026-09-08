@@ -93,6 +93,13 @@ Caption en el **tono verbal del ADN** del cliente (léxico sí/no, tuteo/usted, 
 
 Guion para presentar el producto (voz en off, presentador o influencer), en el tono del ADN, **máximo 500 caracteres**. Basado en la imagen (producto + precio + oferta + CTA).
 
+**Reglas de locución (fijadas por el humano, 2026-09-08) — no son opcionales:**
+
+1. **El precio va precedido de "por tan solo".** Ej.: *"Una cama King por tan solo ciento veintinueve con noventa y nueve más ITBMS."*
+2. **Los centavos se dicen con la palabra "con"** entre el entero y los centavos: *"ciento veintinueve **con** noventa y nueve"*, nunca *"ciento veintinueve noventa y nueve"*. Aplica también al combo.
+3. **El cierre es "te la separamos de inmediato"** (concordando el pronombre con el producto: *te lo / te la*). No se usa "de una vez".
+4. Se mantiene lo ya establecido: **nunca se dicta el número de WhatsApp** — se dice *"Contáctanos por WhatsApp"*.
+
 ## 4. Entrega (SOLO en el chat — NO se guarda en memoria)
 
 - **Este comando es un entregable de chat.** Entrega las 3 partes directamente en la respuesta: **los 6 prompts completos** (no un resumen ni un ejemplo), la descripción de Instagram y el guion de voz.
