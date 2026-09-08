@@ -152,8 +152,18 @@ const SmartlinkSchema = z.object({
       /** Ruta relativa a la raíz del repo. Se copia al build. */
       src: z.string(),
       alt: z.string(),
-      /** plate = logo que ya trae su propio marco/placa; bare = PNG suelto. */
-      style: z.enum(["plate", "bare", "circle"]).default("bare"),
+      /**
+       * Cómo se monta el archivo sobre el hero:
+       *   bare   PNG suelto, normalmente con fondo transparente (Baby Caleb).
+       *   plate  el archivo ya trae su propio marco/placa (D'CASA).
+       *   circle el archivo tiene fondo claro no transparente y es cuadrado →
+       *          se recorta en círculo blanco (Juancito Ads).
+       *   panel  el archivo es un lockup apaisado sobre fondo claro y el hero es
+       *          oscuro o de color: se monta sobre una placa clara redondeada.
+       *          Sin ella, un logo rojo sobre un hero rojo desaparece — que es
+       *          justo el caso de Feria del Lente.
+       */
+      style: z.enum(["plate", "bare", "circle", "panel"]).default("bare"),
       maxHeight: z.number().int().min(48).max(220).default(120),
       /** El archivo ya contiene el nombre de la marca → el <h1> pasa a lectores de pantalla. */
       replacesName: z.boolean().default(false),

@@ -13,7 +13,13 @@
 #   · Ubicación → 3 sucursales. Los enlaces son BÚSQUEDAS de Google Maps armadas con la
 #     dirección verificada del ADN, no place-ids inventados. Reemplazar por el link real
 #     de cada ficha de Google Business cuando el cliente lo pase.
-#   · Sin archivo de logo en el repo → monograma "FL" (isotipo real del ADN) hasta que lo suba.
+#   · Logo: recuperado del Drive del cliente (FERIA DEL LENTE/0 - BRANDING/CATALOGO.png,
+#     2026-09-08) y recortado al lockup. Coincide con el §2 del ADN: "FL" en rojo con el
+#     trazo curvo que evoca unos lentes + "FERIA DEL LENTE" y las tres sucursales.
+#     Va con `style: panel` porque es **rojo sobre blanco y el hero es oxblood**: sin la
+#     placa clara detrás, el logo desaparecería sobre su propio color primario.
+#     ⏳ En este archivo "ÓPTICA" va en rojo; el ADN lo describe en negro. Diferencia menor
+#     del archivo que usa el cliente — no se corrige aquí, se pregunta.
 
 id: feria_del_lente
 folder: "Feria del lente"
@@ -25,7 +31,12 @@ handle: "@opticaferiadellente"
 tagline: "La primera óptica cristiana de Panamá · tus lentes en 40 minutos."
 description: "Lentes graduados, aros y lentes de sol en 40 minutos. Tres sucursales en Panamá y Panamá Oeste. Agenda tu examen visual."
 
-monogram: "FL"
+logo:
+  src: "Feria del lente/01_ADN_y_Memoria/Assets_Visuales_Base/logo-feria-del-lente.png"
+  alt: "Logo Óptica Feria del Lente"
+  style: panel         # lockup rojo sobre blanco → placa clara sobre el hero oxblood
+  replacesName: true   # el logo ya dice "FERIA DEL LENTE ÓPTICA"
+  maxHeight: 112
 
 theme:
   mode: light

@@ -55,10 +55,11 @@ Con `SMARTLINKS_BASE_URL="https://usuario.github.io/repo"` además escribe los
 | Cliente | Link público | Estado |
 |---|---|---|
 | D'CASA Panamá | `juancitoads.com/dcasa` | ✅ Botones y destinos entregados por el cliente |
-| Baby Caleb | `juancitoads.com/baby-caleb` | ✅ Publicada — destinos derivados del ADN (sin punto físico) |
-| Óptica Feria del Lente | `juancitoads.com/feria-del-lente` | ✅ Publicada — WhatsApp y ubicación por sucursal |
+| Baby Caleb | `juancitoads.com/baby-caleb` | ✅ Publicada — logo real (Drive del cliente) · destinos derivados del ADN (sin punto físico) |
+| Óptica Feria del Lente | `juancitoads.com/feria-del-lente` | ✅ Publicada — logo real (Drive del cliente) · WhatsApp y ubicación por sucursal |
 | 57DMC | `juancitoads.com/57dmc` | ✅ Publicada — plataformas de música y donación |
 | Juancito Ads | `juancitoads.com/juancito-ads` | ⚠️ Publicada, pero **se solapa con `juancitoads.com/smartlink`** — la web tiene su propio link-in-bio de la agencia. Falta decidir cuál sobrevive |
+| Ingeniería KMT | `juancitoads.com/ingenieria-kmt` | ✅ Publicada — identidad confirmada (brand book 2026-09-04) · ⏳ sin logo todavía, va con monograma |
 | Fotosonido | — | ⏸️ Sin ADN, no se publica |
 
 Lo que falta de cada cliente (logo real, links de catálogo propios, ficha de Google

@@ -29,8 +29,13 @@ generada desde `smartlinks/clients/<id>.yml` y publicada en GitHub Pages con el 
 `.github/workflows/smartlinks.yml`. Lleva el logo del cliente, contacto directo por WhatsApp y
 los botones que su negocio necesita (catálogo, ubicación, mayoristas…), siempre con **su** marca.
 Cuando el humano pida cambiar botones o destinos de esa landing, manda
-**`smartlinks/AUTOMATION_ACTIONS.md`** (no este archivo). Hoy están publicadas: D'CASA,
-Baby Caleb, Feria del Lente, 57DMC y Juancito Ads; Fotosonido queda fuera hasta tener ADN. **Ingeniería KMT ya tiene identidad visual confirmada (brand book 2026-09-04) → su SmartLink y su `05_prompt_maestro_meta_ai.md` están desbloqueados y pendientes de armar.**
+**`smartlinks/AUTOMATION_ACTIONS.md`** (no este archivo). Se publican en `https://juancitoads.com/<slug>`
+(GitHub Pages hospeda; el sitio de Netlify les pone la cara del dominio) — **añadir un cliente
+toca también `PAGINA-JUANCITO-ADS/public/_redirects`**, ver §5 del runbook. Hoy están
+publicadas: D'CASA, Baby Caleb, Feria del Lente, 57DMC, Juancito Ads e **Ingeniería KMT**
+(2026-09-08, con su identidad visual confirmada); Fotosonido queda fuera hasta tener ADN.
+Pendiente de KMT: su `05_prompt_maestro_meta_ai.md`, y el archivo de logo — su landing va
+con monograma hasta que el cliente lo suba.
 
 ### Multimedia (Google Drive + Canva)
 
