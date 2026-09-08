@@ -3,8 +3,18 @@ name: SmartLinks · publicar landings
 # Genera las landings de enlaces de cada cliente (smartlinks/clients/*.yml) y las
 # publica en GitHub Pages. El Source de Pages ya está en "GitHub Actions".
 #
+# ── Pages hospeda, juancitoads.com da la cara ──────────────────────
+# El HTML vive en GitHub Pages, pero el link que se pega en la bio de Instagram
+# es `https://juancitoads.com/<slug>`: el sitio de Netlify lo sirve por proxy
+# desde `PAGINA-JUANCITO-ADS/public/_redirects`. De ahí que aquí haya dos URLs
+# distintas y no una:
+#
+#   SMARTLINKS_BASE_URL   la que ve el visitante → canonical y og:url.
+#   SMARTLINKS_PAGES_URL  el origen real en Pages → solo para escribir el bloque
+#                         de proxy que hay que pegar en el repo de la web.
+#
 # Los links de cada cliente quedan en el RESUMEN del run (pestaña Actions → run →
-# Summary) y también en el hub interno que se publica en la raíz del sitio.
+# Summary), junto con ese bloque ya generado.
 
 on:
   push:
@@ -52,7 +62,11 @@ jobs:
 
       - name: Generar SmartLinks
         env:
-          SMARTLINKS_BASE_URL: ${{ steps.pages.outputs.base_url }}
+          # El dominio de la agencia se escribe aquí y solo aquí. Si algún día
+          # cambia, cambia en esta línea y en el bloque de `_redirects` del repo
+          # de la web — no hay ninguna otra copia.
+          SMARTLINKS_BASE_URL: https://juancitoads.com
+          SMARTLINKS_PAGES_URL: ${{ steps.pages.outputs.base_url }}
         run: npm run --silent smartlinks
 
       - name: Subir artefacto de Pages
@@ -78,7 +92,8 @@ jobs:
           {
             echo "## ✅ SmartLinks en vivo"
             echo ""
-            echo "Hub interno: ${{ steps.deployment.outputs.page_url }}"
+            echo "Hub interno (solo Pages, \`noindex\`): ${{ steps.deployment.outputs.page_url }}"
             echo ""
-            echo "El link de cada cliente está en el resumen del job **Generar landings**."
+            echo "Los links públicos de cada cliente (\`juancitoads.com/<slug>\`) están en el"
+            echo "resumen del job **Generar landings**, junto con las reglas de Netlify."
           } >> "$GITHUB_STEP_SUMMARY"

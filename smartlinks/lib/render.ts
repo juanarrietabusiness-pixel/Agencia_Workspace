@@ -262,11 +262,37 @@ function renderButton(button: SmartlinkButton, index: number): string {
           </details>`;
 }
 
-function renderHero(s: Smartlink, size?: { width: number; height: number }): string {
+/**
+ * `src` del logo.
+ *
+ * Era `./logo.png` — relativo, y ahí estaba el problema: un relativo depende de
+ * si la URL termina en barra. La landing se sirve en `juancitoads.com/dcasa`
+ * (sin barra, que es como se dicta y como se pega en una bio), y desde ahí
+ * `./logo.png` se pide a `/logo.png` — fuera de la landing, 404, marca sin logo.
+ *
+ * Se puede forzar la barra con una redirección, pero eso son dos reglas por
+ * cliente en el sitio de Netlify y una de ellas puede entrar en bucle según cómo
+ * normalice la barra final el motor de rutas. Con la URL pública ya conocida
+ * (`canonical`), la respuesta correcta es no depender de la forma de la URL:
+ * absoluta, y funciona igual con barra, sin barra y desde Pages.
+ *
+ * Sin URL pública (build local, `SMARTLINKS_BASE_URL` sin definir) se queda el
+ * relativo de siempre, que es lo que hace que abrir el HTML del disco funcione.
+ */
+function logoSrc(s: Smartlink, base?: string): string {
+  const file = s.logo?.src.split("/").pop() ?? "logo.png";
+  return base ? `${base.replace(/\/+$/, "")}/${file}` : `./${file}`;
+}
+
+function renderHero(
+  s: Smartlink,
+  size?: { width: number; height: number },
+  base?: string,
+): string {
   const dims = size ? ` width="${size.width}" height="${size.height}"` : "";
   const media = s.logo
-    ? `<img class="hero__logo${s.logo.style === "circle" ? " hero__logo--circle" : ""}" src="./${esc(
-        s.logo.src.split("/").pop() ?? "logo.png",
+    ? `<img class="hero__logo${s.logo.style === "circle" ? " hero__logo--circle" : ""}" src="${esc(
+        logoSrc(s, base),
       )}" alt="${esc(s.logo.alt)}"${dims}>`
     : `<div class="hero__mono" aria-hidden="true">${esc(s.monogram ?? s.name.charAt(0))}</div>`;
 
@@ -333,7 +359,7 @@ ${
 </head>
 <body>
 <main class="shell">
-${renderHero(s, opts.logoSize)}
+${renderHero(s, opts.logoSize, opts.canonical)}
 <div class="stack">${buttons}</div>
 ${renderSocial(s, socialIndex)}
 <footer class="foot rise" style="--i:${socialIndex + 1}">

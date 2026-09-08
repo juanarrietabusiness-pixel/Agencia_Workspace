@@ -1,5 +1,5 @@
 import { mkdir, rm, copyFile, writeFile, appendFile, readFile } from "node:fs/promises";
-import { basename, join } from "node:path";
+import { basename, join, dirname } from "node:path";
 import { loadEnabledSmartlinks, listSmartlinkIds, loadSmartlink, type Smartlink } from "./lib/config.ts";
 import { renderHub, renderLanding } from "./lib/render.ts";
 import { OUT_DIR, fromRepoRoot } from "./lib/paths.ts";
@@ -10,16 +10,72 @@ import { OUT_DIR, fromRepoRoot } from "./lib/paths.ts";
  *   dist/smartlinks/index.html      → hub interno con todos los clientes
  *   dist/smartlinks/<slug>/index.html
  *   dist/smartlinks/<slug>/<logo>   → copia del logo declarado en el manifiesto
+ *   dist/netlify-redirects.txt      → bloque de reglas para el repo de la web
  *
- * Variables de entorno:
- *   SMARTLINKS_BASE_URL  URL pública base (sin barra final). Solo se usa para
- *                        canonical/og:url y para el resumen del workflow.
+ * ── Dónde vive cada landing y dónde se ve ──────────────────────────
+ * Se publican en GitHub Pages, pero el visitante nunca ve esa URL: el sitio de
+ * Netlify (`juancitoads.com`) las sirve por proxy bajo `/<slug>/`, así que el
+ * link que se pega en la bio de Instagram es `https://juancitoads.com/dcasa`.
+ * Por eso hay DOS direcciones y no una:
+ *
+ *   SMARTLINKS_BASE_URL   la pública, la que ve el visitante y la que va en el
+ *                         canonical/og:url. Es `https://juancitoads.com`.
+ *   SMARTLINKS_PAGES_URL  el origen real en Pages. Solo se usa para escribir el
+ *                         bloque de proxy; nunca sale en el HTML.
+ *
+ * Si faltan, las landings se generan igual con rutas relativas (el HTML no
+ * depende de la base) y simplemente no se emiten canonical ni bloque de proxy.
  */
 
 const BASE_URL = (process.env.SMARTLINKS_BASE_URL ?? "").replace(/\/+$/, "");
+const PAGES_URL = (process.env.SMARTLINKS_PAGES_URL ?? "").replace(/\/+$/, "");
 
 function publicUrl(slug: string): string {
   return BASE_URL ? `${BASE_URL}/${slug}/` : `/${slug}/`;
+}
+
+/**
+ * Bloque de `_redirects` para `PAGINA-JUANCITO-ADS/public/_redirects`.
+ *
+ * Dos líneas por cliente, y las dos son **proxy `200`, ninguna es redirección**.
+ * Esa es la decisión de diseño y tiene motivo:
+ *
+ * La forma "natural" habría sido mandar `/dcasa` a `/dcasa/` con una 301 y
+ * proxiar solo la versión con barra. Se descartó porque no se puede comprobar
+ * desde aquí cómo normaliza Netlify la barra final al emparejar: si la ignora,
+ * `/dcasa/` también casa con la regla `/dcasa` y la 301 se redirige a sí misma
+ * — bucle. Con dos proxys, la URL con barra y la URL sin ella entregan el mismo
+ * HTML case la que case, así que el bloque es correcto bajo cualquiera de los
+ * dos comportamientos. El logo ya no necesita la barra: `render.ts` lo enlaza
+ * en absoluto cuando conoce la URL pública.
+ *
+ * Ninguna regla lleva `!` (forzado) a propósito, al revés que la del Agente CRM:
+ * el `!` hace que la regla gane a un fichero real del sitio, y aquí eso
+ * escondería en silencio una página de la web que algún día se llamara igual
+ * que un cliente. Sin `!`, esa colisión se ve.
+ */
+function netlifyRedirects(links: Smartlink[]): string {
+  // Ancho de columna medido sobre el slug más largo: el bloque se pega en un
+  // fichero que un humano lee, y en `_redirects` las columnas se separan por
+  // espacios, así que alinearlas es gratis.
+  //
+  // `padEnd` a secas NO vale: cuando el texto ya pasa del ancho no añade nada y
+  // la URL del proxy quedaría pegada al código (`…/:splat200`), que es una regla
+  // rota y silenciosa. Por eso el relleno es siempre de un espacio como mínimo.
+  const pad = Math.max(...links.map((l) => l.slug.length)) + 4;
+  const col = (text: string) => text + " ".repeat(Math.max(1, pad - text.length));
+  const rows = links.flatMap((l) => [
+    col(`/${l.slug}`) + col(`${PAGES_URL}/${l.slug}/index.html`) + "200",
+    col(`/${l.slug}/*`) + col(`${PAGES_URL}/${l.slug}/:splat`) + "200",
+  ]);
+  return [
+    "# ── SmartLinks de clientes (generado, no editar a mano) ────────────",
+    "# Fuente: Agencia_Workspace/smartlinks/clients/*.yml",
+    "# Lo escribe `npm run smartlinks` en ese repo y sale en el resumen del",
+    "# workflow «SmartLinks · publicar landings». Al añadir o quitar un cliente",
+    "# allí, este bloque se vuelve a pegar entero aquí.",
+    ...rows,
+  ].join("\n");
 }
 
 /** Lee el tamaño real de un PNG (chunk IHDR) para emitir width/height y evitar saltos de layout. */
@@ -72,6 +128,21 @@ async function main(): Promise<void> {
   }
   console.log(`[smartlinks] ${enabled.length} landing(s) en ${OUT_DIR}`);
 
+  // El bloque de proxy se escribe FUERA de OUT_DIR: `dist/smartlinks/` entero se
+  // sube como artefacto de Pages, y esto no es parte del sitio, es una nota para
+  // el otro repositorio.
+  const redirects = PAGES_URL ? netlifyRedirects(enabled) : "";
+  const redirectsFile = join(dirname(OUT_DIR), "netlify-redirects.txt");
+  if (redirects) {
+    await writeFile(redirectsFile, `${redirects}\n`, "utf8");
+    console.log(`[smartlinks] reglas de Netlify en ${redirectsFile}`);
+  } else {
+    // Sin URL de Pages no hay bloque que generar, y dejar el de un build
+    // anterior sería peor que no tener ninguno: se copiaría al repo de la web
+    // una lista de clientes vieja creyéndola recién generada.
+    await rm(redirectsFile, { force: true });
+  }
+
   // Resumen visible en la pestaña Actions con el link de cada cliente.
   const summaryFile = process.env.GITHUB_STEP_SUMMARY;
   if (summaryFile) {
@@ -91,7 +162,23 @@ async function main(): Promise<void> {
         rows,
         skippedRows ? `${skippedRows}` : "",
         "",
-        BASE_URL ? `Hub interno: ${BASE_URL}/` : "",
+        // El bloque va en el resumen del run porque su destino está en OTRO
+        // repositorio y ninguna automatización lo puede pegar sola: aquí queda a
+        // un clic de distancia y ya generado, para que nadie lo escriba a mano.
+        redirects
+          ? [
+              "### 🔁 Reglas para `PAGINA-JUANCITO-ADS/public/_redirects`",
+              "",
+              "Si en este run cambió la lista de clientes, reemplaza el bloque de SmartLinks",
+              "de ese fichero por este y despliega la web. Hasta entonces el cliente nuevo",
+              "solo responde en la URL de Pages.",
+              "",
+              "```",
+              redirects,
+              "```",
+              "",
+            ].join("\n")
+          : "",
         "",
       ].join("\n"),
       "utf8",

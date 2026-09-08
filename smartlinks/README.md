@@ -5,13 +5,23 @@ cliente: logo, un botón de contacto directo a WhatsApp y los demás botones que
 negocio necesita (catálogo, ubicación, mayoristas…). Cada cliente tiene la suya,
 con **su** marca — nunca una plantilla genérica con los colores cambiados.
 
-- **Sitio publicado:** `https://<usuario>.github.io/<repo>/` (hub interno) y
-  `https://<usuario>.github.io/<repo>/<slug>/` (landing de cada cliente).
+- **El link que se le da al cliente:** `https://juancitoads.com/<slug>` —
+  `juancitoads.com/dcasa`, `juancitoads.com/baby-caleb`… Eso es lo que va en la bio
+  de Instagram y TikTok.
+- **Dónde vive de verdad:** en GitHub Pages
+  (`https://<usuario>.github.io/<repo>/<slug>/`). El sitio de Netlify lo sirve por
+  proxy bajo el dominio propio, así que el visitante nunca ve esa dirección. El
+  `canonical` de cada landing apunta a `juancitoads.com`, no a Pages.
 - **Cómo se publica:** workflow `.github/workflows/smartlinks.yml` → GitHub Pages
   (Source = GitHub Actions). Corre solo al pushear cambios en `smartlinks/**` o en
   los logos, y también a mano desde **Actions → SmartLinks · publicar landings**.
+- **Al añadir un cliente hay un paso en el otro repositorio.** La regla que hace
+  funcionar `juancitoads.com/<slug>` vive en `PAGINA-JUANCITO-ADS/public/_redirects`.
+  No se escribe a mano: el build la genera en `dist/netlify-redirects.txt` y el
+  resumen del run la imprime lista para copiar. Ver §5 de `AUTOMATION_ACTIONS.md`.
 - **Dónde ver los links:** en el resumen del run (Actions → run → Summary) sale la
-  tabla con el link de cada cliente. El hub de la raíz los lista igual.
+  tabla con el link de cada cliente. El hub de la raíz de Pages los lista igual, pero
+  es interno (`noindex`) y no se comparte.
 
 ## Estructura
 
@@ -42,13 +52,13 @@ Con `SMARTLINKS_BASE_URL="https://usuario.github.io/repo"` además escribe los
 
 ## Estado por cliente
 
-| Cliente | Slug | Estado |
+| Cliente | Link público | Estado |
 |---|---|---|
-| D'CASA Panamá | `dcasa` | ✅ Botones y destinos entregados por el cliente |
-| Baby Caleb | `baby-caleb` | ✅ Publicada — destinos derivados del ADN (sin punto físico) |
-| Óptica Feria del Lente | `feria-del-lente` | ✅ Publicada — WhatsApp y ubicación por sucursal |
-| 57DMC | `57dmc` | ✅ Publicada — plataformas de música y donación |
-| Juancito Ads | `juancito-ads` | ✅ Publicada — la agencia |
+| D'CASA Panamá | `juancitoads.com/dcasa` | ✅ Botones y destinos entregados por el cliente |
+| Baby Caleb | `juancitoads.com/baby-caleb` | ✅ Publicada — destinos derivados del ADN (sin punto físico) |
+| Óptica Feria del Lente | `juancitoads.com/feria-del-lente` | ✅ Publicada — WhatsApp y ubicación por sucursal |
+| 57DMC | `juancitoads.com/57dmc` | ✅ Publicada — plataformas de música y donación |
+| Juancito Ads | `juancitoads.com/juancito-ads` | ⚠️ Publicada, pero **se solapa con `juancitoads.com/smartlink`** — la web tiene su propio link-in-bio de la agencia. Falta decidir cuál sobrevive |
 | Fotosonido | — | ⏸️ Sin ADN, no se publica |
 
 Lo que falta de cada cliente (logo real, links de catálogo propios, ficha de Google
