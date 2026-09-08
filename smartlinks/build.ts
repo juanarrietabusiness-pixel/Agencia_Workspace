@@ -37,15 +37,17 @@ function publicUrl(slug: string): string {
 /**
  * Bloque de `_redirects` para `PAGINA-JUANCITO-ADS/public/_redirects`.
  *
- * Dos líneas por cliente, y el orden importa porque en Netlify gana la primera
- * regla que casa:
+ * Dos líneas por cliente, y las dos son **proxy `200`, ninguna es redirección**.
+ * Esa es la decisión de diseño y tiene motivo:
  *
- *  1. `/dcasa → /dcasa/ 301` va PRIMERO. Sin ella, la URL sin barra final se
- *     serviría con el navegador todavía en `/dcasa`, y como el HTML enlaza su
- *     logo en relativo (`./logo.png`), el navegador lo pediría a `/logo.png`
- *     — fuera del proxy, 404. La barra final no es cosmética aquí.
- *  2. El proxy `200` sirve el HTML de Pages bajo el dominio propio: el
- *     visitante no ve `github.io` ni hay salto visible.
+ * La forma "natural" habría sido mandar `/dcasa` a `/dcasa/` con una 301 y
+ * proxiar solo la versión con barra. Se descartó porque no se puede comprobar
+ * desde aquí cómo normaliza Netlify la barra final al emparejar: si la ignora,
+ * `/dcasa/` también casa con la regla `/dcasa` y la 301 se redirige a sí misma
+ * — bucle. Con dos proxys, la URL con barra y la URL sin ella entregan el mismo
+ * HTML case la que case, así que el bloque es correcto bajo cualquiera de los
+ * dos comportamientos. El logo ya no necesita la barra: `render.ts` lo enlaza
+ * en absoluto cuando conoce la URL pública.
  *
  * Ninguna regla lleva `!` (forzado) a propósito, al revés que la del Agente CRM:
  * el `!` hace que la regla gane a un fichero real del sitio, y aquí eso
@@ -63,7 +65,7 @@ function netlifyRedirects(links: Smartlink[]): string {
   const pad = Math.max(...links.map((l) => l.slug.length)) + 4;
   const col = (text: string) => text + " ".repeat(Math.max(1, pad - text.length));
   const rows = links.flatMap((l) => [
-    col(`/${l.slug}`) + col(`/${l.slug}/`) + "301",
+    col(`/${l.slug}`) + col(`${PAGES_URL}/${l.slug}/index.html`) + "200",
     col(`/${l.slug}/*`) + col(`${PAGES_URL}/${l.slug}/:splat`) + "200",
   ]);
   return [
@@ -130,10 +132,15 @@ async function main(): Promise<void> {
   // sube como artefacto de Pages, y esto no es parte del sitio, es una nota para
   // el otro repositorio.
   const redirects = PAGES_URL ? netlifyRedirects(enabled) : "";
+  const redirectsFile = join(dirname(OUT_DIR), "netlify-redirects.txt");
   if (redirects) {
-    const file = join(dirname(OUT_DIR), "netlify-redirects.txt");
-    await writeFile(file, `${redirects}\n`, "utf8");
-    console.log(`[smartlinks] reglas de Netlify en ${file}`);
+    await writeFile(redirectsFile, `${redirects}\n`, "utf8");
+    console.log(`[smartlinks] reglas de Netlify en ${redirectsFile}`);
+  } else {
+    // Sin URL de Pages no hay bloque que generar, y dejar el de un build
+    // anterior sería peor que no tener ninguno: se copiaría al repo de la web
+    // una lista de clientes vieja creyéndola recién generada.
+    await rm(redirectsFile, { force: true });
   }
 
   // Resumen visible en la pestaña Actions con el link de cada cliente.

@@ -113,6 +113,21 @@ es el sitio de **Netlify**, con una regla de proxy. Las dos capas son necesarias
   el `canonical` de la landing apunta a `juancitoads.com`, así que dar la de Pages
   contradice a la propia página.
 
+### Detalles del proxy que no se improvisan
+
+- **Las dos reglas por cliente son proxy (`200`), ninguna es redirección.** La
+  forma natural habría sido mandar `/dcasa` a `/dcasa/` con una 301 y proxiar
+  solo la versión con barra; se descartó porque si el motor de rutas de Netlify
+  ignora la barra final al emparejar, esa 301 se redirige a sí misma. Con dos
+  proxys, con barra y sin barra entregan el mismo HTML case la que case.
+- **El logo se enlaza en absoluto**, no en `./logo.png`. Un relativo depende de
+  si la URL termina en barra, y `juancitoads.com/dcasa` —la forma que se dicta y
+  se pega en una bio— no termina en barra. Lo hace `logoSrc()` en `render.ts`
+  cuando conoce la URL pública; en build local sigue siendo relativo para que
+  abrir el HTML del disco funcione.
+- **Ninguna regla lleva `!`.** Forzar escondería en silencio una página de la web
+  que algún día se llamara igual que un cliente; sin `!`, esa colisión se ve.
+
 ### Por qué el proxy y no un subdominio
 
 Se evaluaron tres formas (2026-09-08) y el humano eligió el proxy:
