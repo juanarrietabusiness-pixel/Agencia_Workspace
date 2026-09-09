@@ -10,10 +10,21 @@ export function esc(value: string): string {
     .replace(/'/g, "&#39;");
 }
 
-/** Iniciales del chip/favicon: usa el monograma declarado (hasta 2 caracteres). */
+/**
+ * Letras del favicon.
+ *
+ * El monograma declarado se respeta entero (el schema admite hasta 4): cortarlo
+ * hacía que el favicon dijera "KM" mientras el hero decía "KMT" — dos versiones
+ * de la misma marca en la misma página. Sin monograma, la inicial del nombre.
+ */
 function initials(s: Pick<Smartlink, "monogram" | "name">): string {
   const source = (s.monogram ?? s.name).trim();
-  return (s.monogram ? source.slice(0, 2) : source.slice(0, 1)).toUpperCase();
+  return (s.monogram ? source : source.slice(0, 1)).toUpperCase();
+}
+
+/** Cuerpo que cabe en los 64px del favicon según cuántas letras lleve el monograma. */
+function faviconFontSize(letters: number): number {
+  return [34, 26, 20, 15][Math.min(letters, 4) - 1] ?? 34;
 }
 
 function googleFontsHref(specs: string[]): string | null {
@@ -36,7 +47,7 @@ function faviconDataUri(s: Smartlink): string {
   const svg =
     `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">` +
     `<rect width="64" height="64" rx="16" fill="${s.theme.primary}"/>` +
-    `<text x="32" y="44" font-family="Helvetica,Arial,sans-serif" font-size="${letter.length > 1 ? 26 : 34}" font-weight="700" ` +
+    `<text x="32" y="44" font-family="Helvetica,Arial,sans-serif" font-size="${faviconFontSize(letter.length)}" font-weight="700" ` +
     `text-anchor="middle" fill="${s.theme.onPrimary}">${letter}</text></svg>`;
   return `data:image/svg+xml,${encodeURIComponent(svg)}`;
 }
@@ -91,6 +102,10 @@ a{color:inherit}
 }
 .hero__logo{display:block;max-width:80%;height:auto;max-height:var(--logo-h);object-fit:contain}
 .hero__logo--circle{border-radius:50%;background:#fff;padding:10px;aspect-ratio:1;width:auto}
+/* width:auto no es opcional: sin él la caja se estira al 86% y object-fit:contain
+   deja el logo flotando en un mar de blanco (medido: 102px de aire sobrante).
+   Ojo, este bloque es un String.raw: nada de backticks aquí dentro. */
+.hero__logo--panel{background:#fff;padding:13px 17px;border-radius:calc(var(--radius) - 2px);max-width:86%;width:auto}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .hero__mono{
   width:86px;height:86px;border-radius:50%;display:grid;place-items:center;
@@ -291,7 +306,9 @@ function renderHero(
 ): string {
   const dims = size ? ` width="${size.width}" height="${size.height}"` : "";
   const media = s.logo
-    ? `<img class="hero__logo${s.logo.style === "circle" ? " hero__logo--circle" : ""}" src="${esc(
+    ? `<img class="hero__logo${
+        s.logo.style === "circle" || s.logo.style === "panel" ? ` hero__logo--${s.logo.style}` : ""
+      }" src="${esc(
         logoSrc(s, base),
       )}" alt="${esc(s.logo.alt)}"${dims}>`
     : `<div class="hero__mono" aria-hidden="true">${esc(s.monogram ?? s.name.charAt(0))}</div>`;
@@ -366,7 +383,7 @@ ${renderSocial(s, socialIndex)}
 ${s.footer.note ? `<div>${esc(s.footer.note)}</div>` : ""}
 ${
   s.footer.credit
-    ? `<div>Hecho por <a href="https://juancitoads.netlify.app" target="_blank" rel="noopener">Juancito Ads</a></div>`
+    ? `<div>Hecho por <a href="https://juancitoads.com" target="_blank" rel="noopener">Juancito Ads</a></div>`
     : ""
 }
 </footer>

@@ -1,0 +1,104 @@
+# Ingeniería KMT — SmartLink.
+# Fuente de marca: Ingenieria KMT/01_ADN_y_Memoria/01_brand_guidelines.md
+#   §2 identidad visual ✅ CONFIRMADA por el cliente (brand book 2026-09-04):
+#     paleta #0A1931 Navy Profundo / #185ADB Azul KMT / #FFC300 Amarillo Seguridad /
+#     #F5F7FA Concreto · tipografía Sora (titulares 700) + Inter (cuerpo 400).
+#   §0 contacto (WhatsApp +507 6095-6890, web ingenieriakmt.com, galería /proyectos-2,
+#     formulario /contact-2, Instagram @ingenieriakmt, TikTok @kmt00836).
+#   §3 ADN verbal: trato de **usted** (el ADN lo fija por defecto hasta que el cliente
+#     confirme, dado el perfil corporativo y de propietarios de 35–65).
+#
+# Contraste (medido, no elegido): blanco sobre Navy 17.6:1 · blanco sobre Azul KMT 6.0:1 ·
+# Navy sobre Amarillo Seguridad 10.9:1. El **blanco sobre el amarillo da 1.6:1 y no se usa
+# jamás** — por eso el botón de acento va con texto Navy y contorno Navy (accentOutline),
+# la misma regla que en D'CASA.
+#
+# Decisiones tomadas:
+#   · **Sin precios.** El ADN los tiene pendientes y además §1 prohíbe competir por precio.
+#   · **Sin botón de ubicación.** Tienen oficinas (Costa Sur, Villa Valencia) pero no son un
+#     punto de venta al que se va, y el ADN no da dirección exacta ni ficha de Maps. No se
+#     inventa un enlace de mapa.
+#   · **Los dos públicos no se mezclan** (§4: cliente A residencial / B corporativo). En vez
+#     de escribir un copy que hable a los dos a la vez, el desplegable deja que cada uno se
+#     identifique solo y abre WhatsApp con el mensaje de su caso.
+#   · Solo se enlazan páginas que el ADN documenta (`/proyectos-2`, `/contact-2`, la portada).
+#     No se inventa `/servicios` ni ninguna otra ruta.
+#   · "Obras ejecutadas" va arriba a propósito: §3 pilar PRUEBA + la regla de contenido del
+#     cliente (usar obra real antes que stock). Es su argumento más fuerte.
+#   · ⏳ Sin archivo de logo en el repo (`Assets_Visuales_Base/` está vacío; el sitio usa
+#     `cropped-Logo-KMT-Ajustado.png` y falta confirmar si hay vectorial) → monograma "KMT"
+#     hasta que el cliente lo suba.
+
+id: ingenieria_kmt
+folder: "Ingenieria KMT"
+slug: ingenieria-kmt
+enabled: true
+name: "Ingeniería KMT"
+handle: "@ingenieriakmt"
+tagline: "Confianza, orden y control durante toda la obra."
+description: "Construcción, remodelación, adecuación y supervisión de obra en Panamá. Equipo propio, control de calidad y más de 25 proyectos ejecutados."
+
+monogram: "KMT"
+
+theme:
+  mode: light
+  bg: "#F5F7FA"          # Concreto — fondo claro de la paleta oficial
+  bgAlt: "#FFFFFF"
+  hero: "#0A1931"        # Navy Profundo: el primario es fondo oscuro, no color de texto
+  onHero: "#FFFFFF"
+  surface: "#FFFFFF"
+  text: "#0A1931"
+  muted: "#5A6B82"       # gris azulado de apoyo — 5.4:1 sobre blanco
+  border: "#DDE3EC"
+  primary: "#185ADB"     # Azul KMT
+  onPrimary: "#FFFFFF"
+  accent: "#FFC300"      # Amarillo Seguridad — connota ingeniería/seguridad de obra
+  onAccent: "#0A1931"    # Navy sobre amarillo = 10.9:1 (el blanco daría 1.6:1)
+  accentOutline: "#0A1931"
+  radius: 10             # esquinas más ceñidas que el resto: la marca es técnica, no blanda
+  fonts:
+    display: "Sora"
+    body: "Inter"
+    displayTracking: "-0.02em"
+    google: ["Sora:wght@600;700", "Inter:wght@400;500;600"]
+
+buttons:
+  - kind: link
+    label: "Escríbanos por WhatsApp"
+    note: "+507 6095-6890"
+    icon: whatsapp
+    variant: accent
+    href: "https://wa.me/50760956890?text=Buenas%2C%20vengo%20de%20su%20p%C3%A1gina%20de%20enlaces.%20Quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios."
+
+  - kind: link
+    label: "Obras ejecutadas"
+    note: "Más de 25 proyectos reales"
+    icon: star
+    variant: primary
+    href: "https://ingenieriakmt.com/proyectos-2"
+
+  - kind: menu
+    label: "Qué hacemos"
+    note: "Construcción, remodelación y supervisión"
+    icon: catalog
+    items:
+      - { label: "Remodelación de vivienda", note: "Apartamentos y casas", href: "https://wa.me/50760956890?text=Buenas%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20remodelaci%C3%B3n%20de%20mi%20vivienda." }
+      - { label: "Locales, oficinas y obra comercial", note: "Adecuación y remodelación", href: "https://wa.me/50760956890?text=Buenas%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20remodelaci%C3%B3n%20o%20adecuaci%C3%B3n%20de%20un%20local%20u%20oficina." }
+      - { label: "Supervisión e inspección de obra", note: "Control de calidad y tiempos", href: "https://wa.me/50760956890?text=Buenas%2C%20quisiera%20informaci%C3%B3n%20sobre%20supervisi%C3%B3n%20e%20inspecci%C3%B3n%20de%20obra." }
+      - { label: "Conocer la empresa", href: "https://ingenieriakmt.com/" }
+
+  - kind: link
+    label: "Solicite una cotización"
+    note: "Formulario de contacto"
+    icon: mail
+    href: "https://ingenieriakmt.com/contact-2"
+
+social:
+  - { network: instagram, url: "https://instagram.com/ingenieriakmt", label: "Instagram" }
+  - { network: tiktok, url: "https://www.tiktok.com/@kmt00836", label: "TikTok" }
+  - { network: web, url: "https://ingenieriakmt.com/", label: "Sitio web" }
+  - { network: mail, url: "mailto:info@ingenieriakmt.com", label: "Correo" }
+
+footer:
+  note: "Ejecución, supervisión y control de obra · en Panamá desde 2012"
+  credit: true

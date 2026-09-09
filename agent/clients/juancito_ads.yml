@@ -1,5 +1,5 @@
 # Juancito Ads — la agencia del fundador (meta-cliente).
-# Único cliente con sitio web funcional (juancitoads.netlify.app) → activa web_seo_audit.
+# Único cliente con sitio web funcional (juancitoads.com) → activa web_seo_audit.
 # Dark mode, tono tech, tuteo.
 
 id: juancito_ads
@@ -24,7 +24,7 @@ sources:
     handle: "@juancitoads"
     ig_user_id_env: IG_USER_ID_JUANCITO
   website:
-    url: "https://juancitoads.netlify.app"
+    url: "https://juancitoads.com"
   whatsapp:
     - { label: "Leads / propuestas", number: "+507 6596-9428" }
 

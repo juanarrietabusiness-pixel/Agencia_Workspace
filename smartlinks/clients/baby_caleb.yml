@@ -10,7 +10,12 @@
 #     con mensaje precargado por línea de producto. No se inventan URLs de sección.
 #   · El equivalente a "compras al por mayor" es su propuesta de valor real:
 #     la caja grande para el mes completo (§1 del ADN).
-#   · Sin archivo de logo en el repo → monograma "BC" hasta que el cliente lo suba.
+#   · Logo: recuperado del Drive del cliente (BABY CALEB/BRANDING/18.png, 2026-09-08) y
+#     preparado para componer — recortado al círculo y con el fondo #EFFFED de su lienzo
+#     hecho transparente, para que la insignia se apoye sobre el verde del hero sin caja
+#     alrededor. Coincide con la descripción del §2.3 del ADN (insignia circular, bebé
+#     vikingo, texto arqueado). Lleva el Salmos 127:3 rodeando el borde: viene en el
+#     archivo original del cliente, no se añadió aquí.
 
 id: baby_caleb
 folder: "Baby Caleb"
@@ -22,7 +27,12 @@ handle: "@babycalebpanama"
 tagline: "Pensamos en cada etapa de tu bebé."
 description: "Pañales y wipes hipoalergénicos Nateen y fulares Moon, con entrega en Panamá. Pedidos directos por WhatsApp."
 
-monogram: "BC"
+logo:
+  src: "Baby Caleb/01_ADN_y_Memoria/Assets_Visuales_Base/logo-baby-caleb.png"
+  alt: "Logo Baby Caleb Panamá"
+  style: bare          # insignia circular con fondo transparente
+  replacesName: true   # el logo ya dice "BABY CALEB" — el <h1> no se repite en pantalla
+  maxHeight: 132
 
 theme:
   mode: light

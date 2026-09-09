@@ -39,9 +39,19 @@ Si es sobre **contenido/estrategia** → manda `_EL_ORQUESTADOR_MAESTRO.md`.
      `agent/clients/<id>.yml` para que todo el sistema hable igual, y márcalo con ⏳.
 3. **Logo:** si existe archivo en `01_ADN_y_Memoria/Assets_Visuales_Base/`, declara
    `logo.src` con la ruta relativa a la raíz del repo. Si no, usa `monogram`.
+   - `style: bare` → PNG suelto, normalmente con fondo transparente (Baby Caleb).
    - `style: plate` → el archivo ya trae su marco (D'CASA).
-   - `style: circle` → el archivo tiene fondo claro no transparente (Juancito Ads).
+   - `style: circle` → el archivo tiene fondo claro no transparente y es cuadrado (Juancito Ads).
+   - `style: panel` → lockup apaisado sobre fondo claro y hero oscuro o de color: se monta
+     sobre una placa clara redondeada (Feria del Lente). **Sin ella, un logo rojo sobre un
+     hero rojo desaparece** — comprobarlo siempre antes de dar por buena una landing.
    - `replacesName: true` → el logo ya dice el nombre; el `<h1>` pasa a lectores de pantalla.
+
+   **Si el cliente no subió el logo al repo, míralo en su Drive antes de rendirte.** El
+   bloque 📁 de su `01_brand_guidelines.md` da la carpeta; los logos suelen estar en una
+   subcarpeta `BRANDING`. Se recorta al contenido y se guarda en
+   `[Cliente]/01_ADN_y_Memoria/Assets_Visuales_Base/`. Recortar y quitar un fondo plano es
+   preparar el asset, no rediseñarlo: **el logo no se recrea ni se redibuja nunca.**
 4. **Botones:** `kind: link` (destino directo) o `kind: menu` (desplegable). Un `menu`
    admite enlaces sueltos y grupos (`label` + `items`), que se pintan como pills.
    - Orden recomendado: contacto (WhatsApp) → catálogo → ubicación → el resto.
