@@ -14,7 +14,9 @@ Prompts y plantillas que ya dieron resultado real en la operación del negocio (
 
 **Marca del producto en los anuncios:** NATEEN (ya reconocida por los clientes existentes; no requiere presentación completa).
 
-> 💲 **Los precios de este archivo son copia de la tabla de `01_brand_guidelines.md` §4, que es la única fuente de verdad.** Si cambia un precio, se cambia allí primero y luego se replica aquí. Los creativos que corrieron en junio 2026 llevaban la Caja RN a $50; la lista verificada por el cliente (2026-08) la fija en **$45** y es la que vale — hay que corregir los creativos vivos que aún digan $50.
+> 💲 **Los precios de este archivo son copia de la tabla de `01_brand_guidelines.md` §4, que es la única fuente de verdad de la agencia.** Si cambia un precio, se cambia allí primero y luego se replica aquí. Y ojo: el precio que el **chatbot** le dice a una clienta no sale de ningún `.md`, sale de la tabla `catalog_items` en D1 (`/admin/catalogo`). Son tres sitios que tienen que decir lo mismo.
+>
+> ⚠️ **Corrección 2026-09.** La lista de 2026-08 fijaba la Caja RN en $45 y decía que había que corregir los creativos vivos que dijeran $50. **Era al revés:** el documento de la dueña (`PREGUNTAS_BABY_CALEB_usted.docx`, 2026-09) confirma **$50.00**, que es lo que llevaban los creativos de junio. No hay nada que corregir en esas piezas. También sube el combo grande de toallitas de $35 a **$40.00**.
 
 **Anuncio 1 — Video mostrando la caja**
 - **Título:** Nateen ya está en Panamá 🌿
@@ -32,7 +34,7 @@ Prompts y plantillas que ya dieron resultado real en la operación del negocio (
 - **Texto principal:** Pañales hipoalergénicos Nateen, disponibles en todas las tallas 👇 Súper absorbentes, sin cloro ni perfumes, 100% fibras de bambú. Escríbenos por WhatsApp y hacemos tu pedido a domicilio.
 - **Descripción:** Delivery disponible (costo adicional)
 - **Tarjetas del carrusel (1 talla por tarjeta):**
-  - Talla RN (2–5 kg) — Caja 160u — $45
+  - Talla RN (2–5 kg) — Caja 160u — $50
   - Talla S (3–6 kg) — Caja 160u — $50
   - Talla M (4–9 kg) — Caja 144u — $50
   - Talla L (7–18 kg) — Caja 128u — $45
@@ -42,7 +44,7 @@ Prompts y plantillas que ya dieron resultado real en la operación del negocio (
 **Anuncio 4 — Imagen con precios de caja + información**
 - **Título:** Precios Nateen — Todas las tallas
 - **Texto principal:**
-  📦 Caja RN (160 pañales) — $45
+  📦 Caja RN (160 pañales) — $50
   📦 Caja S (160 pañales) — $50
   📦 Caja M (144 pañales) — $50
   📦 Caja L (128 pañales) — $45
@@ -128,12 +130,13 @@ hipoalergénicos. Nuestro precio es rango medio — no somos los más baratos ni
 más caros.
 
 Producto actual de wipes: AquaWipes 100 de Dany Baby — toallitas de agua 99% pura.
-Vendemos por 2 cajas (600 wipes cada una = 1,200 wipes) a $35. Cada caja nos
-cuesta $9.90. Por venta de 2 cajas ganamos $15.20.
+Vendemos 1,200 wipes (24 packs de 50) a $40, y la caja de 600 wipes (12 packs de
+50) a $25. Cada caja de 600 nos cuesta $9.90. Por la venta de 1,200 ganamos
+$20.20.
 
 Producto actual de pañales: NATEEN — hipoalergénicos, súper absorbentes, sin
-cloro ni perfumes, 100% fibras de bambú, biodegradables. Tallas: RN, S, M, L,
-XL, XXL. Precios de caja: $45–$50 según talla.
+cloro ni perfumes, 100% fibras de bambú, biodegradables. De cierre en tallas RN,
+S, M, L, XL y XXL, a $45–$50 según talla; de pants en L, XL y XXL, a $55.
 
 Tono de comunicación: Cálido, maternal, educativo y confiable. Como una amiga
 experta hablándole a una mamá. Siempre en español. Nunca agresivo en ventas.
@@ -147,13 +150,18 @@ Lo que necesito de ti: [DESCRIBIR AQUÍ LA TAREA ESPECÍFICA]
 
 **Cuándo usarlo:** al analizar cualquier propuesta de proveedor nuevo o al calcular precios/promociones. La regla que ya se validó en conversación: **comparar por costo por wipe (o por pañal), no por caja** — es el error que llevó a recomendar mal AquaWipes 50 en vez de AquaWipes 100.
 
-**Wipes hoy (AquaWipes 100 — Dany Baby):**
+**Wipes hoy (AquaWipes 100 — Dany Baby):** *(recalculado con los precios de 2026-09)*
 - Caja: 6 packs × 100 wipes = 600 wipes · costo $9.90 · costo por wipe **$0.017**.
-- Venta: 2 cajas (1,200 wipes) por $35 · costo total $19.80 · **margen por venta $15.20 (44%)**.
-- Con 10 cajas ($99 de inversión) → 5 ventas → ingreso $175 → **ganancia neta $76 (77% de margen sobre inversión)**.
+- Venta de 1,200 wipes por $40 · costo total $19.80 · **margen por venta $20.20 (51%)**.
+- Con 10 cajas ($99 de inversión) → 5 ventas → ingreso $200 → **ganancia neta $101 (102% sobre la inversión)**.
+- La caja suelta de 600 se vende a $25 · costo $9.90 · **margen $15.10 (60%)**. Por wipe deja
+  más que el combo, pero mueve la mitad de inventario por venta.
 
-**Pañales hoy (NATEEN):**
-- Costo caja ~$32 · venta $50 (tallas S/M) o $45 (RN/L/XL/XXL) · **margen ~$15–18 por caja**.
+**Pañales hoy (NATEEN):** *(recalculado con los precios de 2026-09; la Caja RN volvió a $50)*
+- De cierre: costo $28–$32 · venta $50 (RN/S/M) o $45 (L/XL/XXL) · **margen $15–$22 por caja**.
+  El mejor margen es la RN ($28 → $50 = **$22**); el más ajustado, la L ($30 → $45 = $15).
+- De pants (L/XL/XXL): venta $55. **Costo pendiente de confirmar con la dueña** — sin ese dato
+  no se puede decir el margen, y no se estima.
 - Volumen actual: ~40 cajas/mes con $150 de inversión en publicidad (junio 2026).
 
 **Alternativas evaluadas y descartadas:**
@@ -195,6 +203,8 @@ Con $1,000 se compararon 3 escenarios:
 - Costo total landed estimado (producto + flete LCL + pickup + aduana + agente + entrega): **$1,560–$1,960 por pallet** en el ejemplo trabajado (72 cajas × $15).
 - **Realista: $1,730** → costo/caja $24 · costo/pack $2.00.
 - Vendiendo la caja de 1,040 wipes (13 packs) a **$35**: margen realista $10.97/caja (**31%**), $790 por pallet.
+  *(Escenario de planificación de 2026-08, con el precio de venta de entonces. Hoy el combo de
+  1,200 se vende a $40; si esta ruta se retoma, hay que rehacer la cuenta con el precio nuevo.)*
 - Punto crítico: cuánto tarda en rotarse el pallet.
 
 **Ruta preferida a mediano plazo — Colombia/Costa Rica (consolidadora de carga):**

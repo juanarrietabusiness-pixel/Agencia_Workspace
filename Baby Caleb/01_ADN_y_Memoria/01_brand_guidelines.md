@@ -2,13 +2,13 @@
 
 > 📁 **Multimedia del cliente:** [Google Drive](https://drive.google.com/drive/folders/1caYVhyBd4NKQzHz8B9neUUQqjnh4_eM8) · [Canva](https://www.canva.com/folder/FAHQarL0ce0) — los archivos pesados (imágenes, videos, diseños) viven ahí; este repo es la memoria/estrategia. Ambos espejan la estructura del cliente.
 
-> Última actualización: 2026-08-05 · **Fuente de verdad: el **formulario de onboarding verificado por el cliente (2026-08)** (queda en el historial de git)** (revisado y confirmado por el cliente). Reemplaza el brand book de Pomelli (eliminado por desactualizado). **Este formulario resuelve las dos discrepancias que estaban abiertas:** el color oscuro es Navy Ink `#1B3246` (no verde bosque) y la tipografía es **Montserrat** (no Playfair Display).
+> Última actualización: 2026-09 (productos, precios, logística y pago) · 2026-08-05 (identidad) · **Fuente de verdad: el **formulario de onboarding verificado por el cliente (2026-08)** (queda en el historial de git)** (revisado y confirmado por el cliente). Reemplaza el brand book de Pomelli (eliminado por desactualizado). **Este formulario resuelve las dos discrepancias que estaban abiertas:** el color oscuro es Navy Ink `#1B3246` (no verde bosque) y la tipografía es **Montserrat** (no Playfair Display).
 
 ## 0. Datos del negocio (verificado por el cliente)
 
 - **Nombre:** Baby Caleb (Panamá).
 - **Dueño / contacto:** Yulilka Godoy / Juan Arrieta.
-- **Naturaleza:** retail especializado en **esenciales de bebé hipoalergénicos y biodegradables** que cuidan la salud del bebé — pañales y wipes desechables (varias marcas: **Nateen**, wipes de agua **Dany Baby**) + fulares/portabebés **Moon**.
+- **Naturaleza:** retail especializado en **esenciales de bebé hipoalergénicos y biodegradables** que cuidan la salud del bebé — pañales desechables **Nateen** (de cierre y de pants) + toallitas de agua **Dany Baby** + fulares/portabebés **Moon**. *(2026-09: los wipes Nateen salieron de circulación; de Dany Baby solo hay toallitas, no pañales.)*
 - **Antigüedad:** 2 años — desde **2024**.
 - **Modelo:** venta **únicamente online por delivery**. Principalmente WhatsApp + Instagram DM.
 - **Contacto:** WhatsApp **+507 6757-5065** (`wa.me/message/2W4DYVYOCPMFK1`) · email **babycalebpanama@gmail.com** · Instagram [@babycalebpanama](https://www.instagram.com/babycalebpanama/) · Facebook Baby Caleb · **web [babycaleb.netlify.app](https://babycaleb.netlify.app)**.
@@ -54,7 +54,12 @@
 
 **Tono:** servicial y cercano, en segunda persona. Combina registro **educativo/divulgativo** (desmontar mitos) con **comercial-directo** (promos y CTAs). Cálido, maternal, confiable — *"como una amiga experta hablándole a una mamá."*
 
-**¿Tutea o usted?** Tuteo — "tu bebé", "escríbenos".
+**¿Tutea o usted?** Depende del canal, y no se mezclan:
+
+- **Marketing (Instagram, Facebook, piezas, web): TUTEO** — "tu bebé", "escríbenos".
+- **Atención al cliente y el chatbot del CRM: USTED** — "le dejamos", "su bebé", "indíquenos".
+  Es como responde la dueña en su documento de 2026-09, y así está configurado el bot
+  (`CRM-Baby-Caleb/member/config.local.ts`, con un test que falla si el guion tutea).
 
 **Léxico propio:** "En Baby Caleb Panamá pensamos en cada etapa de tu bebé" · "Haz tu pedido" · "Escríbenos ahora" · **"Talla"** (no "size") · **"libras"** (no kg) · hashtag **#QUENOTENEGAÑEN** · "hipoalergénico" · "sin cloro / libre de cloro" · "biodegradable" · "libre de químicos agresivos".
 
@@ -64,23 +69,60 @@
 
 ## 4. Productos, tallas y precios (verificado)
 
-### Pañales NATEEN — hipoalergénicos, súper absorbentes, sin cloro ni perfumes, 100% fibras de bambú, biodegradables
+> **Fuente de verdad: `PREGUNTAS_BABY_CALEB_usted.docx` (Yulilka Godoy, 2026-09).** Reemplaza
+> los precios del formulario de onboarding de 2026-08 donde discrepan. Los valores de esta
+> sección están espejados en el CRM (`CRM-Baby-Caleb/src/db/seed-catalog.sql`) y hay tests que
+> fallan si los dos repos se desincronizan — ver `CRM-Baby-Caleb/docs/FUENTES_DE_VERDAD.md`.
+> **El precio que el chatbot le dice a una clienta NO sale de este archivo:** sale de la tabla
+> `catalog_items` en D1, que se edita desde `/admin/catalogo`. Esta tabla es la memoria de la
+> agencia; si cambia un precio, hay que cambiarlo en los dos sitios.
 
-| Talla | Peso | Costo (interno) | Precio venta | Ganancia/caja |
+### Pañales NATEEN de cierre — hipoalergénicos, sin cloro ni perfumes, fibras de bambú, biodegradables
+
+| Talla | Peso | Por caja | Costo (interno) | Precio venta |
 |---|---|---|---|---|
-| RN | 2–5 kg | $28.00 | **$45.00** | $17.00 |
-| S | 3–6 kg | $32.00 | **$50.00** | $18.00 |
-| M | 4–9 kg | $32.00 | **$50.00** | $18.00 |
-| L | 7–18 kg | $30.00 | **$45.00** | $15.00 |
-| XL | 12–25 kg | $28.00 | **$45.00** | $17.00 |
-| XXL | +55 lbs | $29.20 | **$45.00** | $15.80 |
+| RN | 4–11 lbs · 2–5 kg | 160 | $28.00 | **$50.00** |
+| S | 6–13 lbs · 3–6 kg | 160 | $32.00 | **$50.00** |
+| M | 8–19 lbs · 4–9 kg | 144 | $32.00 | **$50.00** |
+| L | 15–39 lbs · 7–18 kg | 128 | $30.00 | **$45.00** |
+| XL | 26–55 lbs · 12–25 kg | 112 | $28.00 | **$45.00** |
+| XXL | +55 lbs · +25 kg | 112 | $29.20 | **$45.00** |
 
-*(Costo y ganancia = memoria interna, NUNCA se dicen al cliente. La guía de peso por talla sí sirve para atención.)*
+### Pañales NATEEN de pants (pull-ups) — solo de L a XXL
 
-- **Wipes Nateen** hipoalergénicos (cajas grandes).
-- **Wipes de agua Dany Baby** (AquaWipes 100, agua 99% pura) — combo de 2 cajas (1,200 toallitas) a **$35**.
-- **Fulares/portabebés Moon** — unitalla ajustable, RN hasta ~25 lbs.
-- **Diferenciador operativo:** venta en **cajas grandes** (para todo el mes), no por paquete suelto.
+| Talla | Peso | Por caja | Costo (interno) | Precio venta |
+|---|---|---|---|---|
+| L | 15–39 lbs · 7–18 kg | 160 | pendiente | **$55.00** |
+| XL | 26–55 lbs · 12–25 kg | 160 | pendiente | **$55.00** |
+| XXL | +55 lbs · +25 kg | 160 | pendiente | **$55.00** |
+
+*(Costo y ganancia = memoria interna, NUNCA se dicen al cliente. La guía de peso por talla sí
+sirve para atención: la talla se elige por el peso actual del bebé, no por la edad.)*
+
+### Toallitas — water wipes hipoalergénicas **Dany Baby**
+
+99% agua pura, sin alcohol, libres de perfumes. Solo se venden por caja.
+
+| Presentación | Precio venta |
+|---|---|
+| 1,200 toallitas (24 paquetes de 50) | **$40.00** |
+| 600 toallitas (12 paquetes de 50) | **$25.00** |
+
+### Fular / portabebé **Moon**
+
+Prearmado, de bambú, dos piezas con argollas. Unitalla ajustable de XS a 3XL, de recién nacido
+hasta ~25 lbs. Incluye manual de uso y bolsa de transporte. Apto para lavadora y secadora.
+Colores disponibles: **gris y verde menta**. Precio venta: **$46.00**.
+
+### Lo que HOY no se maneja
+
+- **Wipes Nateen** — descatalogados. *"Por el momento únicamente nos mantendremos con las
+  toallitas húmedas de Dany Baby."* Si vuelven, se reactivan desde `/admin/catalogo`.
+- **Pañales Dany Baby** — no se venden. De esa marca solo hay toallitas.
+
+**Diferenciador operativo:** venta en **cajas grandes** (para todo el mes), no por paquete
+suelto. No hay precio de mayorista ni para revendedores, y no hay descuento por volumen
+publicado: si la clienta pide varias cajas, se le pregunta cuántas y lo evalúa una persona.
 
 ## 5. Público y objetivos (verificado)
 
@@ -95,7 +137,28 @@
 - Nunca minimizar la seguridad del bebé ni exagerar beneficios sin respaldo.
 - Nunca mensajería religiosa explícita sin autorización del cliente.
 
-## 7. Pendiente de validar
+## 7. Logística y pago (verificado 2026-09)
 
-- Zona exacta y costo del delivery; métodos de pago (abono vs. contra entrega).
+Resuelto con el documento de la dueña. El detalle operativo completo —tarifario de delivery
+zona por zona, tiempos, Ferguson, retiro— vive en la base de conocimiento del chatbot
+(`CRM-Baby-Caleb/member/kb/`), que es de donde el bot lo lee. Aquí queda el resumen:
+
+- **Delivery:** siempre aparte del precio del producto, y depende de la zona. Ciudad de
+  Panamá: de $3 a $8. Panamá Oeste (Arraiján y La Chorrera): de $3 a $6.
+- **Interior:** por Ferguson o la agencia de encomienda que prefiera la clienta. El motorizado
+  cobra $2.50 por el viaje hasta Ferguson; la tarifa de Ferguson la paga la clienta al
+  retirar. En envíos por Ferguson se paga la totalidad del producto por adelantado.
+- **Pago:** Yappy Comercial **@babycalebpanama** (en el directorio de Yappy). Siempre hay que
+  pedir el comprobante. También se acepta tarjeta, Nequi, transferencia y efectivo contra
+  entrega, pero siempre procurando que vaya por el Yappy Comercial.
+- **Abono:** mínimo **$5.00** para separar el producto y agendar. **No se entrega ningún
+  pedido sin abono.** El saldo se paga al mismo Yappy cuando el motorizado entrega.
+- **Tiempos:** abono o pago total antes de la **1:00 p.m.** sale el mismo día. Entregas con
+  motorizado hasta las **5:00 p.m.** Sábados con agenda previa; domingos no.
+- **Retiro:** Altos de Curundú, después de la Estación de Policía. De 7:00 a.m. a 5:00 p.m.,
+  avisando con un día de anticipación.
+
+## 8. Pendiente de validar
+
+- Costo interno de los pañales de pants, de las toallitas Dany Baby y del fular Moon.
 - Datos de historia/fundación de la marca.

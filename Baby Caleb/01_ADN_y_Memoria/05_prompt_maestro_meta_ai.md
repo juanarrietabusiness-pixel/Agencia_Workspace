@@ -263,7 +263,9 @@ corto y se rota al mes siguiente; no se maquilla.
 
 ### Las descripciones
 
-- Tuteo siempre: «tu bebé», «escríbenos». Nunca usted.
+- Tuteo siempre: «tu bebé», «escríbenos». Nunca usted. (Esto vale para las
+  piezas de marketing. La atención al cliente y el chatbot del CRM hablan de
+  USTED — son dos registros distintos y no se mezclan; ver §3 del ADN.)
 - **«Talla», no «size». «Libras», no kg** en el texto de cara al público
   (la tabla de kg del ADN es para atención, no para la pieza).
 - CTA a WhatsApp **+507 6757-5065**.
@@ -283,9 +285,12 @@ corto y se rota al mes siguiente; no se maquilla.
 ## 7 · Las reglas duras (las que cuestan clientes)
 
 1. **Ningún precio que no esté en `01_brand_guidelines.md` §4.** Los únicos
-   que pueden aparecer hoy: **$45.00** (tallas RN, L, XL), **$50.00**
-   (tallas S, M) y **$35** (combo de 2 cajas de wipes de agua Dany Baby).
-   Cualquier otra cifra está inventada.
+   que pueden aparecer hoy: **$50.00** (pañales de cierre RN, S y M),
+   **$45.00** (pañales de cierre L, XL y XXL), **$55.00** (pañales de pants,
+   en L, XL y XXL), **$40.00** (1,200 toallitas Dany Baby), **$25.00** (caja
+   de 600 toallitas) y **$46.00** (fular Moon). Cualquier otra cifra está
+   inventada. Actualizado con el documento de la dueña de 2026-09: la Caja RN
+   volvió a $50.00 y el combo de toallitas grande pasó de $35 a $40.00.
 2. **El costo interno y la ganancia por caja NO se dicen nunca.** Están en el
    ADN marcados como memoria interna. Si aparecen en una pieza, es una fuga.
 3. **Nunca se llama a un producto por una marca que no es.** Se dice «wipes
@@ -295,8 +300,9 @@ corto y se rota al mes siguiente; no se maquilla.
    de bambú» están respaldados; nada más lo está.
 5. **Nunca mensajería religiosa explícita.** El origen de fe del nombre es un
    valor interno silencioso hasta que el cliente diga lo contrario (§3).
-6. **El delivery no se promete.** Zona y costo están en «pendiente de
-   validar» (§7): una pieza que diga «envío gratis» inventa una promesa.
+6. **El delivery no se promete en una pieza.** Ya está verificado (§7 del ADN)
+   pero depende de la zona, de $3 a $8: una pieza que diga «envío gratis» o un
+   número suelto inventa una promesa. El costo se cotiza en el chat.
 
 ---
 
@@ -317,8 +323,8 @@ Además de la lista común del estándar:
 [ ] ¿Aparece algún bebé, persona, pañal o caja generados? Quítalos.
 [ ] ¿Está escrito «Talla» y «libras», y no «size» ni «kg»?
 [ ] ¿Dice el nombre real de cada producto, sin sustituirlo por otra marca?
-[ ] Las únicas cifras que pueden aparecer son $45.00, $50.00 y $35.
-    ¿Aparece alguna otra? Quítala.
+[ ] Las únicas cifras que pueden aparecer son $50.00, $45.00, $55.00,
+    $40.00, $25.00 y $46.00. ¿Aparece alguna otra? Quítala.
 [ ] ¿Están con su tilde o su eñe: PAÑALES, BEBÉ, HIPOALERGÉNICO, QUÍMICOS,
     MÁS, ESCRÍBENOS, PANAMÁ, TAMBIÉN, SEGÚN?
 ```

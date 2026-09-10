@@ -8,7 +8,7 @@
 
 ## 1. Objetivo del sitio
 
-Sitio de **catálogo + conversión a WhatsApp** para esenciales de bebé hipoalergénicos (pañales y wipes Nateen, wipes de agua Dany Baby, fulares Moon) en Panamá. No es e-commerce con checkout: **el único objetivo de conversión es iniciar una conversación de WhatsApp**. Mobile-first (la audiencia vive en Instagram y WhatsApp).
+Sitio de **catálogo + conversión a WhatsApp** para esenciales de bebé hipoalergénicos (pañales Nateen de cierre y de pants, wipes de agua Dany Baby, fulares Moon) en Panamá. No es e-commerce con checkout: **el único objetivo de conversión es iniciar una conversación de WhatsApp**. Mobile-first (la audiencia vive en Instagram y WhatsApp).
 
 **Meta medible:** maximizar clics a WhatsApp con producto y talla precargados.
 
@@ -63,7 +63,7 @@ Home con secciones ancla + 6 páginas (`/productos`, `/beneficios`, `/historia`,
 1. **Nav:** logo + enlaces + botón fijo "Pedir por WhatsApp" (naranja).
 2. **Hero:** promesa, subtítulo (sin químicos agresivos, sin perfumes, sin alcohol, sin cloro), CTA a WhatsApp visible sin scroll.
 3. **Confianza:** 4 sellos — Hipoalergénico · Sin cloro · Biodegradable · Piel sensible.
-4. **Productos:** pañales Nateen por talla (RN a **XXL**) + paquete de prueba · wipes Nateen · wipes de agua Dany Baby · wipes Nateen Adulto · fulares Moon. Cada tarjeta con WhatsApp precargado.
+4. **Productos:** pañales Nateen **de cierre** por talla (RN a **XXL**) · pañales Nateen **de pants** (L, XL, XXL) · wipes de agua Dany Baby (1,200 y 600 toallitas) · fulares Moon. Cada tarjeta con WhatsApp precargado. ⚠️ **Corrección 2026-09:** fuera los *wipes Nateen* y los *wipes Nateen Adulto* — hoy no se manejan (solo toallitas Dany Baby). Tampoco hay "paquete de prueba": solo se venden cajas completas.
 5. **Diferenciadores:** cajas para todo el mes · de prematuro a XXL · atención personal por WhatsApp · delivery a domicilio.
 6. **Contenido educativo:** "libre de cloro" vs "sin cloro" (#QUENOTENEGAÑEN).
 7. **Testimonios.** ⏳ Solo "Elizabeth" tiene respaldo en la memoria — los otros dos hay que reemplazarlos por reales con permiso.
