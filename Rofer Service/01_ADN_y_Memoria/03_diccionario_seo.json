@@ -1,0 +1,40 @@
+{
+  "cliente": "Rofer Service",
+  "_nota": "Keywords derivadas del ADN verificado (movimiento de tierra, alquiler/venta de equipo pesado, 20 años). PENDIENTE de validar con volumen de búsqueda real (Google Keyword Planner) y de confirmar el mercado/ciudad exactos (no declarados en el onboarding). No se inventaron servicios ni precios.",
+  "ubicacion": "⚠️ Mercado/ciudad no declarado en el onboarding — confirmar con el cliente (probable: Panamá, por el resto de la agencia y proyectos como Multiplaza/Figali). No fijar en piezas hasta confirmar.",
+  "keywords_principales": [
+    "alquiler de equipo pesado",
+    "movimiento de tierra",
+    "alquiler de excavadora",
+    "alquiler de maquinaria de construcción"
+  ],
+  "keywords_secundarias": [
+    "excavaciones",
+    "conformación de terrenos",
+    "demoliciones",
+    "venta de equipo pesado",
+    "renta de maquinaria pesada",
+    "alquiler de retroexcavadora",
+    "movimiento de tierra para construcción",
+    "equipo pesado para obra"
+  ],
+  "entidades_semanticas_lsi": [
+    "excavadora",
+    "retroexcavadora",
+    "maquinaria pesada",
+    "conformación de terreno",
+    "demolición",
+    "obra civil",
+    "contratista",
+    "constructor",
+    "flota propia",
+    "asesoría técnica",
+    "equipo idóneo",
+    "cotización de equipo"
+  ],
+  "notas_de_intencion": {
+    "intencion_dominante": "transaccional/confianza: el profesional busca alquilar el equipo correcto con asesoría, no solo el precio más bajo.",
+    "eje_diferenciador": "asesoría técnica de 20 años + flota propia = equipo idóneo. No posicionar por precio.",
+    "registro": "usted (profesional: constructores, contratistas, ingenieros)."
+  }
+}

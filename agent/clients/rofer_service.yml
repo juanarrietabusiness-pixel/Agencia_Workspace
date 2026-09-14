@@ -1,0 +1,53 @@
+# Rofer Service — movimiento de tierra + alquiler/venta de equipo pesado (construcción).
+# Objetivo comercial: generar consultas de asesoría por WhatsApp que terminen en alquiler/venta
+#   del equipo IDÓNEO. Posicionamiento = asesoría técnica de 20 años (no el precio más bajo).
+# Notas especiales:
+#   - Registro SIEMPRE de "usted" (público: constructores, contratistas, ingenieros).
+#   - Identidad visual confirmada (colores + logo); tipografía por confirmar.
+#   - Sin web (pendiente) → NO web_seo_audit. Sin TikTok.
+#   - Diferencial: asesoría para dar el equipo idóneo, no el que sobra.
+
+id: rofer_service
+folder: "Rofer Service"
+clientName: "Rofer Service"
+active: true
+recipientEmails:
+  - abrinay1997@gmail.com
+  - juanarrietabusiness@gmail.com
+
+# Colores de marca — ✅ confirmados por el cliente (onboarding 2026-09-08).
+# Ver 01_brand_guidelines.md §2. Tipografía por confirmar (provisional tipo Anton/Archivo Black).
+branding:
+  primary: "#152473"   # Azul marino — color madre (headers, botones, badges)
+  accent: "#C9A560"    # Dorado — acento/firma premium (hooks, highlights, CTA)
+  logoChar: "🚜"
+
+llm:
+  primary: { provider: claude, model: haiku-4-5 }
+  fast: { provider: groq, model: llama-3.3-70b-versatile }
+
+sources:
+  instagram:
+    handle: "@roferservice"
+    ig_user_id_env: IG_USER_ID_ROFER
+  facebook:
+    page_id_env: FB_PAGE_ID_ROFER
+  whatsapp:
+    - { label: "Asesoría / alquiler", number: "61562010" }
+
+capabilities:
+  - adn_completeness_guard
+  - campaign_calendar_check
+  - instagram_insights
+  - insights_digest
+  - market_trends_scan:
+      subreddits: [Construction, HeavyEquipment, Excavators, ConstructionManagement, Contractor]
+      focus: "movimiento de tierra, excavación/demolición, alquiler de maquinaria pesada, elección del equipo idóneo por tipo de trabajo; dudas de contratistas/constructores"
+      geo: PA
+      limit: 8
+  - instagram_content_ideas:
+      variants: 3
+      formats: [reel, carrusel, story]
+      objective: "generar consultas de asesoría por WhatsApp (equipo idóneo para el trabajo) con autoridad de 20 años; SIEMPRE trato de usted; nunca posicionar por precio ni empujar un equipo no idóneo"
+      cta_options: [whatsapp]
+  - whatsapp_cta_review
