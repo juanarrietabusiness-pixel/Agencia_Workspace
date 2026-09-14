@@ -4,7 +4,12 @@
 
 Prompts y plantillas base para Rofer Service. Fuente: `01_brand_guidelines.md` (onboarding verificado 2026-09-08). Cliente **nuevo**: todavía no hay prompts con historial de resultados; esto es el punto de partida grounded en el ADN. Se enriquece a medida que la operación valide qué funciona.
 
-> 🧩 **Lote de piezas para Meta AI:** hoy Rofer Service **no** tiene `05_receta.json` ni `05_prompt_maestro_meta_ai.md`. La identidad visual (colores `#152473`/`#C9A560` + logo) ya está confirmada, así que la receta **está desbloqueada**; falta solo confirmar la **tipografía exacta** antes de fijarla. Cuando se arme, sigue `00_Estandares_Agencia/formato_prompt_maestro_meta_ai.md`.
+> 🧩 **Lote de piezas para Meta AI:** Rofer Service **ya tiene** su receta —
+> [`05_receta.json`](05_receta.json) (fuente de verdad, la lee el calendario) y su
+> capa legible [`05_prompt_maestro_meta_ai.md`](05_prompt_maestro_meta_ai.md).
+> Colores confirmados; **tipografía provisional (Anton) ⏳** hasta que el cliente
+> pase la exacta — entonces se re-mide la interlínea. Sigue el estándar
+> `00_Estandares_Agencia/formato_prompt_maestro_meta_ai.md`.
 
 ## Eje de contenido de la marca
 

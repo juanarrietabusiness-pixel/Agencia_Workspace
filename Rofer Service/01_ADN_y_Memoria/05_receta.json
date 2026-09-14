@@ -1,0 +1,314 @@
+{
+  "$comentario": "Receta visual de Rofer Service, legible por máquina. La lee el calendario de Juancito Ads para armar el prompt maestro de Meta AI sin pedirle a ningún modelo que deduzca la estructura. Máquina antes que prosa: cuando este archivo y 05_prompt_maestro_meta_ai.md se contradigan, manda este; el .md es la capa legible que explica el porqué. ⏳ La TIPOGRAFÍA es provisional (Anton) hasta que el cliente confirme la exacta — ver 01_brand_guidelines.md §9. Los colores SÍ están confirmados.",
+  "version": 1,
+  "verificadoContra": {
+    "archivos": [
+      "01_brand_guidelines.md",
+      "05_prompt_maestro_meta_ai.md"
+    ],
+    "fecha": "2026-09-14"
+  },
+  "marca": "Rofer Service",
+  "slug": "rofer",
+  "productoFisico": true,
+  "fotoReal": true,
+  "lienzo": {
+    "ancho": 1080,
+    "alto": 1350
+  },
+  "fuentes": {
+    "$regla": "Dos familias con el papel cerrado. Anton SOLO en caja alta y solo en titulares y cifras: es la voz gráfica firme, industrial, del lettering del logo. Inter para todo lo demás, nunca en caja alta en párrafos. ⏳ Anton es PROVISIONAL: la tipografía definitiva de la marca está por confirmar (01_brand_guidelines.md §9). Cuando llegue, se cambia aquí y se re-mide el bloque interlineado.",
+    "url": "https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap",
+    "familias": [
+      {
+        "nombre": "Anton",
+        "pesos": "400",
+        "rol": "titulares y cifras, SOLO en caja alta — ⏳ provisional"
+      },
+      {
+        "nombre": "Inter",
+        "pesos": "400;500;600",
+        "rol": "antetítulos, subtítulos, listas, notas y nombre de servicio; nunca en caja alta en párrafos"
+      }
+    ]
+  },
+  "fuentesProhibidas": [
+    "Bebas Neue",
+    "Impact",
+    "Oswald",
+    "Montserrat",
+    "Poppins",
+    "Roboto",
+    "Open Sans",
+    "Lato",
+    "Arial",
+    "Helvetica"
+  ],
+  "colores": [
+    {
+      "hex": "#152473",
+      "nombre": "azul marino Rofer",
+      "rol": "primario: fondos de marca (plantilla C), titulares sobre claro, estructura, banda inferior de firma, badge, velo"
+    },
+    {
+      "hex": "#C9A560",
+      "nombre": "dorado Rofer",
+      "rol": "acento y firma premium: subrayado de una palabra del titular, cifra destacada, wordmark de la banda, filete del badge"
+    },
+    {
+      "hex": "#FFFFFF",
+      "nombre": "blanco",
+      "rol": "fondo claro dominante, titulares y texto sobre azul marino"
+    },
+    {
+      "hex": "#EDEFF4",
+      "nombre": "concreto",
+      "rol": "fondo completo de la plantilla B (autoridad / educación)"
+    },
+    {
+      "hex": "#20242E",
+      "nombre": "grafito",
+      "rol": "subtítulos, listas y notas sobre fondo claro"
+    }
+  ],
+  "coloresProhibidos": [
+    {
+      "hex": "amarillo de seguridad, naranja de obra",
+      "porque": "abaratan la marca a 'construcción genérica' y chocan con el dorado premium; además el amarillo es la identidad de otro cliente (Ingeniería KMT) y la identidad no se mezcla"
+    },
+    {
+      "hex": "rojo de oferta, stickers de descuento",
+      "porque": "Rofer NO compite por precio (ADN §1 y §8); el rojo de rebaja lo mete en la guerra de precios de la que se separa"
+    },
+    {
+      "hex": "verdes, pasteles, terracota, tonos tierra apagados como color de marca",
+      "porque": "no son de la marca; el mundo de Rofer es azul marino + dorado industrial (los tonos tierra solo viven en la fotografía real de obra, nunca como fondo plano)"
+    },
+    {
+      "hex": "degradados neón, brillos, cromados llamativos",
+      "porque": "la marca es sólida, seria y confiable, no estridente"
+    }
+  ],
+  "combinacionesProhibidas": [
+    "Dorado #C9A560 sobre blanco #FFFFFF — contraste ~1.9:1, ilegible para texto o líneas finas. El dorado firma sobre azul marino, nunca sobre blanco.",
+    "Dorado #C9A560 sobre concreto #EDEFF4 — misma razón."
+  ],
+  "proporcionCromatica": {
+    "$regla": "Se mira la pieza entera, no cada elemento suelto. El azul marino y los neutros mandan; el dorado firma y nunca inunda (no pasa del 12 % o la marca pierde su sobriedad).",
+    "claro": "55 %",
+    "navy": "35 %",
+    "dorado": "10 %"
+  },
+  "reticula": {
+    "$regla": "Rofer no tiene una retícula única: tiene cuatro plantillas y la regla de convivencia del ADN decide cuál toca. La fotografía real de la máquina o la obra manda; la marca firma en una esquina o en la banda, nunca al revés. Una pieza no lleva dos firmas.",
+    "texto": "Lienzo 1080×1350 exactos. Margen de seguridad x=80 a los dos lados. Ancho útil 920 px.\n\nBanda inferior azul marino (plantillas B y C): 88 px de alto, de y=1262 a y=1350. Se posiciona por su BASE en y=1350. Lleva el wordmark ROFER SERVICE a la izquierda en x=80 (dorado #C9A560) y ESCRÍBANOS AL WHATSAPP a la derecha (dorado #C9A560).\n\nBadge (plantillas A y D): esquina inferior derecha, base en y=1230. Insignia azul marino con filete dorado y el wordmark ROFER SERVICE dentro.\n\nPlantilla A: foto a sangre del equipo/obra. Sin titular, o con uno de dos palabras en una zona limpia del encuadre. Si lleva más texto, deja de ser plantilla A.\n\nPlantilla B: fondo concreto #EDEFF4 completo. Antetítulo en x=80 y=200. Tope del bloque de titular en y=280. Subtítulo en grafito y lista de hasta tres puntos.\n\nPlantilla C: fondo azul marino #152473 completo. Foto real del equipo recortada sobre el navy, que sube el humano. Titular en blanco, nombre del servicio y nota. SIN precio: la marca no lo comunica.\n\nPlantilla D: velo azul marino rgba(21,36,115,0.55) sobre la foto de obra. Titular en blanco de 2 a 4 líneas anclado al centro óptico y=594. Ícono de play de línea blanca, 72×72, centrado, y=1120."
+  },
+  "anclaje": "El bloque de texto se ancla por su BASE, no por su borde superior: se mide el alto real del bloque ya maquetado con getBoundingClientRect() y se resta de la Y de base. Así el titular de dos líneas y el de cuatro acaban a la misma distancia del borde inferior. El anclaje se mide sobre la versalita, no sobre la tinta. En la plantilla D el titular se ancla al centro óptico en y=594.",
+  "ordenBloque": [
+    "antetítulo",
+    "titular",
+    "subtítulo o lista",
+    "nombre de servicio",
+    "nota"
+  ],
+  "escala": [
+    {
+      "elemento": "Titular XL · 2–3 líneas",
+      "familia": "Anton",
+      "px": 124,
+      "interlinea": "0.92",
+      "mayusculas": true,
+      "maxCaracteresLinea": 16
+    },
+    {
+      "elemento": "Titular L · 4–5 líneas",
+      "familia": "Anton",
+      "px": 100,
+      "interlinea": "0.94",
+      "mayusculas": true,
+      "maxCaracteresLinea": 20
+    },
+    {
+      "elemento": "Cifra destacada (ej. 20 AÑOS)",
+      "familia": "Anton",
+      "px": 96,
+      "mayusculas": true
+    },
+    {
+      "elemento": "Antetítulo",
+      "familia": "Inter",
+      "px": 26,
+      "tracking": "0.14em"
+    },
+    {
+      "elemento": "Subtítulo",
+      "familia": "Inter",
+      "px": 34,
+      "interlinea": "1.3"
+    },
+    {
+      "elemento": "Lista / cuerpo",
+      "familia": "Inter",
+      "px": 26,
+      "interlinea": "1.5"
+    },
+    {
+      "elemento": "Nombre de servicio",
+      "familia": "Inter",
+      "px": 30,
+      "tracking": "0.06em"
+    },
+    {
+      "elemento": "Nota",
+      "familia": "Inter",
+      "px": 20,
+      "interlinea": "1.5"
+    },
+    {
+      "elemento": "Wordmark de banda",
+      "familia": "Anton",
+      "px": 30
+    }
+  ],
+  "acento": {
+    "$regla": "El acento de Rofer es un subrayado dorado bajo UNA sola palabra del titular (o esa palabra entera en dorado). Dos palabras marcadas ya no son un acento.",
+    "regla": "Un solo subrayado o una sola palabra en dorado #C9A560 dentro del titular. Se marca con ⟦ ⟧, que no se imprimen."
+  },
+  "velo": "Solo en la plantilla D (portada de Reel): velo azul marino rgba(21,36,115,0.55) sobre la foto de obra. Es lo que separa una portada de Reel de una pieza de ambiente: sin él, el titular blanco desaparece sobre la foto.",
+  "plantillas": [
+    {
+      "id": "A",
+      "nombre": "Equipo / Obra",
+      "cuando": "la foto real manda; ritmo del feed y prueba (pilar PRUEBA)",
+      "composicion": "Foto a sangre de la máquina trabajando o de la obra ejecutada. Sin titular, o con uno de dos palabras en una zona limpia. Firma: badge en la esquina inferior derecha."
+    },
+    {
+      "id": "B",
+      "nombre": "Autoridad / Educación",
+      "cuando": "un consejo o un dato que posiciona los 20 años (pilares AUTORIDAD y EDUCACIÓN); es la pieza que se guarda",
+      "composicion": "Fondo concreto #EDEFF4 completo. Antetítulo, titular a dos o tres líneas en azul marino, subtítulo en grafito y lista de hasta tres puntos. Firma: banda inferior azul marino."
+    },
+    {
+      "id": "C",
+      "nombre": "Servicio / Equipo",
+      "cuando": "presentar un servicio o un equipo del catálogo (pilar CONVERSIÓN)",
+      "composicion": "Fondo azul marino #152473 completo. Foto real del equipo recortada sobre el navy, que sube el humano. Titular en blanco, nombre del servicio y nota. Firma: banda inferior azul marino. SIN precio: la placa de precio NO se dibuja, no se rellena con «consúltenos» y no se inventa importe."
+    },
+    {
+      "id": "D",
+      "nombre": "Portada de Reel",
+      "cuando": "portada vertical de un reel de obra",
+      "composicion": "Foto de obra a sangre bajo velo azul marino. Titular en blanco de 2 a 4 líneas anclado al centro óptico. Ícono de play. Firma: badge en la esquina inferior derecha."
+    }
+  ],
+  "firma": {
+    "$regla": "Toda pieza lleva al menos un elemento del sistema: la banda inferior azul marino o el badge. Nunca los dos a la vez — se pisan.",
+    "porPlantilla": {
+      "A": "badge",
+      "B": "banda inferior",
+      "C": "banda inferior",
+      "D": "badge"
+    }
+  },
+  "logo": {
+    "$regla": "El logo de Rofer es un archivo que carga el humano (input file), nunca se dibuja ni se describe en prosa (estándar §4 bis). Hoy NO está en el repo: el cliente lo adjuntó pero aún no llegó. Hasta que lo suba, la firma usa el wordmark tipográfico ROFER SERVICE en Anton dorado sobre la banda/el badge azul marino.",
+    "archivo": null,
+    "sustitutoProvisional": "wordmark ROFER SERVICE en Anton, dorado #C9A560, sobre fondo azul marino #152473",
+    "posicion": "esquina inferior derecha (badge) en las plantillas A y D; sobre la banda inferior, a la izquierda, en las B y C",
+    "ancho": 320,
+    "ancla": "su base",
+    "resguardo": "como mínimo un 18 % de su alto libre por los cuatro lados",
+    "sobreFondo": "sobre foto va sobre la banda o el badge azul marino, o en una zona lisa; el dorado nunca se apoya sobre claro",
+    "reglas": [
+      "Cuando el cliente suba el archivo, va en Assets_Visuales_Base/logo_rofer_service.jpeg y se declara aquí en «archivo»; el wordmark provisional deja de usarse.",
+      "El logo nunca se recolorea ni se deforma: la proporción se calcula de naturalWidth/naturalHeight, no se supone."
+    ]
+  },
+  "bloqueEstilo": "Estilo: fotografía real de maquinaria pesada y movimiento de tierra en una obra de Panamá.\nLuz natural de día, cielo abierto o polvo suave de la faena; tierra removida, concreto y metal.\nPaleta de la escena: tonos tierra, gris concreto, azul de cielo y el metal de la máquina.\nLa máquina o la obra es el sujeto: encuadre sólido y estable, ángulo ligeramente bajo que le da\npresencia. Sin personas en primer plano salvo que la escena lo pida (un operador de lejos),\nsin rostros. Fotografía realista, nada de render 3D, ilustración ni maquinaria de juguete.",
+  "negativos": "personas en primer plano, rostros, manos, niños, maquinaria de juguete, maquinaria futurista o inventada, marcas o logotipos de otras empresas sobre las máquinas, óxido de abandono, chatarra, render 3D, ilustración, dibujo, caricatura, degradados, brillos neón, sombras dramáticas, viñeta, HDR exagerado, saturación excesiva, stickers de oferta, círculos rojos, explosiones de precio, texto, letras, números, logotipos, marcas de agua, marcos, collage, fisheye, gran angular deformado",
+  "trampasPropias": [
+    "La banda inferior azul marino y el badge se posicionan por su BASE (y=1350 y y=1230). Colocados por su borde superior quedan fuera del lienzo.",
+    "Ningún texto, ícono ni línea en dorado #C9A560 puede terminar sobre blanco #FFFFFF ni sobre concreto #EDEFF4. Busca esa combinación en tu propio código y corrígela.",
+    "Si el humano no ha cargado la foto real del equipo en una pieza de la plantilla C, el botón de descarga de esa pieza avisa y NO exporta."
+  ],
+  "interfaz": "Fondo #FFFFFF, texto #20242E, títulos y acentos #152473, botones con fondo #152473 y texto #FFFFFF; el dorado #C9A560 solo como filete o acento sobre azul marino, nunca como texto sobre claro. La misma regla de contraste aplica a la interfaz.",
+  "reglasDuras": [
+    "La única cifra verificada del ADN es «20 años de experiencia». Cualquier otra (precio, plazo, capacidad de equipo, número de obras) se le pide a Alex y se cita con su fecha.",
+    "No se ponen precios: el ADN no los trae y Rofer no compite por precio.",
+    "Nunca se posiciona por «el más barato» ni con lenguaje de oferta/rebaja/liquidación.",
+    "Nunca se nombra a la competencia: ni Transeq, ni Super Mega Máquinas, ni Alquimaquina.",
+    "Los nombres de obras de respaldo (ASP, Gana Empresa, Multiplaza, Figali) solo con permiso del cliente y con foto real; sin permiso no se publican.",
+    "Trato de usted siempre; nunca tuteo.",
+    "Obra y equipo reales antes que stock (regla del cliente).",
+    "El dorado nunca sobre blanco ni sobre concreto."
+  ],
+  "verificacionPropia": [
+    "¿La proporción cromática de cada pieza es ~55 % claro · 35 % azul marino · 10 % dorado, mirando la pieza entera?",
+    "¿Hay un solo acento dorado por titular (una sola palabra o un solo subrayado)?",
+    "¿Lleva cada pieza una sola firma (badge o banda inferior) y nunca las dos a la vez?",
+    "¿Alguna pieza pone precio, plazo o cifra no verificada? Fuera.",
+    "¿El copy trata de usted en todas las piezas?"
+  ],
+  "tildes": [
+    "ASESORÍA",
+    "IDÓNEO",
+    "MÁQUINA",
+    "EXCAVACIÓN",
+    "DEMOLICIÓN",
+    "CONFORMACIÓN",
+    "AÑOS",
+    "EJECUCIÓN",
+    "QUÉ",
+    "CÓMO",
+    "MÁS",
+    "ESCRÍBANOS",
+    "AQUÍ"
+  ],
+  "hashtags": {
+    "cantidad": 6,
+    "donde": "al final de la descripción, en una sola línea"
+  },
+  "emojis": {
+    "cantidad": 0,
+    "donde": "ninguno dentro del lienzo"
+  },
+  "cifrasPermitidas": [
+    "20 años de experiencia"
+  ],
+  "cta": "ESCRÍBANOS AL WHATSAPP",
+  "interlineado": {
+    "$regla": "La interlínea del titular no es un número: es una cuenta. En caja alta Anton no rebaja las tildes, así que la Á/Ñ sobresale por encima de la altura de versalita; con la interlínea por debajo de 1 esa tilde acaba DENTRO de las letras de la línea de arriba. La holgura va donde hace falta y solo donde hace falta.",
+    "$medidoEn": "Anton (⏳ FUENTE PROVISIONAL — la tipografía definitiva de Rofer está por confirmar; si la final no es Anton, hay que re-medir estas holguras), métrica real del archivo de Google Fonts. holguraSuperior = (alto de la tinta del glifo − altura de versalita); holguraInferior = lo que baja la tinta por debajo de la línea base. Medido el 2026-09-14.",
+    "formula": "avance(n → n+1) = base + holguraSuperior(línea n+1) + holguraInferior(línea n)",
+    "holguraSuperior": {
+      "Á É Í Ó Ú": 0.24,
+      "Ñ Ü": 0.21
+    },
+    "holguraInferior": {
+      "Q ¿ ¡ ,": 0.11
+    },
+    "seAplicaA": "solo el titular y la cifra, que son lo único por debajo de interlínea 1. El subtítulo, las listas y las notas van por encima de 1: ahí sobra sitio y no hay nada que corregir."
+  },
+  "anclajes": [
+    {
+      "plantilla": "A",
+      "nombre": "Dentro / sin bloque",
+      "donde": "sin bloque anclado: el titular, si lo lleva, va de dos palabras dentro de una zona limpia del encuadre"
+    },
+    {
+      "plantilla": "B",
+      "nombre": "Base sobre la banda",
+      "donde": "base del bloque en y=1258, justo encima de la banda inferior azul marino"
+    },
+    {
+      "plantilla": "C",
+      "nombre": "Base sobre la banda",
+      "donde": "base del bloque en y=1258, justo encima de la banda inferior azul marino"
+    },
+    {
+      "plantilla": "D",
+      "nombre": "Centro óptico",
+      "donde": "centro óptico del bloque en y=594; el centro óptico va por encima del geométrico"
+    }
+  ]
+}
