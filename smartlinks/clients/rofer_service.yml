@@ -11,7 +11,12 @@
 #   · Sin catálogo/ubicación/web dados por el cliente → no se inventan destinos (§2.3 y §6.1 del runbook).
 #     Los dos botones son WhatsApp con mensaje precargado, mapeando los pasos reales del proceso
 #     (asesoría y pedir fotos de equipos). IG/FB van en social.
-#   · Sin archivo de logo en el repo ni en Drive → monograma "RS" hasta que el cliente lo suba.
+#   · Logo real recibido del cliente 2026-09-14 (lockup navy sobre blanco, cuadrado) → style: panel,
+#     que lo monta sobre una placa blanca redondeada; sobre el hero navy no desaparece. replacesName.
+#   · ACENTO — override del humano (2026-09-14): el fundador pidió "un amarillo más vivo, el color de
+#     las máquinas" en la landing. Se usa #FFB400 (amarillo de máquina) en vez del dorado #C9A560 del
+#     ADN. Es una decisión SOLO de la landing; el ADN/receta/agente siguen en dorado hasta que el
+#     humano confirme si se propaga la identidad entera. (Distinto del #FFC300 de KMT: no se mezcla.)
 
 id: rofer_service
 folder: "Rofer Service"
@@ -22,7 +27,12 @@ handle: "@roferservice"
 tagline: "El equipo correcto para el trabajo, con 20 años de experiencia."
 description: "Movimiento de tierra y alquiler/venta de equipo pesado. Le asesoramos cuál es el equipo idóneo para su obra y le enviamos fotos y cotización por WhatsApp."
 
-monogram: "RS"
+logo:
+  src: "Rofer Service/01_ADN_y_Memoria/Assets_Visuales_Base/logo_rofer_service.jpeg"
+  alt: "Logo Rofer Service"
+  style: panel          # lockup navy sobre fondo blanco → se monta en placa clara sobre el hero navy
+  replacesName: true    # el logo ya dice "ROFER SERVICE" — el <h1> pasa a lectores de pantalla
+  maxHeight: 150
 
 theme:
   mode: light
@@ -36,8 +46,8 @@ theme:
   border: "#DFE2EA"
   primary: "#152473"
   onPrimary: "#FFFFFF"
-  accent: "#C9A560"      # dorado — firma premium
-  onAccent: "#152473"    # azul marino sobre dorado (buen contraste, CTA)
+  accent: "#FFB400"      # amarillo de máquina (override del humano 2026-09-14, ver cabecera)
+  onAccent: "#152473"    # azul marino sobre amarillo (alto contraste, CTA)
   accentOutline: "#152473"
   radius: 14
   fonts:

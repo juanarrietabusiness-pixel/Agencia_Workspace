@@ -38,8 +38,8 @@
   | Azul marino | `#152473` | Primario — color madre, fondos de marca, estructura del logo, titulares |
   | Dorado | `#C9A560` | Secundario/acento — "SERVICE", anillo del engranaje, detalles premium, CTA |
 
-- **Logo:** excavadora estilizada en azul marino sobre una línea horizontal + **"R⚙FER"** (la "O" es un **engranaje azul con anillo dorado**) y **"SERVICE"** en dorado, todo en mayúsculas, tipografía **bold/condensada industrial**.
-  - **Archivo:** `Assets_Visuales_Base/logo_rofer_service.jpeg` — ⚠️ **pendiente de subir** (el cliente lo adjuntó pero aún no está en el repo; cuando llegue, va ahí con ese nombre exacto).
+- **Logo:** excavadora estilizada en azul marino sobre una línea horizontal + **"R⚙FER"** (la "O" es un **engranaje con anillo naranja/cobre**) y **"SERVICE"** en dorado, todo en mayúsculas, tipografía **bold/condensada industrial**. El fondo del archivo es blanco (lockup cuadrado).
+  - **Archivo:** ✅ `Assets_Visuales_Base/logo_rofer_service.jpeg` (recibido del cliente 2026-09-14, 1280×1280, fondo blanco).
 - **Tipografía:** ⚠️ **pendiente de confirmar.** Provisional para composición mientras tanto: sans **bold/condensada industrial** tipo **Anton** o **Archivo Black** para titulares (coherente con el lettering del logo); sans neutra (Inter/Barlow) para cuerpo.
 - **Estilo visual:** industrial, sólido, confiable, profesional. Azul marino domina; el dorado firma y da el toque premium — **nunca al revés**.
 
@@ -100,8 +100,9 @@
 ## 9. Pendiente de validar (para cerrar el ADN a ✅)
 
 1. **Tipografía exacta** de la marca (hoy provisional tipo Anton/Archivo Black).
-2. **Archivo del logo** — subir `logo_rofer_service.jpeg` a `Assets_Visuales_Base/`.
-3. **Web** (si tiene o va a tener).
-4. **Precios de referencia**, condiciones de crédito y forma de facturación.
-5. **Frases textuales** que la marca usa/evita (para afinar el léxico).
-6. **Casos de éxito** con detalle (de ASP / Gana Empresa / Multiplaza / Figali, con permiso).
+2. ~~Archivo del logo~~ ✅ recibido 2026-09-14 (`Assets_Visuales_Base/logo_rofer_service.jpeg`).
+3. **Acento amarillo:** el fundador pidió para la landing un **amarillo de máquina más vivo** (`#FFB400`) en vez del dorado `#C9A560` del onboarding. **Decisión pendiente:** ¿se propaga ese amarillo a toda la identidad (ADN + receta + correo del agente), o el dorado sigue siendo el acento de marca y el amarillo vive solo en la landing? Hoy: dorado en el ADN/receta/agente, amarillo solo en el SmartLink.
+4. **Web** (si tiene o va a tener).
+5. **Precios de referencia**, condiciones de crédito y forma de facturación.
+6. **Frases textuales** que la marca usa/evita (para afinar el léxico).
+7. **Casos de éxito** con detalle (de ASP / Gana Empresa / Multiplaza / Figali, con permiso).

@@ -211,9 +211,9 @@
     }
   },
   "logo": {
-    "$regla": "El logo de Rofer es un archivo que carga el humano (input file), nunca se dibuja ni se describe en prosa (estándar §4 bis). Hoy NO está en el repo: el cliente lo adjuntó pero aún no llegó. Hasta que lo suba, la firma usa el wordmark tipográfico ROFER SERVICE en Anton dorado sobre la banda/el badge azul marino.",
-    "archivo": null,
-    "sustitutoProvisional": "wordmark ROFER SERVICE en Anton, dorado #C9A560, sobre fondo azul marino #152473",
+    "$regla": "El logo de Rofer es un archivo que carga el humano (input file), nunca se dibuja ni se describe en prosa (estándar §4 bis). Ya está en el repo (recibido 2026-09-14): lockup navy sobre fondo blanco. Va sobre la banda/badge azul marino o sobre una zona limpia; si se necesita sobre navy, se monta en una placa clara para que no se pierda.",
+    "archivo": "Assets_Visuales_Base/logo_rofer_service.jpeg",
+    "sustitutoProvisional": "solo si por algún motivo no se carga el archivo: wordmark ROFER SERVICE en Anton, dorado #C9A560, sobre fondo azul marino #152473",
     "posicion": "esquina inferior derecha (badge) en las plantillas A y D; sobre la banda inferior, a la izquierda, en las B y C",
     "ancho": 320,
     "ancla": "su base",
