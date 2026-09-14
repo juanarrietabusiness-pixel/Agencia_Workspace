@@ -1,0 +1,72 @@
+# Rofer Service — SmartLink.
+# Fuente de marca: Rofer Service/01_ADN_y_Memoria/01_brand_guidelines.md
+#   §2 paleta CONFIRMADA por el cliente: azul marino #152473 (primario) + dorado #C9A560 (acento).
+#   §2 tipografía ⏳ por confirmar → provisional: bold/condensada industrial (Anton) + Inter de cuerpo,
+#     coherente con el lettering del logo. Se corrige cuando el cliente pase la tipografía exacta.
+#   §0 contacto: WhatsApp 61562010 · IG @roferservice · FB Rofer Service.
+#   §3 registro: de USTED siempre (público profesional: constructores, contratistas, ingenieros).
+#   §6 proceso de venta real: WhatsApp → asesoría → fotos de equipos → cotización → cierre.
+#
+# Decisiones:
+#   · Sin catálogo/ubicación/web dados por el cliente → no se inventan destinos (§2.3 y §6.1 del runbook).
+#     Los dos botones son WhatsApp con mensaje precargado, mapeando los pasos reales del proceso
+#     (asesoría y pedir fotos de equipos). IG/FB van en social.
+#   · Sin archivo de logo en el repo ni en Drive → monograma "RS" hasta que el cliente lo suba.
+
+id: rofer_service
+folder: "Rofer Service"
+slug: rofer
+enabled: true
+name: "Rofer Service"
+handle: "@roferservice"
+tagline: "El equipo correcto para el trabajo, con 20 años de experiencia."
+description: "Movimiento de tierra y alquiler/venta de equipo pesado. Le asesoramos cuál es el equipo idóneo para su obra y le enviamos fotos y cotización por WhatsApp."
+
+monogram: "RS"
+
+theme:
+  mode: light
+  bg: "#EEF0F5"          # concreto claro para que las tarjetas blancas respiren
+  bgAlt: "#F7F8FB"
+  hero: "#152473"        # azul marino, color madre (§2 del ADN)
+  onHero: "#FFFFFF"
+  surface: "#FFFFFF"
+  text: "#141A2E"
+  muted: "#6B7183"
+  border: "#DFE2EA"
+  primary: "#152473"
+  onPrimary: "#FFFFFF"
+  accent: "#C9A560"      # dorado — firma premium
+  onAccent: "#152473"    # azul marino sobre dorado (buen contraste, CTA)
+  accentOutline: "#152473"
+  radius: 14
+  fonts:
+    display: "Anton"     # ⏳ provisional (tipografía exacta por confirmar)
+    body: "Inter"
+    displayUppercase: true
+    displayTracking: "0.01em"
+    google: ["Anton", "Inter:wght@400;500;600"]
+
+buttons:
+  - kind: link
+    label: "Solicite asesoría"
+    note: "Le decimos qué equipo necesita · WhatsApp 61562010"
+    icon: whatsapp
+    variant: accent
+    href: "https://wa.me/50761562010?text=Hola%20Rofer%20Service%2C%20vengo%20de%20su%20p%C3%A1gina%20de%20enlaces.%20Necesito%20asesor%C3%ADa%20para%20saber%20qu%C3%A9%20equipo%20es%20el%20id%C3%B3neo%20para%20mi%20trabajo."
+
+  - kind: link
+    label: "Ver equipos y pedir fotos"
+    note: "Excavación, conformación, demolición, alquiler y venta"
+    icon: catalog
+    variant: primary
+    href: "https://wa.me/50761562010?text=Hola%20Rofer%20Service%2C%20%C2%BFme%20puede%20enviar%20fotos%20y%20disponibilidad%20de%20sus%20equipos%3F"
+
+social:
+  - { network: instagram, url: "https://instagram.com/roferservice", label: "Instagram" }
+  # Facebook "Rofer Service": el cliente dio el nombre de la página pero no la URL exacta →
+  # no se pone hasta confirmarla (runbook §2.3 / §6.1: no inventar destinos).
+
+footer:
+  note: "Movimiento de tierra y equipo pesado · 20 años de experiencia"
+  credit: true
