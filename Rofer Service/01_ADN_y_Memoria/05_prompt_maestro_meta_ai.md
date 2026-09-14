@@ -87,11 +87,11 @@ nunca las dos. La plantilla C **no lleva precio**: la marca no lo comunica.
 ## 3 · La firma y el logo
 
 El logo es un **archivo que carga el humano** (estándar §4 bis), nunca se dibuja.
-**Hoy no está en el repo** (el cliente lo adjuntó pero no llegó). Hasta que lo
-suba, la firma usa el **wordmark tipográfico ROFER SERVICE** en Anton dorado
-`#C9A560` sobre el azul marino `#152473` de la banda o el badge. Cuando llegue, va
-en `Assets_Visuales_Base/logo_rofer_service.jpeg` y se declara en `logo.archivo`
-del JSON.
+**Ya está en el repo:** `Assets_Visuales_Base/logo_rofer_service.jpeg` (lockup navy
+sobre blanco, recibido 2026-09-14) — declarado en `logo.archivo` del JSON. Va sobre
+la banda o el badge azul marino, o sobre una zona limpia; si cae sobre el navy, se
+monta en una placa clara para que no se pierda. El wordmark tipográfico solo queda
+como respaldo si por algún motivo no se carga el archivo.
 
 ## 4 · El bloque de estilo y los negativos
 
