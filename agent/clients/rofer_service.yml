@@ -19,7 +19,7 @@ recipientEmails:
 # Ver 01_brand_guidelines.md §2. Tipografía por confirmar (provisional tipo Anton/Archivo Black).
 branding:
   primary: "#152473"   # Azul marino — color madre (headers, botones, badges)
-  accent: "#C9A560"    # Dorado — acento/firma premium (hooks, highlights, CTA)
+  accent: "#FFB400"    # Amarillo — acento/firma premium (hooks, highlights, CTA)
   logoChar: "🚜"
 
 llm:
