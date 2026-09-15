@@ -6,7 +6,7 @@
       "01_brand_guidelines.md",
       "05_prompt_maestro_meta_ai.md"
     ],
-    "fecha": "2026-09-14"
+    "fecha": "2026-09-15"
   },
   "marca": "Rofer Service",
   "slug": "rofer",
@@ -51,8 +51,8 @@
       "rol": "primario: fondos de marca (plantilla C), titulares sobre claro, estructura, banda inferior de firma, badge, velo"
     },
     {
-      "hex": "#C9A560",
-      "nombre": "dorado Rofer",
+      "hex": "#FFB400",
+      "nombre": "amarillo Rofer",
       "rol": "acento y firma premium: subrayado de una palabra del titular, cifra destacada, wordmark de la banda, filete del badge"
     },
     {
@@ -73,8 +73,8 @@
   ],
   "coloresProhibidos": [
     {
-      "hex": "amarillo de seguridad, naranja de obra",
-      "porque": "abaratan la marca a 'construcción genérica' y chocan con el dorado premium; además el amarillo es la identidad de otro cliente (Ingeniería KMT) y la identidad no se mezcla"
+      "hex": "otros amarillos/naranjas que no sean el #FFB400 de marca (amarillo limón #FFC300, lima, neón, naranja)",
+      "porque": "el ÚNICO amarillo de Rofer es el #FFB400. El #FFC300 es la identidad de otro cliente (Ingeniería KMT) y la identidad no se mezcla; los amarillos lima/neón abaratan la marca"
     },
     {
       "hex": "rojo de oferta, stickers de descuento",
@@ -82,7 +82,7 @@
     },
     {
       "hex": "verdes, pasteles, terracota, tonos tierra apagados como color de marca",
-      "porque": "no son de la marca; el mundo de Rofer es azul marino + dorado industrial (los tonos tierra solo viven en la fotografía real de obra, nunca como fondo plano)"
+      "porque": "no son de la marca; el mundo de Rofer es azul marino + amarillo industrial (los tonos tierra solo viven en la fotografía real de obra, nunca como fondo plano)"
     },
     {
       "hex": "degradados neón, brillos, cromados llamativos",
@@ -90,18 +90,18 @@
     }
   ],
   "combinacionesProhibidas": [
-    "Dorado #C9A560 sobre blanco #FFFFFF — contraste ~1.9:1, ilegible para texto o líneas finas. El dorado firma sobre azul marino, nunca sobre blanco.",
-    "Dorado #C9A560 sobre concreto #EDEFF4 — misma razón."
+    "Amarillo #FFB400 sobre blanco #FFFFFF — contraste ~1.9:1, ilegible para texto o líneas finas. El amarillo firma sobre azul marino, nunca sobre blanco.",
+    "Amarillo #FFB400 sobre concreto #EDEFF4 — misma razón."
   ],
   "proporcionCromatica": {
-    "$regla": "Se mira la pieza entera, no cada elemento suelto. El azul marino y los neutros mandan; el dorado firma y nunca inunda (no pasa del 12 % o la marca pierde su sobriedad).",
+    "$regla": "Se mira la pieza entera, no cada elemento suelto. El azul marino y los neutros mandan; el amarillo firma y nunca inunda (no pasa del 12 % o la marca pierde su sobriedad).",
     "claro": "55 %",
     "navy": "35 %",
-    "dorado": "10 %"
+    "amarillo": "10 %"
   },
   "reticula": {
     "$regla": "Rofer no tiene una retícula única: tiene cuatro plantillas y la regla de convivencia del ADN decide cuál toca. La fotografía real de la máquina o la obra manda; la marca firma en una esquina o en la banda, nunca al revés. Una pieza no lleva dos firmas.",
-    "texto": "Lienzo 1080×1350 exactos. Margen de seguridad x=80 a los dos lados. Ancho útil 920 px.\n\nBanda inferior azul marino (plantillas B y C): 88 px de alto, de y=1262 a y=1350. Se posiciona por su BASE en y=1350. Lleva el wordmark ROFER SERVICE a la izquierda en x=80 (dorado #C9A560) y ESCRÍBANOS AL WHATSAPP a la derecha (dorado #C9A560).\n\nBadge (plantillas A y D): esquina inferior derecha, base en y=1230. Insignia azul marino con filete dorado y el wordmark ROFER SERVICE dentro.\n\nPlantilla A: foto a sangre del equipo/obra. Sin titular, o con uno de dos palabras en una zona limpia del encuadre. Si lleva más texto, deja de ser plantilla A.\n\nPlantilla B: fondo concreto #EDEFF4 completo. Antetítulo en x=80 y=200. Tope del bloque de titular en y=280. Subtítulo en grafito y lista de hasta tres puntos.\n\nPlantilla C: fondo azul marino #152473 completo. Foto real del equipo recortada sobre el navy, que sube el humano. Titular en blanco, nombre del servicio y nota. SIN precio: la marca no lo comunica.\n\nPlantilla D: velo azul marino rgba(21,36,115,0.55) sobre la foto de obra. Titular en blanco de 2 a 4 líneas anclado al centro óptico y=594. Ícono de play de línea blanca, 72×72, centrado, y=1120."
+    "texto": "Lienzo 1080×1350 exactos. Margen de seguridad x=80 a los dos lados. Ancho útil 920 px.\n\nBanda inferior azul marino (plantillas B y C): 88 px de alto, de y=1262 a y=1350. Se posiciona por su BASE en y=1350. Lleva el wordmark ROFER SERVICE a la izquierda en x=80 (amarillo #FFB400) y ESCRÍBANOS AL WHATSAPP a la derecha (amarillo #FFB400).\n\nBadge (plantillas A y D): esquina inferior derecha, base en y=1230. Insignia azul marino con filete amarillo y el wordmark ROFER SERVICE dentro.\n\nPlantilla A: foto a sangre del equipo/obra. Sin titular, o con uno de dos palabras en una zona limpia del encuadre. Si lleva más texto, deja de ser plantilla A.\n\nPlantilla B: fondo concreto #EDEFF4 completo. Antetítulo en x=80 y=200. Tope del bloque de titular en y=280. Subtítulo en grafito y lista de hasta tres puntos.\n\nPlantilla C: fondo azul marino #152473 completo. Foto real del equipo recortada sobre el navy, que sube el humano. Titular en blanco, nombre del servicio y nota. SIN precio: la marca no lo comunica.\n\nPlantilla D: velo azul marino rgba(21,36,115,0.55) sobre la foto de obra. Titular en blanco de 2 a 4 líneas anclado al centro óptico y=594. Ícono de play de línea blanca, 72×72, centrado, y=1120."
   },
   "anclaje": "El bloque de texto se ancla por su BASE, no por su borde superior: se mide el alto real del bloque ya maquetado con getBoundingClientRect() y se resta de la Y de base. Así el titular de dos líneas y el de cuatro acaban a la misma distancia del borde inferior. El anclaje se mide sobre la versalita, no sobre la tinta. En la plantilla D el titular se ancla al centro óptico en y=594.",
   "ordenBloque": [
@@ -171,8 +171,8 @@
     }
   ],
   "acento": {
-    "$regla": "El acento de Rofer es un subrayado dorado bajo UNA sola palabra del titular (o esa palabra entera en dorado). Dos palabras marcadas ya no son un acento.",
-    "regla": "Un solo subrayado o una sola palabra en dorado #C9A560 dentro del titular. Se marca con ⟦ ⟧, que no se imprimen."
+    "$regla": "El acento de Rofer es un subrayado amarillo bajo UNA sola palabra del titular (o esa palabra entera en amarillo). Dos palabras marcadas ya no son un acento.",
+    "regla": "Un solo subrayado o una sola palabra en amarillo #FFB400 dentro del titular. Se marca con ⟦ ⟧, que no se imprimen."
   },
   "velo": "Solo en la plantilla D (portada de Reel): velo azul marino rgba(21,36,115,0.55) sobre la foto de obra. Es lo que separa una portada de Reel de una pieza de ambiente: sin él, el titular blanco desaparece sobre la foto.",
   "plantillas": [
@@ -213,12 +213,12 @@
   "logo": {
     "$regla": "El logo de Rofer es un archivo que carga el humano (input file), nunca se dibuja ni se describe en prosa (estándar §4 bis). Ya está en el repo (recibido 2026-09-14): lockup navy sobre fondo blanco. Va sobre la banda/badge azul marino o sobre una zona limpia; si se necesita sobre navy, se monta en una placa clara para que no se pierda.",
     "archivo": "Assets_Visuales_Base/logo_rofer_service.jpeg",
-    "sustitutoProvisional": "solo si por algún motivo no se carga el archivo: wordmark ROFER SERVICE en Anton, dorado #C9A560, sobre fondo azul marino #152473",
+    "sustitutoProvisional": "solo si por algún motivo no se carga el archivo: wordmark ROFER SERVICE en Anton, amarillo #FFB400, sobre fondo azul marino #152473",
     "posicion": "esquina inferior derecha (badge) en las plantillas A y D; sobre la banda inferior, a la izquierda, en las B y C",
     "ancho": 320,
     "ancla": "su base",
     "resguardo": "como mínimo un 18 % de su alto libre por los cuatro lados",
-    "sobreFondo": "sobre foto va sobre la banda o el badge azul marino, o en una zona lisa; el dorado nunca se apoya sobre claro",
+    "sobreFondo": "sobre foto va sobre la banda o el badge azul marino, o en una zona lisa; el amarillo nunca se apoya sobre claro",
     "reglas": [
       "Cuando el cliente suba el archivo, va en Assets_Visuales_Base/logo_rofer_service.jpeg y se declara aquí en «archivo»; el wordmark provisional deja de usarse.",
       "El logo nunca se recolorea ni se deforma: la proporción se calcula de naturalWidth/naturalHeight, no se supone."
@@ -228,10 +228,10 @@
   "negativos": "personas en primer plano, rostros, manos, niños, maquinaria de juguete, maquinaria futurista o inventada, marcas o logotipos de otras empresas sobre las máquinas, óxido de abandono, chatarra, render 3D, ilustración, dibujo, caricatura, degradados, brillos neón, sombras dramáticas, viñeta, HDR exagerado, saturación excesiva, stickers de oferta, círculos rojos, explosiones de precio, texto, letras, números, logotipos, marcas de agua, marcos, collage, fisheye, gran angular deformado",
   "trampasPropias": [
     "La banda inferior azul marino y el badge se posicionan por su BASE (y=1350 y y=1230). Colocados por su borde superior quedan fuera del lienzo.",
-    "Ningún texto, ícono ni línea en dorado #C9A560 puede terminar sobre blanco #FFFFFF ni sobre concreto #EDEFF4. Busca esa combinación en tu propio código y corrígela.",
+    "Ningún texto, ícono ni línea en amarillo #FFB400 puede terminar sobre blanco #FFFFFF ni sobre concreto #EDEFF4. Busca esa combinación en tu propio código y corrígela.",
     "Si el humano no ha cargado la foto real del equipo en una pieza de la plantilla C, el botón de descarga de esa pieza avisa y NO exporta."
   ],
-  "interfaz": "Fondo #FFFFFF, texto #20242E, títulos y acentos #152473, botones con fondo #152473 y texto #FFFFFF; el dorado #C9A560 solo como filete o acento sobre azul marino, nunca como texto sobre claro. La misma regla de contraste aplica a la interfaz.",
+  "interfaz": "Fondo #FFFFFF, texto #20242E, títulos y acentos #152473, botones con fondo #152473 y texto #FFFFFF; el amarillo #FFB400 solo como filete o acento sobre azul marino, nunca como texto sobre claro. La misma regla de contraste aplica a la interfaz.",
   "reglasDuras": [
     "La única cifra verificada del ADN es «20 años de experiencia». Cualquier otra (precio, plazo, capacidad de equipo, número de obras) se le pide a Alex y se cita con su fecha.",
     "No se ponen precios: el ADN no los trae y Rofer no compite por precio.",
@@ -240,11 +240,11 @@
     "Los nombres de obras de respaldo (ASP, Gana Empresa, Multiplaza, Figali) solo con permiso del cliente y con foto real; sin permiso no se publican.",
     "Trato de usted siempre; nunca tuteo.",
     "Obra y equipo reales antes que stock (regla del cliente).",
-    "El dorado nunca sobre blanco ni sobre concreto."
+    "El amarillo nunca sobre blanco ni sobre concreto."
   ],
   "verificacionPropia": [
-    "¿La proporción cromática de cada pieza es ~55 % claro · 35 % azul marino · 10 % dorado, mirando la pieza entera?",
-    "¿Hay un solo acento dorado por titular (una sola palabra o un solo subrayado)?",
+    "¿La proporción cromática de cada pieza es ~55 % claro · 35 % azul marino · 10 % amarillo, mirando la pieza entera?",
+    "¿Hay un solo acento amarillo por titular (una sola palabra o un solo subrayado)?",
     "¿Lleva cada pieza una sola firma (badge o banda inferior) y nunca las dos a la vez?",
     "¿Alguna pieza pone precio, plazo o cifra no verificada? Fuera.",
     "¿El copy trata de usted en todas las piezas?"

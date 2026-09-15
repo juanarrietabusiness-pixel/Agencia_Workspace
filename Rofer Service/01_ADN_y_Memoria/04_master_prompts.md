@@ -30,7 +30,7 @@ PILAR: [Asesoría/Autoridad | Prueba/Obra real | Servicio/Catálogo | Confianza/
 MATERIAL BASE: [foto/video real del equipo o de la obra] — obligatorio si existe; si no hay, avisar antes de usar stock.
 FORMATO: [reel | carrusel | story]
 MENSAJE: [1 idea; tono profesional con autoridad de oficio; sin exageraciones]
-COLORES: azul marino #152473 dominante + dorado #C9A560 de acento/firma (nunca al revés).
+COLORES: azul marino #152473 dominante + amarillo #FFB400 de acento/firma (nunca al revés).
 CTA: WhatsApp 61562010 ("Escríbanos y le asesoramos cuál es el equipo idóneo").
 RESTRICCIONES DEL ADN: nunca tutear · nunca empujar un equipo no idóneo · no inventar precios/crédito/facturación/web.
 ```

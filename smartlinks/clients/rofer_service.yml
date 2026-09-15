@@ -1,6 +1,6 @@
 # Rofer Service — SmartLink.
 # Fuente de marca: Rofer Service/01_ADN_y_Memoria/01_brand_guidelines.md
-#   §2 paleta CONFIRMADA por el cliente: azul marino #152473 (primario) + dorado #C9A560 (acento).
+#   §2 paleta CONFIRMADA: azul marino #152473 (primario) + amarillo de máquina #FFB400 (secundario oficial).
 #   §2 tipografía ⏳ por confirmar → provisional: bold/condensada industrial (Anton) + Inter de cuerpo,
 #     coherente con el lettering del logo. Se corrige cuando el cliente pase la tipografía exacta.
 #   §0 contacto: WhatsApp 61562010 · IG @roferservice · FB Rofer Service.
@@ -13,10 +13,9 @@
 #     (asesoría y pedir fotos de equipos). IG/FB van en social.
 #   · Logo real recibido del cliente 2026-09-14 (lockup navy sobre blanco, cuadrado) → style: panel,
 #     que lo monta sobre una placa blanca redondeada; sobre el hero navy no desaparece. replacesName.
-#   · ACENTO — override del humano (2026-09-14): el fundador pidió "un amarillo más vivo, el color de
-#     las máquinas" en la landing. Se usa #FFB400 (amarillo de máquina) en vez del dorado #C9A560 del
-#     ADN. Es una decisión SOLO de la landing; el ADN/receta/agente siguen en dorado hasta que el
-#     humano confirme si se propaga la identidad entera. (Distinto del #FFC300 de KMT: no se mezcla.)
+#   · ACENTO — #FFB400 (amarillo de máquina): secundario OFICIAL de la marca desde 2026-09-15, decidido
+#     por el fundador. Reemplaza al dorado #C9A560 del onboarding en toda la identidad (ADN, receta,
+#     SmartLink y agente). Distinto del #FFC300 de KMT: no se mezcla.
 
 id: rofer_service
 folder: "Rofer Service"

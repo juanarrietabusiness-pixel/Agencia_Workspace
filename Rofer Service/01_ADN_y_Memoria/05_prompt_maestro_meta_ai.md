@@ -36,21 +36,21 @@ precio** ni se deja reducir a "alquiler barato". Ver `01_brand_guidelines.md` y
 | HEX | Nombre | Rol |
 |---|---|---|
 | `#152473` | Azul marino Rofer | Primario: fondos de marca (plantilla C), titulares sobre claro, estructura, banda de firma, badge, velo |
-| `#C9A560` | Dorado Rofer | Acento y firma: subrayado de **una** palabra del titular, cifra destacada, wordmark de la banda, filete del badge |
+| `#FFB400` | Amarillo Rofer | Acento y firma: subrayado de **una** palabra del titular, cifra destacada, wordmark de la banda, filete del badge |
 | `#FFFFFF` | Blanco | Fondo claro dominante, titulares y texto sobre el azul marino |
 | `#EDEFF4` | Concreto | Fondo completo de la plantilla B (autoridad / educación) |
 | `#20242E` | Grafito | Subtítulos, listas y notas sobre fondo claro |
 
-**Proporción:** ~55 % claro · 35 % azul marino · 10 % dorado, mirando la pieza
-entera. El dorado firma, nunca inunda.
+**Proporción:** ~55 % claro · 35 % azul marino · 10 % amarillo, mirando la pieza
+entera. El amarillo firma, nunca inunda.
 
-**Combinación prohibida (contraste):** el dorado `#C9A560` **nunca** sobre blanco
-`#FFFFFF` ni sobre concreto `#EDEFF4` — se vuelve ilegible. El dorado firma sobre
+**Combinación prohibida (contraste):** el amarillo `#FFB400` **nunca** sobre blanco
+`#FFFFFF` ni sobre concreto `#EDEFF4` — se vuelve ilegible. El amarillo firma sobre
 azul marino.
 
-**Prohibidos:** amarillo de seguridad / naranja de obra (abaratan la marca y el
-amarillo es de otro cliente), rojo de oferta (Rofer no compite por precio), verdes
-y pasteles como color de marca, degradados y brillos neón.
+**Prohibidos:** **otros** amarillos/naranjas que no sean el `#FFB400` de marca — el
+limón `#FFC300` (es de otro cliente, KMT), lima y neón —; rojo de oferta (Rofer no
+compite por precio); verdes y pasteles como color de marca; degradados y brillos neón.
 
 ### Tipografía
 
@@ -65,8 +65,8 @@ y pasteles como color de marca, degradados y brillos neón.
 Están en el `05_receta.json` (`reticula.texto`, `escala`, `acento`,
 `interlineado`, `anclajes`). Notas de criterio:
 
-- **El acento es un solo subrayado dorado** bajo **una** palabra del titular (o esa
-  palabra entera en dorado). Se marca con `⟦ ⟧`, que no se imprimen.
+- **El acento es un solo subrayado amarillo** bajo **una** palabra del titular (o esa
+  palabra entera en amarillo). Se marca con `⟦ ⟧`, que no se imprimen.
 - **Los cortes de línea se escriben, no se calculan.** Cada titular llega con sus
   saltos ya decididos.
 - **La interlínea del titular baja de 1** → lleva la cuenta de holguras de las
@@ -122,5 +122,5 @@ Además de la lista común del estándar §7:
 - **Emojis:** 0 dentro del lienzo.
 - **Cifra que sí puede aparecer:** «20 años de experiencia» — cualquier otra, fuera.
 - **CTA:** ESCRÍBANOS AL WHATSAPP.
-- **Combinación de color prohibida:** dorado `#C9A560` sobre blanco `#FFFFFF` o sobre
+- **Combinación de color prohibida:** amarillo `#FFB400` sobre blanco `#FFFFFF` o sobre
   concreto `#EDEFF4`.

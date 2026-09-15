@@ -35,13 +35,15 @@
 
   | Color | HEX | Rol |
   |---|---|---|
-  | Azul marino | `#152473` | Primario — color madre, fondos de marca, estructura del logo, titulares |
-  | Dorado | `#C9A560` | Secundario/acento — "SERVICE", anillo del engranaje, detalles premium, CTA |
+  | Azul marino | `#152473` | **Primario** — color madre, fondos de marca, estructura del logo, titulares |
+  | Amarillo de máquina | `#FFB400` | **Secundario/acento** — CTA, subrayado, cifras, detalles y firma |
 
-- **Logo:** excavadora estilizada en azul marino sobre una línea horizontal + **"R⚙FER"** (la "O" es un **engranaje con anillo naranja/cobre**) y **"SERVICE"** en dorado, todo en mayúsculas, tipografía **bold/condensada industrial**. El fondo del archivo es blanco (lockup cuadrado).
+  > **Decidido 2026-09-15 (fundador):** el secundario oficial es el **amarillo de máquina `#FFB400`** (el color de la maquinaria pesada), no el dorado `#C9A560` del onboarding. Rige en toda la identidad: ADN, receta de Meta AI, SmartLink y correo del agente. Distinto del `#FFC300` de Ingeniería KMT — no se mezcla.
+
+- **Logo:** excavadora estilizada en azul marino sobre una línea horizontal + **"R⚙FER"** (la "O" es un **engranaje con anillo naranja/cobre**) y **"SERVICE"** en un dorado suave, todo en mayúsculas, tipografía **bold/condensada industrial**. El fondo del archivo es blanco (lockup cuadrado). ⚠️ El arte del logo aún usa el dorado suave en "SERVICE"; el **sistema de marca** ya usa el amarillo vivo `#FFB400` — conviene re-exportar el logo a ese amarillo cuando se pueda (opcional, no bloquea).
   - **Archivo:** ✅ `Assets_Visuales_Base/logo_rofer_service.jpeg` (recibido del cliente 2026-09-14, 1280×1280, fondo blanco).
 - **Tipografía:** ⚠️ **pendiente de confirmar.** Provisional para composición mientras tanto: sans **bold/condensada industrial** tipo **Anton** o **Archivo Black** para titulares (coherente con el lettering del logo); sans neutra (Inter/Barlow) para cuerpo.
-- **Estilo visual:** industrial, sólido, confiable, profesional. Azul marino domina; el dorado firma y da el toque premium — **nunca al revés**.
+- **Estilo visual:** industrial, sólido, confiable, profesional. Azul marino domina; el amarillo `#FFB400` firma y da el punch — **nunca al revés**.
 
 ## 3. ADN Verbal (verificado)
 
@@ -101,7 +103,7 @@
 
 1. **Tipografía exacta** de la marca (hoy provisional tipo Anton/Archivo Black).
 2. ~~Archivo del logo~~ ✅ recibido 2026-09-14 (`Assets_Visuales_Base/logo_rofer_service.jpeg`).
-3. **Acento amarillo:** el fundador pidió para la landing un **amarillo de máquina más vivo** (`#FFB400`) en vez del dorado `#C9A560` del onboarding. **Decisión pendiente:** ¿se propaga ese amarillo a toda la identidad (ADN + receta + correo del agente), o el dorado sigue siendo el acento de marca y el amarillo vive solo en la landing? Hoy: dorado en el ADN/receta/agente, amarillo solo en el SmartLink.
+3. ~~Acento amarillo~~ ✅ **resuelto 2026-09-15:** el secundario oficial es el **amarillo de máquina `#FFB400`** en toda la identidad (ADN, receta, SmartLink y agente). Único pendiente menor: re-exportar el logo para que "SERVICE" use el amarillo vivo en vez del dorado suave (opcional).
 4. **Web** (si tiene o va a tener).
 5. **Precios de referencia**, condiciones de crédito y forma de facturación.
 6. **Frases textuales** que la marca usa/evita (para afinar el léxico).
