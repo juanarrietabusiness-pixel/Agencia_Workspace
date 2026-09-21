@@ -434,6 +434,20 @@ del mismo día. El Reel ataca la objeción nº 1 del buyer persona: *¿me cabe?*
 | 14–18 s | Plano completo con la placa amarilla del precio | «Setenta y nueve noventa y nueve.» |
 | 18–20 s | Banda amarilla, cierre | «Escríbenos por WhatsApp.» |
 
+**Descripción del Reel A**
+
+> Le pusiste la tele a la pared y debajo quedó ese hueco que no sabes con qué
+> llenar.
+>
+> Mide la pared antes de comprar nada. Si te da un metro, este entra: 100 cm,
+> Cream White con patas blancas, una gaveta para los controles y una puerta para
+> lo que no quieres ver. $79.99.
+>
+> Mándanos la medida de tu pared y te decimos si te queda. Escríbenos por
+> WhatsApp 📲
+>
+> #DCASAPanamá #MueblesParaTV #SalaPanameña #MueblesLaChorrera #PanamáOeste #MueblesPanamá
+
 ### Reel B · Domingo 27 — `XS0115608`
 
 El único escritorio con unidades registradas (20 u, $89.99, 160×60 cm). No da
