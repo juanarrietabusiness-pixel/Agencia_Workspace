@@ -6,6 +6,12 @@
 > **Ningún precio de esta semana está confirmado por Marcial todavía** — el
 > checklist del §4 de ese archivo es lo que hay que cerrar antes de publicar.
 >
+> **Promoción viva.** Las mesitas de noche del lunes y del jueves llevan la
+> campaña de
+> [`../../05_Campanas_Activas/2026-09-21_promo_mesitas_par.md`](../../05_Campanas_Activas/2026-09-21_promo_mesitas_par.md):
+> **dos del mismo modelo, 10 % sobre el total, sin fecha de fin.** Ese archivo
+> manda sobre la mecánica y sobre cómo se maqueta.
+>
 > **Marca:** D'CASA Panamá · tuteo · CTA único *«Escríbenos por WhatsApp»* ·
 > WhatsApp +507 6026-1919. Plantillas, escala y color en
 > [`../../01_ADN_y_Memoria/05_receta.json`](../../01_ADN_y_Memoria/05_receta.json).
@@ -50,11 +56,11 @@ ADN. Si te parece, lo dejo planeado.
 
 | Día | Carrusel | Familia | Rango | Láminas | Stock |
 |---|---|---|---|---|---|
-| **Lun 21** | 1 | Mesitas de noche · compactas | $15.99 – $24.99 | 9 productos | 267 u |
+| **Lun 21** | 1 | Mesitas de noche · compactas | $15.99 – $24.99 | 9 productos + promo | 267 u |
 | **Mar 22** | 3 | Peinadoras · compactas 60–80 cm | $45.99 – $79.99 | 8 productos | 157 u |
 | **Mié 23** | 5 | Muebles para TV · 80–100 cm | $69.99 – $79.99 | 8 productos | 168 u |
 | | **Reel A** | `LXI062902` — el de mayor stock del catálogo | $79.99 | Reel | 41 u |
-| **Jue 24** | 2 | Mesitas de noche · más almacenamiento | $21.99 – $46.99 | 8 productos | 248 u |
+| **Jue 24** | 2 | Mesitas de noche · más almacenamiento | $21.99 – $46.99 | 8 productos + promo | 248 u |
 | **Vie 25** | 4 | Peinadoras · 80–100 cm con LED | $69.99 – $89.99 | 8 productos | 144 u |
 | **Sáb 26** | 6 | Muebles para TV · 120–140 cm | $29.99 – $59.99 | 10 productos | 182 u |
 | **Dom 27** | 7 | Muebles para TV · grandes | $79.99 – $115.99 | 5 productos | 71 u |
@@ -75,7 +81,9 @@ ticket más alto, que es donde más falta hace ver el mueble en movimiento.
 ```
 Lámina 1   Portada · plantilla B · fondo hueso #E0DDD1
            Antetítulo + titular con UNA palabra en ⟦ ⟧ + el criterio de elección
-Láminas 2…n  Producto · plantilla C · fondo azul #1340B1
+Lámina 2   Promoción · plantilla B · SOLO en los carruseles de mesitas
+           La mecánica del par, una vez y en limpio
+Láminas …n  Producto · plantilla C · fondo azul #1340B1
            Foto real recortada + acabado y medida + precio en placa amarilla + código
 Última     Cierre · plantilla B · fondo hueso
            «Mándanos la medida de tu espacio» + ESCRÍBENOS AL WHATSAPP
@@ -123,29 +131,45 @@ criterio útil es la **altura**, que casi nadie mide.
 - Subtítulo: `Nueve opciones. La regla para elegir: que no te pase la altura del colchón.`
 - Foto de portada: `LXI090408` (35 u, el de más stock del carrusel)
 
-**Láminas 2–10 · plantilla C**
+**Lámina 2 · La promoción · plantilla B**
 
-| # | Código | Precio | Stock | Titular de la lámina |
-|---|---|---|---|---|
-| 2 | `DS090201` | $15.99 | 20 | del catálogo |
-| 3 | `DS090203` | $15.99 | 20 | del catálogo |
-| 4 | `SHUQ090405` | $17.99 | 32 | `NORDIC MAPLE / 3 GAVETAS / 32 CM` |
-| 5 | `SHUQ090403` | $17.99 | 32 | del catálogo |
-| 6 | `SHUQ090401` | $17.99 | 32 | del catálogo |
-| 7 | `SHUQ090407` | $17.99 | 32 | del catálogo |
-| 8 | `DS090226` | $19.99 | 32 | `MORANDI PINE / 3 GAVETAS / 40 CM` |
-| 9 | `LXI090408` | $21.99 | 35 | `YELLOW FIR / 2 GAVETAS / 36×34 CM` |
-| 10 | `ZQ093403` | $24.99 | 32 | `DARK WALNUT / 2 GAVETAS / 40 CM` |
+- Antetítulo: `LLEVANDO DOS`
+- Titular: `DOS IGUALES, / 10 % ⟦MENOS⟧`
+- Subtítulo: `El 10 % sale del total de las dos. Tienen que ser el mismo modelo: una a cada lado de la cama.`
+
+> **El precio de lista no se tacha.** No es una rebaja: la mesita sigue costando
+> lo mismo suelta. El precio del par va en la **nota** de cada lámina, nunca
+> dentro de la placa amarilla. Detalle completo en el §3 de la campaña.
+
+**Láminas 3–11 · plantilla C**
+
+| # | Código | Precio | Stock | Nota: el par | Titular de la lámina |
+|---|---|---|---|---|---|
+| 3 | `DS090201` | $15.99 | 20 | $28.78 | del catálogo |
+| 4 | `DS090203` | $15.99 | 20 | $28.78 | del catálogo |
+| 5 | `SHUQ090405` | $17.99 | 32 | $32.38 | `NORDIC MAPLE / 3 GAVETAS / 32 CM` |
+| 6 | `SHUQ090403` | $17.99 | 32 | $32.38 | del catálogo |
+| 7 | `SHUQ090401` | $17.99 | 32 | $32.38 | del catálogo |
+| 8 | `SHUQ090407` | $17.99 | 32 | $32.38 | del catálogo |
+| 9 | `DS090226` | $19.99 | 32 | $35.98 | `MORANDI PINE / 3 GAVETAS / 40 CM` |
+| 10 | `LXI090408` | $21.99 | 35 | $39.58 | `YELLOW FIR / 2 GAVETAS / 36×34 CM` |
+| 11 | `ZQ093403` | $24.99 | 32 | $44.98 | `DARK WALNUT / 2 GAVETAS / 40 CM` |
+
+La nota se escribe igual en las nueve: `Llevando dos iguales: $XX.XX el par`.
 
 **Descripción**
 
 > La mesita de noche se compra de último y es la que más se usa: ahí va el vaso
 > de agua, el celular cargando y el control.
 >
-> Antes de elegirla mide dos cosas: el espacio libre entre la cama y la pared, y
-> la altura del colchón. La mesita tiene que quedar a la altura del colchón o un
-> poco por debajo — nunca por encima, porque entonces tienes que estirarte hacia
-> arriba para alcanzar el vaso.
+> Antes de elegirla mide dos cosas: el espacio entre la cama y la pared, y la
+> altura del colchón. La mesita va a la altura del colchón o un poco por debajo,
+> nunca por encima — si no, tienes que estirarte hacia arriba para alcanzar el
+> vaso.
+>
+> Y si tu cama tiene los dos lados libres, van dos: una cama con mesita de un
+> solo lado se ve a medio terminar. Llevando dos iguales te hacemos 10 % sobre
+> el total, así que el par de $15.99 te queda en $28.78.
 >
 > Estas nueve van desde $15.99. Mándanos la medida de tu espacio y te decimos
 > cuál te queda. Escríbenos por WhatsApp 📲
@@ -249,18 +273,28 @@ chica. Es la continuación natural del lunes, tres días después.
 - Subtítulo: `Ocho con más fondo y más adentro, de $21.99 a $46.99.`
 - Foto de portada: `LXI090206` (36 u)
 
-**Láminas 2–9 · plantilla C**
+**Lámina 2 · La promoción · plantilla B**
 
-| # | Código | Precio | Stock | Titular de la lámina |
-|---|---|---|---|---|
-| 2 | `LXI090402` | $21.99 | 34 | del catálogo |
-| 3 | `LXI090412` | $26.99 | 35 | `YELLOW FIR / 2 GAVETAS / 48×34 CM` |
-| 4 | `LXI090411` | $26.99 | 27 | del catálogo |
-| 5 | `LXI090410` | $26.99 | 22 | del catálogo |
-| 6 | `LXI090201` | $42.99 | 35 | `DARK WALNUT / 45 CM` |
-| 7 | `LXI090205` | $42.99 | 34 | del catálogo |
-| 8 | `LXI090206` | $46.99 | 36 | `CREAM WHITE / 1 PUERTA / 1 GAVETA / 55 CM` |
-| 9 | `LXI090203` | $46.99 | 25 | del catálogo |
+- Antetítulo: `LLEVANDO DOS`
+- Titular: `DOS IGUALES, / 10 % ⟦MENOS⟧`
+- Subtítulo: `El 10 % sale del total de las dos. Tienen que ser el mismo modelo: una a cada lado de la cama.`
+
+> **El precio de lista no se tacha.** No es una rebaja: la mesita sigue costando
+> lo mismo suelta. El precio del par va en la **nota** de cada lámina, nunca
+> dentro de la placa amarilla. Detalle completo en el §3 de la campaña.
+
+**Láminas 3–10 · plantilla C**
+
+| # | Código | Precio | Stock | Nota: el par | Titular de la lámina |
+|---|---|---|---|---|---|
+| 3 | `LXI090402` | $21.99 | 34 | $39.58 | del catálogo |
+| 4 | `LXI090412` | $26.99 | 35 | $48.58 | `YELLOW FIR / 2 GAVETAS / 48×34 CM` |
+| 5 | `LXI090411` | $26.99 | 27 | $48.58 | del catálogo |
+| 6 | `LXI090410` | $26.99 | 22 | $48.58 | del catálogo |
+| 7 | `LXI090201` | $42.99 | 35 | $77.38 | `DARK WALNUT / 45 CM` |
+| 8 | `LXI090205` | $42.99 | 34 | $77.38 | del catálogo |
+| 9 | `LXI090206` | $46.99 | 36 | $84.58 | `CREAM WHITE / 1 PUERTA / 1 GAVETA / 55 CM` |
+| 10 | `LXI090203` | $46.99 | 25 | $84.58 | del catálogo |
 
 **Descripción**
 
@@ -269,6 +303,9 @@ chica. Es la continuación natural del lunes, tres días después.
 >
 > El lunes te mostramos las compactas. Estas son las otras: más fondo, más
 > gavetas, y las últimas ya traen puerta además de la gaveta. De $21.99 a $46.99.
+>
+> El 10 % por llevar dos iguales también aplica aquí, y en estas se nota más: el
+> par de la de 55 cm con puerta y gaveta queda en $84.58.
 >
 > Dinos qué necesitas guardar ahí y te decimos cuál. Escríbenos por WhatsApp 📲
 >
@@ -497,6 +534,10 @@ Lo que se puede comprobar mirando:
 - [ ] Los emojis solo en la descripción, nunca dentro de la pieza
 - [ ] Un signo de exclamación como máximo por texto
 - [ ] Ningún competidor nombrado
+- [ ] **Promo:** el precio de lista **no** va tachado en ninguna lámina
+- [ ] **Promo:** el precio del par va en la nota, nunca en la placa amarilla
+- [ ] **Promo:** ninguna pieza pone fecha límite ni urgencia — la campaña no caduca
+- [ ] **Promo:** la lámina de la promoción es la 2, solo en lunes y jueves
 - [ ] Seis hashtags o menos en cada publicación
 - [ ] El CTA es el mismo en las nueve piezas: *Escríbenos por WhatsApp*
 
@@ -506,6 +547,9 @@ tildes» no sirve:
 `MÁS` · `RINCÓN` · `DISEÑO` · `PANAMÁ` · `ESCRÍBENOS` · `PANAMEÑA` · `¿` (el
 signo de apertura del Reel A, que es el que más se pierde)
 
+Y una que no es tilde pero se escribe mal igual de seguido: **`10 %` lleva
+espacio antes del símbolo**, y así va en las dos láminas de promoción.
+
 ---
 
 ## 7 · Lo que esta semana deja pendiente
@@ -513,9 +557,13 @@ signo de apertura del Reel A, que es el que más se pierde)
 1. **Ambiente y Comunidad en cero.** Recuperarlos la semana del 28 — §1.
 2. **`LXI090202` retenido** por el precio de $4.99 con 35 unidades. Es de los de
    más stock del catálogo: en cuanto Marcial confirme el precio, entra.
-3. **Las líneas sin unidades registradas.** Si la bodega confirma existencias,
+3. **La promoción del par abre tres preguntas** —sobre qué base se calcula el
+   10 % si los precios no llevan ITBMS, cómo se redondea en caja, y qué se le
+   responde a quien pida dos modelos distintos— en el §4 de
+   [`../../05_Campanas_Activas/2026-09-21_promo_mesitas_par.md`](../../05_Campanas_Activas/2026-09-21_promo_mesitas_par.md).
+4. **Las líneas sin unidades registradas.** Si la bodega confirma existencias,
    hay familias enteras fuera de esta planificación que deberían estar dentro.
-4. **El prompt maestro de Meta AI todavía no está armado** para esta semana.
+5. **El prompt maestro de Meta AI todavía no está armado** para esta semana.
    Cuando estén las fotos y los precios confirmados, sale de
    [`../../01_ADN_y_Memoria/05_prompt_maestro_meta_ai.md`](../../01_ADN_y_Memoria/05_prompt_maestro_meta_ai.md)
    y se guarda en `../Instagram_TikTok/` con su fecha.

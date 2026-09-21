@@ -77,6 +77,10 @@ decir que el acabado y la medida de ese producto **no llegaron**; hay que
 sacarlos del catálogo antes de escribir su lámina, porque el titular de una
 pieza de producto es precisamente su acabado y su medida. **No se inventan.**
 
+> 🏷️ **Las 17 mesitas de noche llevan promoción.** Dos del mismo modelo, 10 %
+> sobre el total, sin fecha de fin. El precio del par de cada una está en
+> [`../05_Campanas_Activas/2026-09-21_promo_mesitas_par.md`](../05_Campanas_Activas/2026-09-21_promo_mesitas_par.md).
+
 ### 2.1 · Mesitas de noche — compactas ($15.99 – $24.99 · 267 u)
 
 | Código | Precio | Stock | Descripción |
@@ -221,6 +225,7 @@ maquetar sus láminas.**
 - [ ] Se confirma la familia de `ZJ074301` y `XS0115608` — §3.2
 - [ ] Están las 57 fotos reales de producto — §1.4
 - [ ] Se vuelve a contar el stock el día de publicar: esta foto es del 2026-09-21
+- [ ] Se confirma sobre qué base se calcula el 10 % del par y cómo se redondea
 
 ---
 
@@ -228,4 +233,5 @@ maquetar sus láminas.**
 
 | Fecha | Qué pasó |
 |---|---|
+| 2026-09-21 | El cliente confirma la promoción de mesitas en par: 10 % sobre el total, dos del mismo modelo, sin caducidad. Queda en `05_Campanas_Activas/`. |
 | 2026-09-21 | Llegada de inventario de septiembre. Se registran 57 productos con unidades y precio, y se arma con ellos la semana del 21 al 27. Ninguna cifra confirmada por Marcial todavía. |
