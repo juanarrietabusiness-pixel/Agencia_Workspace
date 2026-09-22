@@ -48,6 +48,14 @@ que deja de ser una pregunta de trámite: si los precios son antes de impuesto,
 cada placa amarilla necesita su nota al pie y hay que decidir el texto exacto
 antes de maquetar, no después.
 
+> **Pista nueva (2026-09-22).** El guion del video de camas dice «más impuestos»
+> en dos de las tres camas — ver
+> [`../03_Redes_Sociales/Instagram_TikTok/2026-09-22_reel_camas_tres_opciones.md`](../03_Redes_Sociales/Instagram_TikTok/2026-09-22_reel_camas_tres_opciones.md)
+> §4.5. Es la primera vez que la marca declara un precio antes de impuesto. **No
+> basta para dar por cerrada esta pregunta**, pero sí para hacérsela a Marcial de
+> una vez por los 57 precios.
+
+
 ### 1.3 · La columna `UNIDADES` tiene huecos
 
 Buena parte del catálogo no trae unidades registradas. **Ningún producto sin
