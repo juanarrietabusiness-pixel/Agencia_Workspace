@@ -1,0 +1,80 @@
+# COMUNIDAD — "Emprendemos en Fe y crecemos juntos" — SmartLink.
+# Fuente de marca: Comunidad/01_ADN_y_Memoria/01_brand_guidelines.md (ADN del cliente, 2026-09-24)
+#   §5 paleta declarada por el cliente: fondo #0A0A0F · llama #FF8A2E · contorno #2F7BFF ·
+#      texto #F4F4F5 · texto secundario #9A9AA7. Surface/border son neutros de interfaz derivados
+#      del fondo, no colores de marca. ⏳ El archivo del logo mide ≈#EE8126/≈#0D56B5 — el logo
+#      se usa tal cual; la landing usa la paleta declarada hasta que el cliente diga cuál manda.
+#   §5 tipografía: Cinzel (titulares) + Inter (texto general).
+#   §5 logo: lockup horizontal oficial (paloma de fuego + wordmark + tagline), recortado y con el
+#      fondo negro plano quitado → PNG transparente, style bare sobre el hero #0A0A0F.
+#   §4 voz: "hermano", de tú, respaldo bíblico. §0 contacto: IG @comunidad_cec + web.
+#
+# Decisiones:
+#   · La marca NO tiene WhatsApp ni email (§0) → no hay botón de WhatsApp; no se inventa.
+#     Los WhatsApp del Marketplace son de cada vendedor, no de COMUNIDAD.
+#   · Solo hay una URL confirmada de la plataforma (la raíz de la web): las secciones
+#     (catálogo, marketplace, formación, simulador) se nombran en la nota del botón principal,
+#     sin enlaces profundos inventados. ⏳ Pedir las URLs de cada sección para desglosarlas.
+#   · Plataforma gratis → nada de precios.
+
+id: comunidad
+folder: "Comunidad"
+slug: comunidad
+enabled: true
+name: "COMUNIDAD"
+handle: "@comunidad_cec"
+tagline: "Que ninguno padezca necesidad. Emprendemos en fe y crecemos juntos."
+description: "COMUNIDAD es la plataforma gratuita donde los emprendedores cristianos de Panamá se prefieren los unos a los otros: catálogo, marketplace, formación y alianzas entre hermanos en la fe."
+
+logo:
+  src: "Comunidad/01_ADN_y_Memoria/Assets_Visuales_Base/logo-comunidad.png"
+  alt: "Logo COMUNIDAD — Emprendemos en fe, crecemos juntos"
+  style: bare          # PNG transparente (fondo negro plano quitado)
+  replacesName: true   # el lockup ya dice "COMUNIDAD" — el <h1> pasa a lectores de pantalla
+  maxHeight: 110
+
+theme:
+  mode: dark
+  bg: "#0A0A0F"          # fondo base (§5)
+  bgAlt: "#0F0F16"
+  hero: "#0A0A0F"
+  onHero: "#F4F4F5"
+  surface: "#14141C"
+  text: "#F4F4F5"        # texto sobre fondo oscuro (§5)
+  muted: "#9A9AA7"       # texto secundario (§5)
+  border: "#262630"
+  primary: "#FF8A2E"     # llama, acento principal (§5)
+  onPrimary: "#0A0A0F"
+  accent: "#FF8A2E"
+  onAccent: "#0A0A0F"
+  accentOutline: "#2F7BFF"   # contorno de la paloma, acento secundario (§5)
+  radius: 14
+  fonts:
+    display: "Cinzel"
+    body: "Inter"
+    displayUppercase: false
+    displayTracking: "0.02em"
+    google: ["Cinzel:wght@600;700", "Inter:wght@400;500;600"]
+
+buttons:
+  - kind: link
+    label: "Únete a la comunidad"
+    note: "Gratis · catálogo, marketplace, formación y alianzas"
+    icon: web
+    variant: accent
+    href: "https://emprendemosenfe.vercel.app"
+
+  - kind: link
+    label: "Síguenos en Instagram"
+    note: "Fe, emprendimiento y hermanos que crecen juntos"
+    icon: star
+    variant: outline
+    href: "https://instagram.com/comunidad_cec"
+
+social:
+  - { network: instagram, url: "https://instagram.com/comunidad_cec", label: "Instagram" }
+  - { network: web, url: "https://emprendemosenfe.vercel.app", label: "Sitio web" }
+
+footer:
+  note: "Panamá · «Ninguno padecía necesidad» — Hechos 4:34"
+  credit: true
