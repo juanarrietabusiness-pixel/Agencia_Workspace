@@ -60,7 +60,7 @@ Con `SMARTLINKS_BASE_URL="https://usuario.github.io/repo"` además escribe los
 | 57DMC | `juancitoads.com/57dmc` | ✅ Publicada — logo real y paleta confirmada (ADN del cliente 2026-09) · plataformas de música, donación e invitaciones |
 | Juancito Ads | `juancitoads.com/juancito-ads` | ⚠️ Publicada, pero **se solapa con `juancitoads.com/smartlink`** — la web tiene su propio link-in-bio de la agencia. Falta decidir cuál sobrevive |
 | Ingeniería KMT | `juancitoads.com/ingenieria-kmt` | ✅ Publicada — identidad confirmada (brand book 2026-09-04) · ⏳ sin logo todavía, va con monograma |
-| COMUNIDAD | `juancitoads.com/comunidad` | ✅ Publicada — logo real · web de la plataforma + Instagram (la marca no tiene WhatsApp) |
+| COMUNIDAD | `juancitoads.com/comunidad` | ✅ Publicada — logo real · web de la plataforma + Instagram + correo (la marca no tiene WhatsApp) |
 | Fotosonido | — | ⏸️ Sin ADN, no se publica |
 
 Lo que falta de cada cliente (logo real, links de catálogo propios, ficha de Google
