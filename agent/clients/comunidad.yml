@@ -1,0 +1,52 @@
+# COMUNIDAD — "Emprendemos en Fe y crecemos juntos": comunidad/plataforma gratuita de
+#   emprendedores cristianos en Panamá (catálogo, marketplace, formación, simulador, alianzas).
+# Objetivo comercial: que hermanos en la fe entren a la plataforma (emprendemosenfe.vercel.app),
+#   creen su perfil y se prefieran entre ellos al comprar/vender. Es GRATIS: nunca vender precios.
+# Notas especiales:
+#   - Marca institucional (la plataforma), no personal: Nelson Muñoz es vocero, no la marca.
+#   - Sin WhatsApp ni email de la marca → NO whatsapp_cta_review. CTA = web + Instagram.
+#   - Web propia funcional → web_seo_audit.
+#   - Toda afirmación clave con respaldo bíblico; "hermano", nunca "cliente"/"usuario".
+#   - Nunca mezclar con Feria del Lente (comparten el nombre Nelson Muñoz).
+
+id: comunidad
+folder: "Comunidad"
+clientName: "COMUNIDAD"
+active: true
+recipientEmails:
+  - abrinay1997@gmail.com
+  - juanarrietabusiness@gmail.com
+
+# Colores de marca — declarados por el cliente (01_brand_guidelines.md §5).
+branding:
+  primary: "#0A0A0F"   # Fondo base — negro casi puro
+  accent: "#FF8A2E"    # Acento principal — llama de la paloma
+  logoChar: "🔥"
+
+llm:
+  primary: { provider: claude, model: haiku-4-5 }
+  fast: { provider: groq, model: llama-3.3-70b-versatile }
+
+sources:
+  instagram:
+    handle: "@comunidad_cec"
+    ig_user_id_env: IG_USER_ID_COMUNIDAD
+  website:
+    url: "https://emprendemosenfe.vercel.app"
+
+capabilities:
+  - adn_completeness_guard
+  - campaign_calendar_check
+  - instagram_insights
+  - web_seo_audit                    # web propia (emprendemosenfe.vercel.app)
+  - insights_digest
+  - market_trends_scan:
+      subreddits: [Entrepreneur, smallbusiness, TrueChristian, Christianity, sidehustle]
+      focus: "emprendimiento con propósito entre cristianos, redes de apoyo entre emprendedores, compras entre miembros de una comunidad de fe, finanzas y formación para pequeños negocios"
+      geo: PA
+      limit: 8
+  - instagram_content_ideas:
+      variants: 3
+      formats: [reel, carrusel, story]
+      objective: "invitar a hermanos en la fe a unirse gratis a la plataforma (catálogo, marketplace, 'El Camino del Emprendedor', simulador, alianzas) y a preferirse entre ellos; cada idea clave respaldada con un versículo, tono devocional-pastoral-motivacional, de tú, 'hermano' nunca 'cliente'; nunca venta agresiva ni precios"
+      cta_options: [web_plataforma, mensaje_ig]

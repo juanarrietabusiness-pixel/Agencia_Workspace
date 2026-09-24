@@ -66,6 +66,7 @@ agent/
 | Feria del Lente | `feria_del_lente.yml` | IG + TikTok + ideas + **dual_voice_split** + WA CTAs 3 sucursales | MOCK IG |
 | Fotosonido | `fotosonido.yml` | — | **INACTIVO** (ADN vacío) |
 | Juancito Ads | `juancito_ads.yml` | IG + **web_seo_audit** + ideas + WA CTAs | MOCK IG, web real |
+| COMUNIDAD | `comunidad.yml` | IG + **web_seo_audit** + ideas (sin WhatsApp de marca) | MOCK IG, web real |
 
 ## Correr local
 
@@ -100,7 +101,7 @@ Bajo `Settings → Secrets and variables → Actions`:
 
 **Para Instagram real (cuando se conecte Meta App):**
 - `META_ACCESS_TOKEN` — token de acceso long-lived del Business Manager
-- `IG_USER_ID_DCASA`, `IG_USER_ID_BABY_CALEB`, `IG_USER_ID_57DMC`, `IG_USER_ID_FERIA`, `IG_USER_ID_JUANCITO`
+- `IG_USER_ID_DCASA`, `IG_USER_ID_BABY_CALEB`, `IG_USER_ID_57DMC`, `IG_USER_ID_FERIA`, `IG_USER_ID_JUANCITO`, `IG_USER_ID_COMUNIDAD`
 - `FB_PAGE_ID_BABY_CALEB` (si aplica)
 
 ## Agregar un cliente nuevo

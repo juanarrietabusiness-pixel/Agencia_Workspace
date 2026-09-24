@@ -1,0 +1,31 @@
+{
+  "cliente": "COMUNIDAD",
+  "_nota": "Keywords derivadas del ADN del cliente (2026-09-24): secciones de la plataforma, visión y léxico propio. Volumen de búsqueda real SIN validar (Google Keyword Planner) y público objetivo específico pendiente de confirmar. Web: emprendemosenfe.vercel.app. No se inventaron servicios ni precios (la plataforma es gratis).",
+  "ubicacion": "Panamá",
+  "keywords_principales": [
+    "emprendedores cristianos Panamá",
+    "comunidad de emprendedores cristianos",
+    "emprender en fe",
+    "negocios cristianos Panamá"
+  ],
+  "keywords_secundarias": [
+    "directorio de emprendedores cristianos",
+    "marketplace cristiano",
+    "emprendimiento con propósito",
+    "curso de emprendimiento cristiano gratis",
+    "finanzas bíblicas para emprendedores",
+    "simulador de negocios gratis"
+  ],
+  "entidades_semanticas_lsi": [
+    "cuerpo de Cristo",
+    "familia de la fe",
+    "iglesia primitiva",
+    "Hechos 4",
+    "unidad",
+    "ADN del Reino",
+    "mayordomía",
+    "generosidad",
+    "alianzas",
+    "emprendimiento"
+  ]
+}
