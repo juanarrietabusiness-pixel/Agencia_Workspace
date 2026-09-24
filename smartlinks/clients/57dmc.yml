@@ -1,18 +1,20 @@
-# 57DMC (Juan Arrieta) — SmartLink.
-# Fuente de marca: 57Dmc/01_ADN_y_Memoria/01_brand_guidelines.md
-#   §2 paleta ESTIMADA (negro + dorado/ámbar + blanco) — ⏳ HEX exactos pendientes de que
-#   el cliente pase el archivo de marca. Los valores de abajo son los del manifiesto del
-#   agente (#1A1A1A / #D4AF37) para que todo el sistema use el mismo estimado.
-#   §2 tipografía estimada: condensada mayúsculas tipo póster → Anton + Inter de cuerpo.
-#   §5 canales oficiales (Spotify, YouTube, Apple Music, Deezer, PayPal).
+# 57DMC (Juan David Arrieta Navarro) — SmartLink.
+# Fuente de marca: 57Dmc/01_ADN_y_Memoria/01_brand_guidelines.md (ADN entregado por el cliente, 2026-09)
+#   §2 paleta CONFIRMADA: dorado canónico #D19E03 + negro #000000 + blanco #FFFFFF.
+#      Las 3 extendidas (#060D0E, #28251A, #967102) siguen ⏳ → no se usan aquí.
+#      Los grises de muted/border son neutros de interfaz, no colores de marca.
+#   §2 tipografía: AGITACIYA es comercial (no está en Google Fonts) → Staatliches, el
+#      primer respaldo que declara el ADN. Cuerpo en Inter (el ADN no fija fuente de cuerpo).
+#   §2 logo: wordmark oficial sobre negro, recortado al contenido → hero negro puro para
+#      que el fondo del archivo se funda con la landing.
+#   §1 mensajes de marketing aprobados → tagline.
+#   §0/§5 WhatsApp +507 6910-3347 (confirmado por el cliente) y canales oficiales.
 #
-# Decisiones tomadas (es artista/ministerio, no negocio de producto):
+# Decisiones tomadas (es marca personal / ministerio, no negocio de producto):
 #   · No hay catálogo ni precios → el desplegable es "Escucha mi música" con las
 #     plataformas reales listadas en el ADN.
 #   · No hay punto de venta → el equivalente de "ubicación" es invitaciones a eventos.
-#   · ⏳ El +507 6840-0144 figura en el ADN como teléfono de contacto; asumimos que es
-#     WhatsApp (celular panameño). Confirmar con Juan antes de difundir la landing.
-#   · Sin archivo de logo en el repo → monograma "57".
+#   · ⏳ TikTok: el cliente lo declara como canal pero sin handle → no se pone botón.
 
 id: 57dmc
 folder: "57Dmc"
@@ -20,33 +22,40 @@ slug: 57dmc
 enabled: true
 name: "57DMC"
 handle: "Exhorto · Consuelo · Edifico"
-tagline: "Rap cristiano con enseñanza bíblica. Servidor, artista y compositor."
-description: "Música y contenido de exhortación bíblica de 57DMC (Juan Arrieta). Escucha, apoya el ministerio o invítalo a tu evento."
+tagline: "Inspiro a crecer en Cristo con Música Bíblica."
+description: "Música Bíblica de 57DMC (Juan Arrieta): rap cristiano para edificar, exhortar y consolar a la iglesia de Cristo. Escucha, apoya el ministerio o invítalo a tu evento."
+
+logo:
+  src: "57Dmc/01_ADN_y_Memoria/Assets_Visuales_Base/logo-57dmc.png"
+  alt: "Logo 57DMC"
+  style: bare          # wordmark sobre negro opaco → se funde con el hero negro puro
+  replacesName: true   # el logo ya dice "57DMC" — el <h1> no se repite en pantalla
+  maxHeight: 132
 
 monogram: "57"
 
 theme:
   mode: dark
-  bg: "#0D0D0D"
-  bgAlt: "#1A1A1A"
-  hero: "#161616"
+  bg: "#000000"          # negro, fondo dominante (§2)
+  bgAlt: "#0A0A0A"
+  hero: "#000000"        # igual al fondo del archivo del logo
   onHero: "#FFFFFF"
-  surface: "#1A1A1A"
-  text: "#FFFFFF"
-  muted: "#9A9086"
-  border: "#2E2A24"
-  primary: "#D4AF37"
-  onPrimary: "#141210"
-  accent: "#D4AF37"
-  onAccent: "#141210"
-  accentOutline: "#D4AF37"
+  surface: "#111111"
+  text: "#FFFFFF"        # blanco, texto de cuerpo (§2)
+  muted: "#A3A3A3"
+  border: "#2A2A2A"
+  primary: "#D19E03"     # dorado canónico (§2)
+  onPrimary: "#000000"
+  accent: "#D19E03"
+  onAccent: "#000000"
+  accentOutline: "#D19E03"
   radius: 12
   fonts:
-    display: "Anton"
+    display: "Staatliches"
     body: "Inter"
     displayUppercase: true
-    displayTracking: "0.02em"
-    google: ["Anton", "Inter:wght@400;500;600"]
+    displayTracking: "0.03em"
+    google: ["Staatliches", "Inter:wght@400;500;600"]
 
 buttons:
   - kind: menu
@@ -76,7 +85,7 @@ buttons:
     label: "Invitaciones a eventos"
     note: "Iglesias, conciertos y ministerio"
     icon: whatsapp
-    href: "https://wa.me/50768400144?text=Hola%2057DMC%2C%20quiero%20invitarte%20a%20un%20evento/ministerio."
+    href: "https://wa.me/50769103347?text=Hola%2057DMC%2C%20quiero%20invitarte%20a%20un%20evento/ministerio."
 
 social:
   - { network: instagram, url: "https://instagram.com/57dmc", label: "Instagram" }
@@ -86,5 +95,5 @@ social:
   - { network: mail, url: "mailto:equipo57dmc@gmail.com", label: "Correo" }
 
 footer:
-  note: "Panamá · música y exhortación bíblica desde 2012"
+  note: "Panamá · Música Bíblica desde 2012"
   credit: true
