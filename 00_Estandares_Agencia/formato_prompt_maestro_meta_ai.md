@@ -419,10 +419,10 @@ esta estructura** — la referencia. Hoy existen:
 - `Baby Caleb/` — lote mensual, una sola familia tipográfica, fondos lisos
 - `Feria del lente/` — semana, con dos registros que no se mezclan nunca
 
-Pendientes, y por qué: `57Dmc/` no tiene los HEX confirmados (su ADN los da
-como estimación visual) y `Fotosonido/` tiene el ADN sin extraer. En los dos
-casos el archivo se escribiría inventando la identidad, así que no se escribe:
-se pide el dato.
+Pendientes, y por qué: `57Dmc/` ya tiene paleta y tipografía confirmadas por
+el cliente (ADN 2026-09) y su archivo está por construir. `Fotosonido/` tiene
+el ADN sin extraer: su archivo se escribiría inventando la identidad, así que
+no se escribe: se pide el dato.
 
 Para un cliente nuevo se copia el de la marca más parecida y se cambian los
 valores, nunca la estructura.

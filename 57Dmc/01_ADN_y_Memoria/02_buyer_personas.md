@@ -1,23 +1,30 @@
 # Buyer Personas — 57DMC
 
-> Última actualización: 2026-07-25 · Fuente: análisis de Claude sobre canales públicos.
-> ⚠️ Se marca **evidencia directa (E)** vs. **inferencia razonable (I)**. Aquí el "buyer" es más bien **audiencia/ministerio**, no comprador de producto.
+> Última actualización: 2026-09-24 · **Fuente:** documento de ADN entregado por el cliente (última versión) — [`Assets_Visuales_Base/57DMC_ADN_Marca_2026-09.docx`](Assets_Visuales_Base/57DMC_ADN_Marca_2026-09.docx). Reemplaza a las personas inferidas del análisis público de julio.
+> Aquí el "buyer" es **audiencia/ministerio**, no comprador de producto. Persona 1 = nicho principal · Persona 2 = nicho secundario dentro del principal.
 
-## Persona 1: "El creyente en formación" (principal)
+**Nicho principal:** la iglesia de Cristo en general, principalmente **hombres cristianos de 18–34 años** (sin descartar otros públicos).
+**Nicho secundario (dentro del principal):** artistas, raperos e influencers cristianos.
+**Geografía de mayor escucha:** México, Colombia, EE.UU., Argentina, Panamá.
 
-- **Edad estimada:** 18–35 años (I — por la estética urbana/rap y las plataformas usadas).
-- **Perfil:** joven cristiano o en proceso de acercarse a la fe; consume contenido corto en Instagram/YouTube.
-- **Necesidad:** reafirmar su fe con lenguaje actual y directo, no con predicación tradicional (E — formato "rap directo" + preguntas de reflexión cotidiana).
-- **Motivación de consumo:** identificarse con temas de vida diaria (relaciones, trabajo, presión social) enmarcados en enseñanza bíblica (E — títulos como "¿Dios o tu jefe?", "¿No soportas a tu esposa?").
-- **Canal preferido:** Instagram/Reels y YouTube Shorts (E — formato predominante del contenido).
+## Persona 1 — "El que crece" (nicho principal)
 
-## Persona 2: "Líder de iglesia o ministerio juvenil" (secundaria)
+- **Perfil:** hombre cristiano, 18–30 años, miembro activo de su iglesia; consume contenido en Instagram, TikTok y YouTube, y también asiste a eventos en vivo.
+- **Lo que busca:** crecer espiritualmente sin depender solo del domingo — algo que lo rete y lo edifique entre semana, en un formato que ya consume de todos modos.
+- **Objeción real:** gran parte del contenido cristiano que ve le parece de baja producción o predecible, y eso lo hace scrollear de largo antes de darle una oportunidad.
+- **Qué lo convierte en seguidor:** que las letras estén **conforme a la Palabra** — eso es lo que le da confianza real para quedarse y compartir. La calidad de producción es un extra que refleja excelencia hacia Dios, **no el motivo principal de conversión**.
+- **Transformación que busca:** sentir que su fe crece de forma tangible, con contenido que le da lenguaje y claridad bíblica para lo que ya está sintiendo o pensando.
 
-- **Rol:** pastor, líder de jóvenes o encargado de alabanza que busca **invitar al artista a eventos** (I — basado en el enlace "Agenda | Invitaciones" y el llamado a "Donaciones y Patrocinios").
-- **Necesidad:** contenido musical/de predicación con **respaldo doctrinal claro** para usar en su congregación (I).
-- **Canal de contacto:** WhatsApp/email publicados (E).
-- ⏳ No se encontraron testimonios explícitos de iglesias/eventos — verificar con el cliente si existen casos documentados (invitaciones pasadas, eventos realizados).
+## Persona 2 — "El que representa" (nicho secundario)
 
-## Notas
+- **Perfil:** artista, rapero o influencer cristiano, 18–34 años, activo en redes con su propio contenido o aspirando a estarlo. Puede estar en la industria secular o dentro del ámbito cristiano.
+- **Lo que busca:** referencias de cómo integrar su fe en su arte sin sonar predicador ni perder calidad artística.
+- **Objeción real:** le preocupa que hacer contenido "muy cristiano" limite su alcance o lo encasille, o no tener el nivel de producción para competir con el contenido secular que consume su misma audiencia.
+- **Qué lo convierte en seguidor:** ver que 57DMC logra ambas cosas — **calidad + verdad** — sin negociar ninguna. Esto le da permiso y modelo a seguir.
+- **Transformación que busca:** tener referencias y contenido que pueda compartir con confianza, y crecer espiritualmente en el proceso.
 
-- La demografía es inferencia razonable, no dato duro; cruzar con analíticas reales de Instagram/YouTube/Spotify para confirmar.
+## Notas de uso
+
+- El gancho para la Persona 1 es la **fidelidad bíblica** de la letra; la producción acompaña, no vende sola.
+- Para la Persona 2 el mensaje es "calidad + verdad sin negociar": no prometer alcance ni fama.
+- Quien invita a 57DMC a eventos (pastores, líderes de jóvenes) no es una persona declarada por el cliente; el CTA de invitaciones se mantiene, pero no se construye contenido dirigido a ese perfil sin confirmarlo.

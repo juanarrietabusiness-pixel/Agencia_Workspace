@@ -35,7 +35,7 @@ Si es sobre **contenido/estrategia** → manda `_EL_ORQUESTADOR_MAESTRO.md`.
    Anota en el comentario de cabecera de qué sección salió cada cosa.
    - Respeta las reglas de contraste del ADN (ej. D'CASA: el amarillo nunca toca blanco
      pelado → `accentOutline` azul).
-   - Si el ADN no tiene HEX exactos (caso 57DMC), usa los mismos estimados que
+   - Si el ADN no tiene HEX exactos, usa los mismos estimados que
      `agent/clients/<id>.yml` para que todo el sistema hable igual, y márcalo con ⏳.
 3. **Logo:** si existe archivo en `01_ADN_y_Memoria/Assets_Visuales_Base/`, declara
    `logo.src` con la ruta relativa a la raíz del repo. Si no, usa `monogram`.

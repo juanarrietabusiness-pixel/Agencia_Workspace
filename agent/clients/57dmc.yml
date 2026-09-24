@@ -1,6 +1,6 @@
-# 57DMC — artista/ministerio musical rap-hip-hop cristiano (Juan Arrieta).
+# 57DMC — marca personal / ministerio musical, rap-hip-hop cristiano (Juan David Arrieta Navarro).
 # NO es negocio de producto. Métricas relevantes: streams, oyentes, donaciones, invitaciones a eventos.
-# Alcance internacional (PR). Sin web (juanarrieta.net caído).
+# Mayor escucha: México, Colombia, EE.UU., Argentina, Panamá. Sin web (juanarrieta.net caído).
 
 id: 57dmc
 folder: "57Dmc"
@@ -11,8 +11,8 @@ recipientEmails:
   - juanarrietabusiness@gmail.com
 
 branding:
-  primary: "#1A1A1A"   # Negro urbano (estimado — HEX exactos pendientes)
-  accent: "#D4AF37"    # Dorado litúrgico
+  primary: "#000000"   # Negro — fondo dominante (ADN §2, confirmado 2026-09)
+  accent: "#D19E03"    # Dorado canónico — el del logo (ADN §2, confirmado 2026-09)
   logoChar: "🎤"
 
 llm:

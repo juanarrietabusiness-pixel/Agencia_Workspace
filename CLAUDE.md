@@ -34,7 +34,7 @@ Este repositorio es el sistema de memoria y orquestación de la agencia **Juanci
 
   **Máquina antes que prosa.** Los valores salen del `01_ADN_y_Memoria/05_receta.json` del cliente, que es la fuente de verdad y lo que lee el calendario de Juancito Ads sin pasar por ningún modelo. El `05_prompt_maestro_meta_ai.md` es la capa legible que explica el porqué de cada decisión: se lee antes de escribir, pero cuando los dos se contradigan, manda el JSON y se corrige el `.md`. Si tocas uno, toca el otro y pasa `node herramientas/verificar.mjs`.
 
-  Hoy tienen receta `Dcasa/`, `Juancito Ads/`, `Baby Caleb/` y `Feria del lente/`. `57Dmc/` y `Fotosonido/` no: al primero le faltan los HEX confirmados por el cliente y al segundo la extracción del ADN, y sin esos datos la receta se inventaría.
+  Hoy tienen receta `Dcasa/`, `Juancito Ads/`, `Baby Caleb/` y `Feria del lente/`. `57Dmc/` y `Fotosonido/` no. 57DMC ya tiene paleta y tipografía confirmadas por el cliente (ADN 2026-09), así que su receta **puede construirse** pero aún no existe; a Fotosonido le falta la extracción del ADN, y sin ella la receta se inventaría.
 
 ## Cuándo va cada archivo
 
