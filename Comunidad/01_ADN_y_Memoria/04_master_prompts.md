@@ -4,7 +4,7 @@
 
 Prompts que han dado resultados probados con este cliente. Cliente **nuevo** (2026-09-24): todavía no hay prompts con historial de resultados. Se agregan aquí a medida que se validan (no se documentan intentos fallidos). Fuente de identidad: [`01_brand_guidelines.md`](01_brand_guidelines.md).
 
-> 🧩 **Lote de piezas para Meta AI:** COMUNIDAD **aún no tiene** receta (`05_receta.json` + `05_prompt_maestro_meta_ai.md`). Paleta y tipografía están declaradas por el cliente, pero queda ⏳ la discrepancia de naranja/azul entre la paleta declarada y el archivo del logo — conviene resolverla antes de fijar la receta. Estándar: `00_Estandares_Agencia/formato_prompt_maestro_meta_ai.md`.
+> 🧩 **Lote de piezas para Meta AI:** COMUNIDAD **aún no tiene** receta (`05_receta.json` + `05_prompt_maestro_meta_ai.md`). Paleta (tomada del logo: `#000000` / `#EF8229` / `#1952A8` / `#FFFFFF`) y tipografía (Cinzel + EB Garamond + Inter) ya están definidas, así que la receta **puede construirse**. Estándar: `00_Estandares_Agencia/formato_prompt_maestro_meta_ai.md`.
 
 ## Eje de contenido de la marca
 

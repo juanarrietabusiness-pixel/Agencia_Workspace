@@ -2,7 +2,7 @@
 
 > 📁 **Multimedia del cliente:** ⏳ carpetas de Google Drive y Canva aún sin crear — cuando existan, poner aquí los links (mismo formato que el resto de clientes).
 
-> Última actualización: 2026-09-24 · **Fuente:** documento de ADN entregado por el cliente — [`Assets_Visuales_Base/01_Comunidad_Brand_Guidelines_2026-09.docx`](Assets_Visuales_Base/01_Comunidad_Brand_Guidelines_2026-09.docx) (extraído de `emprendemosenfe.vercel.app`, páginas Inicio y Visión, el 2026-09-24, y completado con datos que el cliente confirmó) + logo oficial. Lo marcado ⏳ sigue sin confirmar.
+> Última actualización: 2026-09-24 (paleta reorganizada desde el logo oficial, por indicación del humano) · **Fuente:** documento de ADN entregado por el cliente — [`Assets_Visuales_Base/01_Comunidad_Brand_Guidelines_2026-09.docx`](Assets_Visuales_Base/01_Comunidad_Brand_Guidelines_2026-09.docx) (extraído de `emprendemosenfe.vercel.app`, páginas Inicio y Visión, el 2026-09-24, y completado con datos que el cliente confirmó) + logo oficial. Lo marcado ⏳ sigue sin confirmar.
 > Nota: COMUNIDAD es una **comunidad / plataforma**, no una marca personal individual ni un negocio que vende. **Es gratis:** no hay precios ni membresía paga. La "conversión" es que un hermano entre a la plataforma, cree su perfil, compre/venda dentro de la comunidad y se forme.
 
 ## 0. Datos generales
@@ -13,14 +13,15 @@
 | **Cara del proyecto / líder** | Nelson Muñoz (vocero puertas adentro — **no** es el nombre de marca) |
 | **Instagram** | [@comunidad_cec](https://instagram.com/comunidad_cec) |
 | **Sitio web** | [emprendemosenfe.vercel.app](https://emprendemosenfe.vercel.app) |
-| **WhatsApp / email** | No hay — no publicado en el sitio |
+| **Email** | [comunidademprendedores.cec@gmail.com](mailto:comunidademprendedores.cec@gmail.com) (confirmado 2026-09-24) |
+| **WhatsApp** | No hay |
 | **Modelo** | Gratis — sin plan de precios ni membresía paga |
 | **Tipo de cliente** | Comunidad / plataforma en general (no marca personal individual) |
 | **Ubicación / mercado** | Panamá (miembros del catálogo listados con 📍 Panamá) |
 
 ⚠️ **La marca pública es la plataforma "COMUNIDAD", no una persona.** El tono y las piezas son **institucionales**; Nelson Muñoz aparece como **vocero** cuando aplique, nunca como el nombre de marca.
 
-⚠️ **No mezclar con Feria del Lente.** Uno de los dueños de `Feria del lente/` también se llama Nelson Muñoz. Aunque fuera la misma persona, son **marcas distintas con memoria separada**: no se cruzan tono, paleta, WhatsApp, "1ª óptica cristiana" ni ningún asset entre las dos (regla 1 del orquestador). ⏳ Confirmar con el cliente la relación exacta de Nelson con COMUNIDAD.
+⚠️ **No mezclar con Feria del Lente.** Confirmado (2026-09-24): **el dueño es el mismo** que el de `Feria del lente/`. Aun así son **marcas distintas con memoria separada**: no se cruzan tono, paleta, contactos, clientes, "1ª óptica cristiana" ni ningún asset entre las dos (regla 1 del orquestador). Nada de COMUNIDAD se usa en Feria del Lente ni al revés.
 
 ## 1. Propósito, visión y misión
 
@@ -94,18 +95,21 @@
   - [`logo-comunidad-icono-original.jpg`](Assets_Visuales_Base/logo-comunidad-icono-original.jpg) — solo la paloma de fuego.
   - [`logo-comunidad.png`](Assets_Visuales_Base/logo-comunidad.png) y [`logo-comunidad-icono.png`](Assets_Visuales_Base/logo-comunidad-icono.png) — los mismos, recortados y con el fondo negro plano quitado (transparentes), para web/SmartLink. El logo **no se redibuja ni se recolorea**.
 
-### Paleta de marca (curada por el cliente del logo — no confundir con la paleta completa de la interfaz web)
+### Paleta de marca — tomada del logo oficial (lockup "COMUNIDAD")
 
-| Nombre | HEX | Uso |
-|---|---|---|
-| Fondo base | `#0A0A0F` | Fondo principal de toda pieza — negro casi puro |
-| Acento principal (llama) | `#FF8A2E` | Color dominante de marca — cuerpo de la paloma, "DAD" del wordmark |
-| Acento secundario (contorno) | `#2F7BFF` | Contorno de la paloma, detalles secundarios |
-| Texto sobre fondo oscuro | `#F4F4F5` | Texto principal / wordmark en blanco |
-| Texto secundario | `#9A9AA7` | Subtítulos, texto de apoyo |
+**Regla:** la paleta de marca es **la del logo**. Se midió píxel a píxel sobre [`logo-comunidad-original.jpg`](Assets_Visuales_Base/logo-comunidad-original.jpg) (mediana de cada color en el archivo) el 2026-09-24, por indicación del humano. Esta es la fuente de verdad para piezas, redes, prompts de imagen, correo y landing.
 
-- **Descartados** (tokens de interfaz de la web app, no de marca — no usar en piezas): sombra, superficie/tarjetas, madera oscura, primario oscuro, bordes, borde activo, acento oscuro, llama clara, texto llama, oro, oro claro, oro profundo, bronce, arena, azul oscuro de fondo, tekhelet, púrpura, carmesí.
-- ⏳ **Discrepancia a confirmar con el cliente:** medidos píxel a píxel, los archivos del logo entregados usan un naranja **≈ `#EE8126`** y un azul **≈ `#0D56B5`** (más oscuro), no `#FF8A2E` / `#2F7BFF`. Mientras el cliente no diga cuál manda, **la paleta de trabajo es la de la tabla** (la que declaró el cliente y usa su web); el logo se usa tal cual, sin recolorearlo.
+| Nombre | HEX | Dónde está en el logo | Uso |
+|---|---|---|---|
+| Negro | `#000000` | Fondo del logo | Fondo principal de toda pieza |
+| Naranja llama | `#EF8229` | Cuerpo de la paloma y "DAD" del wordmark | **Color dominante de marca**: acento principal, CTA, palabras clave |
+| Azul contorno | `#1952A8` | Contorno de la paloma | Acento secundario: contornos, bordes, detalles. **Nunca para texto sobre negro** (contraste insuficiente) |
+| Blanco | `#FFFFFF` | "COMUNI" y el tagline | Texto principal sobre fondo negro |
+| Gris de apoyo | `#9A9AA7` | — (no está en el logo) | Solo texto secundario / subtítulos. Viene del documento del cliente |
+
+- **Colores de la web app que NO son de marca** (tokens de interfaz de `emprendemosenfe.vercel.app`, no se usan en piezas): `#0A0A0F`, `#FF8A2E`, `#2F7BFF`, `#F4F4F5` y el resto de la paleta de interfaz (sombra, superficie/tarjetas, madera oscura, primario oscuro, bordes, borde activo, acento oscuro, llama clara, texto llama, oro, oro claro, oro profundo, bronce, arena, azul oscuro de fondo, tekhelet, púrpura, carmesí). <!-- v: se listan justamente como descartados -->
+- El archivo del ícono solo (paloma sin wordmark) mide un azul algo distinto (≈`#0D56B5`) por la compresión JPG. **Manda el lockup**: el azul de marca es `#1952A8`. <!-- v: valor medido que se descarta -->
+- El logo se usa tal cual: no se recolorea.
 
 ### Tipografía
 
@@ -126,7 +130,7 @@
 
 - Nunca presentar a Nelson Muñoz (ni a nadie) como la marca: la marca es **COMUNIDAD**.
 - Nunca inventar precios, planes o membresías: la plataforma es **gratis** (⏳ confirmar si habrá premium a futuro).
-- Nunca inventar un WhatsApp o email de la marca: **no existe**. Los WhatsApp del Marketplace son de cada vendedor, no de COMUNIDAD.
+- Nunca inventar un WhatsApp de la marca: **no existe**. El único contacto propio es el correo `comunidademprendedores.cec@gmail.com`. Los WhatsApp del Marketplace son de cada vendedor, no de COMUNIDAD.
 - Nunca una afirmación clave sin respaldo bíblico; nunca opinión suelta.
 - Nunca "cliente" / "usuario": siempre "hermano" / "hermanos en la fe".
 - Nunca tono de venta agresiva ni estética corporativa fría.
@@ -139,7 +143,6 @@
 2. Público objetivo específico (edad, tipo de negocio predominante entre los miembros).
 3. Competencia directa (otras redes o comunidades cristianas de emprendimiento).
 4. Historia de fundación — cuándo y por qué nació el proyecto.
-5. Relación exacta entre Nelson Muñoz y la marca (fundador único, co-fundador, vocero…).
-6. Cuál es el naranja/azul canónico: el declarado (`#FF8A2E` / `#2F7BFF`) o el del archivo del logo (≈ `#EE8126` / ≈ `#0D56B5`).
-7. Qué evitar en el tono (hoy inferido).
-8. Carpetas de Drive y Canva del cliente.
+5. Rol exacto de Nelson Muñoz en la marca (fundador único, co-fundador, vocero…) — ya confirmado que es el mismo dueño de Feria del Lente.
+6. Qué evitar en el tono (hoy inferido).
+7. Carpetas de Drive y Canva del cliente (opcional).

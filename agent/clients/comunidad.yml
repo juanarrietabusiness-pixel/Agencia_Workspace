@@ -4,10 +4,11 @@
 #   creen su perfil y se prefieran entre ellos al comprar/vender. Es GRATIS: nunca vender precios.
 # Notas especiales:
 #   - Marca institucional (la plataforma), no personal: Nelson Muñoz es vocero, no la marca.
-#   - Sin WhatsApp ni email de la marca → NO whatsapp_cta_review. CTA = web + Instagram.
+#   - Sin WhatsApp de la marca → NO whatsapp_cta_review. CTA = web + Instagram.
+#     Email de la marca: comunidademprendedores.cec@gmail.com.
 #   - Web propia funcional → web_seo_audit.
 #   - Toda afirmación clave con respaldo bíblico; "hermano", nunca "cliente"/"usuario".
-#   - Nunca mezclar con Feria del Lente (comparten el nombre Nelson Muñoz).
+#   - Mismo dueño que Feria del Lente, pero marcas separadas: nunca mezclar nada.
 
 id: comunidad
 folder: "Comunidad"
@@ -17,10 +18,10 @@ recipientEmails:
   - abrinay1997@gmail.com
   - juanarrietabusiness@gmail.com
 
-# Colores de marca — declarados por el cliente (01_brand_guidelines.md §5).
+# Colores de marca — medidos del logo oficial (01_brand_guidelines.md §5).
 branding:
-  primary: "#0A0A0F"   # Fondo base — negro casi puro
-  accent: "#FF8A2E"    # Acento principal — llama de la paloma
+  primary: "#000000"   # Negro — fondo del logo
+  accent: "#EF8229"    # Naranja llama — cuerpo de la paloma y "DAD"
   logoChar: "🔥"
 
 llm:
