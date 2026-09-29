@@ -284,7 +284,7 @@ corto y se rota al mes siguiente; no se maquilla.
 
 1. **Ningún precio que no esté en `01_brand_guidelines.md` §4.** Los únicos
    que pueden aparecer hoy: **$50.00** (cierre RN, S, M), **$45.00**
-   (cierre L, XL, XXL), **$55.00** (pants L, XL, XXL), **$25.00** (caja de
+   (cierre L, XL, XXL y caja de wipes Nateen), **$55.00** (pants L, XL, XXL), **$25.00** (caja de
    wipes de agua Dany Baby) y **$46.00** (fular Moon). El combo de 2 cajas
    de wipes a $35 ya no existe (2026-09-29).
    Cualquier otra cifra está inventada.

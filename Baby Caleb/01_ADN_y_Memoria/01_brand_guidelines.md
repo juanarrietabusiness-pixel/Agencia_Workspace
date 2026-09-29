@@ -64,7 +64,7 @@
 
 ## 4. Productos, tallas y precios (verificado)
 
-> Precios actualizados por el cliente el **2026-09-29**: Caja RN a $50, pants con costo, wipes Dany Baby por caja suelta (se acabó el combo de 2 cajas), wipes Dany Baby adulto (uso interno) y fular Moon con precio.
+> Precios actualizados por el cliente el **2026-09-29**: Caja RN a $50, pants con costo, wipes Dany Baby por caja suelta (se acabó el combo de 2 cajas), wipes Dany Baby adulto (uso interno) y fular Moon con precio. Wipes Nateen confirmados: caja de 960 a $45.
 
 *(Costo y ganancia = memoria interna, NUNCA se dicen al cliente. La guía de peso por talla sí sirve para atención.)*
 
@@ -105,9 +105,13 @@
 - Unitalla ajustable, RN hasta ~25 lbs.
 - Costo (interno): $32.20 · **Precio de venta: $46.00** · Ganancia: $13.80.
 
+### Wipes NATEEN (hipoalergénicos)
+
+- 1 caja = 12 paquetes × 80 = 960 wipes.
+- Costo por caja (interno, según el catálogo del CRM): $21.60 · **Precio de venta: $45.00** · Ganancia: $23.40.
+
 ### Otros
 
-- **Wipes Nateen** hipoalergénicos (cajas grandes).
 - **Diferenciador operativo:** venta en **cajas grandes** (para todo el mes), no por paquete suelto.
 
 ## 5. Público y objetivos (verificado)
