@@ -14,7 +14,7 @@ Prompts y plantillas que ya dieron resultado real en la operación del negocio (
 
 **Marca del producto en los anuncios:** NATEEN (ya reconocida por los clientes existentes; no requiere presentación completa).
 
-> 💲 **Los precios de este archivo son copia de la tabla de `01_brand_guidelines.md` §4, que es la única fuente de verdad.** Si cambia un precio, se cambia allí primero y luego se replica aquí. Los creativos que corrieron en junio 2026 llevaban la Caja RN a $50; la lista verificada por el cliente (2026-08) la fija en **$45** y es la que vale — hay que corregir los creativos vivos que aún digan $50.
+> 💲 **Los precios de este archivo son copia de la tabla de `01_brand_guidelines.md` §4, que es la única fuente de verdad.** Si cambia un precio, se cambia allí primero y luego se replica aquí. **2026-09-29:** el cliente subió la Caja RN a **$50** (la lista de 2026-08 la tenía en $45) — hay que corregir los creativos vivos que aún digan RN a $45.
 
 **Anuncio 1 — Video mostrando la caja**
 - **Título:** Nateen ya está en Panamá 🌿
@@ -32,7 +32,7 @@ Prompts y plantillas que ya dieron resultado real en la operación del negocio (
 - **Texto principal:** Pañales hipoalergénicos Nateen, disponibles en todas las tallas 👇 Súper absorbentes, sin cloro ni perfumes, 100% fibras de bambú. Escríbenos por WhatsApp y hacemos tu pedido a domicilio.
 - **Descripción:** Delivery disponible (costo adicional)
 - **Tarjetas del carrusel (1 talla por tarjeta):**
-  - Talla RN (2–5 kg) — Caja 160u — $45
+  - Talla RN (2–5 kg) — Caja 160u — $50
   - Talla S (3–6 kg) — Caja 160u — $50
   - Talla M (4–9 kg) — Caja 144u — $50
   - Talla L (7–18 kg) — Caja 128u — $45
@@ -42,7 +42,7 @@ Prompts y plantillas que ya dieron resultado real en la operación del negocio (
 **Anuncio 4 — Imagen con precios de caja + información**
 - **Título:** Precios Nateen — Todas las tallas
 - **Texto principal:**
-  📦 Caja RN (160 pañales) — $45
+  📦 Caja RN (160 pañales) — $50
   📦 Caja S (160 pañales) — $50
   📦 Caja M (144 pañales) — $50
   📦 Caja L (128 pañales) — $45
@@ -127,13 +127,13 @@ de sus bebés. Buscan productos sin químicos dañinos, libres de cloro,
 hipoalergénicos. Nuestro precio es rango medio — no somos los más baratos ni los
 más caros.
 
-Producto actual de wipes: AquaWipes 100 de Dany Baby — toallitas de agua 99% pura.
-Vendemos por 2 cajas (600 wipes cada una = 1,200 wipes) a $35. Cada caja nos
-cuesta $9.90. Por venta de 2 cajas ganamos $15.20.
+Producto actual de wipes: wipes de agua Dany Baby — toallitas de agua 99% pura.
+Vendemos por caja: 12 paquetes de 50 = 600 wipes a $25. Cada caja nos cuesta
+$14.00 ($12.60 comprando 15 cajas o más). Por caja ganamos $11.00.
 
 Producto actual de pañales: NATEEN — hipoalergénicos, súper absorbentes, sin
 cloro ni perfumes, 100% fibras de bambú, biodegradables. Tallas: RN, S, M, L,
-XL, XXL. Precios de caja: $45–$50 según talla.
+XL, XXL de cierre ($45–$50 según talla) y L, XL, XXL de pants ($55).
 
 Tono de comunicación: Cálido, maternal, educativo y confiable. Como una amiga
 experta hablándole a una mamá. Siempre en español. Nunca agresivo en ventas.
@@ -146,6 +146,8 @@ Lo que necesito de ti: [DESCRIBIR AQUÍ LA TAREA ESPECÍFICA]
 ## 4. Economía unitaria de referencia (para cotizar o decidir compras)
 
 **Cuándo usarlo:** al analizar cualquier propuesta de proveedor nuevo o al calcular precios/promociones. La regla que ya se validó en conversación: **comparar por costo por wipe (o por pañal), no por caja** — es el error que llevó a recomendar mal AquaWipes 50 en vez de AquaWipes 100.
+
+> ⚠️ Las cifras de esta sección son del análisis de 2026-07. Las vigentes (2026-09-29) están en `01_brand_guidelines.md` §4: wipes Dany Baby a $25 la caja de 600 (costo $14.00, ganancia $11.00; ya no hay combo de 2 cajas) y Caja RN a $50.
 
 **Wipes hoy (AquaWipes 100 — Dany Baby):**
 - Caja: 6 packs × 100 wipes = 600 wipes · costo $9.90 · costo por wipe **$0.017**.

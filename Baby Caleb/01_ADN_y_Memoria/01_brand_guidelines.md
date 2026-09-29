@@ -64,22 +64,54 @@
 
 ## 4. Productos, tallas y precios (verificado)
 
-### Pañales NATEEN — hipoalergénicos, súper absorbentes, sin cloro ni perfumes, 100% fibras de bambú, biodegradables
+> Precios actualizados por el cliente el **2026-09-29**: Caja RN a $50, pants con costo, wipes Dany Baby por caja suelta (se acabó el combo de 2 cajas), wipes Dany Baby adulto (uso interno) y fular Moon con precio. Wipes Nateen confirmados: caja de 960 a $45.
+
+*(Costo y ganancia = memoria interna, NUNCA se dicen al cliente. La guía de peso por talla sí sirve para atención.)*
+
+### Pañales NATEEN de cierre — hipoalergénicos, súper absorbentes, sin cloro ni perfumes, 100% fibras de bambú, biodegradables
 
 | Talla | Peso | Costo (interno) | Precio venta | Ganancia/caja |
 |---|---|---|---|---|
-| RN | 2–5 kg | $28.00 | **$45.00** | $17.00 |
+| RN | 2–5 kg | $28.00 | **$50.00** | $22.00 |
 | S | 3–6 kg | $32.00 | **$50.00** | $18.00 |
 | M | 4–9 kg | $32.00 | **$50.00** | $18.00 |
 | L | 7–18 kg | $30.00 | **$45.00** | $15.00 |
 | XL | 12–25 kg | $28.00 | **$45.00** | $17.00 |
 | XXL | +55 lbs | $29.20 | **$45.00** | $15.80 |
 
-*(Costo y ganancia = memoria interna, NUNCA se dicen al cliente. La guía de peso por talla sí sirve para atención.)*
+### Pañales NATEEN pants (tipo pantaloncito) — solo de la L en adelante
 
-- **Wipes Nateen** hipoalergénicos (cajas grandes).
-- **Wipes de agua Dany Baby** (AquaWipes 100, agua 99% pura) — combo de 2 cajas (1,200 toallitas) a **$35**.
-- **Fulares/portabebés Moon** — unitalla ajustable, RN hasta ~25 lbs.
+| Talla | Peso | Unidades/caja | Costo (interno) | Precio venta | Ganancia/caja |
+|---|---|---|---|---|---|
+| L | 19–31 lbs / 9–14 kg | 160 | $36.00 | **$55.00** | $19.00 |
+| XL | 26–37.5 lbs / 12–17 kg | 160 | $38.00 | **$55.00** | $17.00 |
+| XXL | +33 lbs / +15 kg | 160 | $38.00 | **$55.00** | $17.00 |
+
+### Wipes de agua DANY BABY — bebé (agua 99% pura)
+
+- **1 caja = 12 paquetes × 50 unidades = 600 wipes.**
+- Costo por caja (interno): $14.00 · **Precio de venta: $25.00** · Ganancia: $11.00.
+- Descuento del proveedor: **10% al comprar 15 cajas o más** → costo $12.60/caja.
+- **Ya no hay combo de 2 cajas:** se vende por caja.
+
+### Wipes DANY BABY — adulto (uso interno, NO se vende)
+
+- 1 caja = paquetes de 50 unidades.
+- Costo por caja: $12.00 · costo por paquete: $1.00.
+- **Uso interno: no se vende al consumidor.** No va en creativos, web ni atención.
+
+### Fular portabebé MOON
+
+- Unitalla ajustable, RN hasta ~25 lbs.
+- Costo (interno): $32.20 · **Precio de venta: $46.00** · Ganancia: $13.80.
+
+### Wipes NATEEN (hipoalergénicos)
+
+- 1 caja = 12 paquetes × 80 = 960 wipes.
+- Costo por caja (interno, según el catálogo del CRM): $21.60 · **Precio de venta: $45.00** · Ganancia: $23.40.
+
+### Otros
+
 - **Diferenciador operativo:** venta en **cajas grandes** (para todo el mes), no por paquete suelto.
 
 ## 5. Público y objetivos (verificado)
