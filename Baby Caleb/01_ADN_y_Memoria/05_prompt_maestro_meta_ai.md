@@ -283,8 +283,10 @@ corto y se rota al mes siguiente; no se maquilla.
 ## 7 · Las reglas duras (las que cuestan clientes)
 
 1. **Ningún precio que no esté en `01_brand_guidelines.md` §4.** Los únicos
-   que pueden aparecer hoy: **$45.00** (tallas RN, L, XL), **$50.00**
-   (tallas S, M) y **$35** (combo de 2 cajas de wipes de agua Dany Baby).
+   que pueden aparecer hoy: **$50.00** (cierre RN, S, M), **$45.00**
+   (cierre L, XL, XXL), **$55.00** (pants L, XL, XXL), **$25.00** (caja de
+   wipes de agua Dany Baby) y **$46.00** (fular Moon). El combo de 2 cajas
+   de wipes a $35 ya no existe (2026-09-29).
    Cualquier otra cifra está inventada.
 2. **El costo interno y la ganancia por caja NO se dicen nunca.** Están en el
    ADN marcados como memoria interna. Si aparecen en una pieza, es una fuga.
@@ -317,7 +319,7 @@ Además de la lista común del estándar:
 [ ] ¿Aparece algún bebé, persona, pañal o caja generados? Quítalos.
 [ ] ¿Está escrito «Talla» y «libras», y no «size» ni «kg»?
 [ ] ¿Dice el nombre real de cada producto, sin sustituirlo por otra marca?
-[ ] Las únicas cifras que pueden aparecer son $45.00, $50.00 y $35.
+[ ] Las únicas cifras que pueden aparecer son $45.00, $50.00, $55.00, $25.00 y $46.00.
     ¿Aparece alguna otra? Quítala.
 [ ] ¿Están con su tilde o su eñe: PAÑALES, BEBÉ, HIPOALERGÉNICO, QUÍMICOS,
     MÁS, ESCRÍBENOS, PANAMÁ, TAMBIÉN, SEGÚN?
