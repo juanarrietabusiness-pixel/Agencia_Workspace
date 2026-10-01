@@ -14,7 +14,7 @@
 - **Contacto:** WhatsApp **61562010** · Instagram [@roferservice](https://instagram.com/roferservice) · Facebook **Rofer Service**.
 - **Web:** ⚠️ pendiente (no declarada).
 - **Canales de venta hoy:** WhatsApp (canal principal), Instagram, Facebook.
-- **Activos:** flota/equipos propios (ver diferenciales).
+- **Activos:** flota de **16 equipos propios** — listado público y referencia técnica interna (no publicar) en [`05_flota_equipos.md`](05_flota_equipos.md).
 
 ## 1. Posicionamiento
 
