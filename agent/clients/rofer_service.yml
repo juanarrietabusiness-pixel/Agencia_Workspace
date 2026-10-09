@@ -33,7 +33,7 @@ sources:
   facebook:
     page_id_env: FB_PAGE_ID_ROFER
   whatsapp:
-    - { label: "Asesoría / alquiler", number: "61562010" }
+    - { label: "Asesoría / alquiler", number: "+507 6086-6581" }
 
 capabilities:
   - adn_completeness_guard
