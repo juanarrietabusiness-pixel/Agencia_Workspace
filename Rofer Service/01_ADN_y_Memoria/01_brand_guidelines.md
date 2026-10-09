@@ -2,7 +2,7 @@
 
 > 📁 **Multimedia del cliente:** [Google Drive](https://drive.google.com/drive/folders/1o-X9rMHqKG13QH-ssTxRSopjRX-vjNv7) · Canva _(pendiente: crear carpeta cuando la conexión de Canva esté autorizada)_ — los archivos pesados (fotos y videos de equipos/obra, diseños) viven ahí; este repo es la memoria/estrategia. No mezclar multimedia con otros clientes.
 
-> Última actualización: 2026-09-08 · **Fuente de verdad:** onboarding verificado por el cliente (2026-09-08). El original queda en el historial de git. **Estado del ADN: 🟡 base** — posicionamiento, ADN verbal, público, diferenciales, competencia e **identidad visual (colores + logo)** confirmados por el cliente. Pendientes: **tipografía exacta**, web y precios de referencia. Todo lo marcado ⚠️ **no se inventa**: se pregunta.
+> Última actualización: 2026-10-09 (nuevo WhatsApp + flota oficial de 14 equipos) · **Fuente de verdad:** onboarding verificado por el cliente (2026-09-08). El original queda en el historial de git. **Estado del ADN: 🟡 base** — posicionamiento, ADN verbal, público, diferenciales, competencia e **identidad visual (colores + logo)** confirmados por el cliente. Pendientes: **tipografía exacta**, web y precios de referencia. Todo lo marcado ⚠️ **no se inventa**: se pregunta.
 
 ## 0. Datos del negocio (verificado por el cliente)
 
@@ -11,10 +11,10 @@
 - **Categoría:** construcción — **movimiento de tierra** y **alquiler/venta de equipos pesados**.
 - **Servicios:** excavaciones, conformación de terrenos, demoliciones, **alquiler de equipos**, **venta de equipos**.
 - **Antigüedad / experiencia:** **20 años en el medio.**
-- **Contacto:** WhatsApp **61562010** · Instagram [@roferservice](https://instagram.com/roferservice) · Facebook **Rofer Service**.
+- **Contacto:** WhatsApp **+507 6086-6581** (nuevo desde 2026-10-09; reemplaza al anterior) · Instagram [@roferservice](https://instagram.com/roferservice) · Facebook **Rofer Service**.
 - **Web:** ⚠️ pendiente (no declarada).
 - **Canales de venta hoy:** WhatsApp (canal principal), Instagram, Facebook.
-- **Activos:** flota de **16 equipos propios** — listado público y referencia técnica interna (no publicar) en [`05_flota_equipos.md`](05_flota_equipos.md).
+- **Activos:** flota oficial de **14 equipos propios** en 5 categorías (excavadoras grandes, minis y medianos, retroexcavadoras, compactación, transporte) — nombres oficiales y referencia técnica interna (no publicar) en [`05_flota_equipos.md`](05_flota_equipos.md).
 
 ## 1. Posicionamiento
 
@@ -79,7 +79,7 @@
 
 ## 6. Proceso de venta (verificado)
 
-1. **Contacto por WhatsApp** (61562010).
+1. **Contacto por WhatsApp** (+507 6086-6581).
 2. El cliente **pide asesoría**.
 3. El cliente **pide fotos de equipos**.
 4. Se **envía cotización**.
@@ -98,6 +98,12 @@
 - ❌ Nunca inventar precios, condiciones de crédito, facturación ni web (marcados ⚠️).
 - ❌ Nunca mezclar identidad/assets con otros clientes de la agencia.
 - ❌ Nunca exageraciones ni promesas sin respaldo.
+
+### Reglas públicas de la flota (oficial 2026-10-09)
+
+- En artes, copys, posts, anuncios y cualquier pieza pública se usa **SOLO el nombre oficial del equipo** (tabla de [`05_flota_equipos.md`](05_flota_equipos.md)). **Nunca** se muestra placa, chasis ni número de serie.
+- **Solo se promocionan los 14 equipos de la tabla.** Las grúas (Grúa de Plancha 600 y Camión Grúa) ya no existen en el registro y **no se mencionan**.
+- Registro: tratar siempre de **usted**.
 
 ## 9. Pendiente de validar (para cerrar el ADN a ✅)
 

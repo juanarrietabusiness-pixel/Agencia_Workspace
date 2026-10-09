@@ -1,67 +1,86 @@
-# Flota de equipos propios — Rofer Service
+# Flota oficial de equipos propios — Rofer Service
 
-> Última actualización: 2026-10-01 · **Fuente:** listado entregado por el humano (dueño de la agencia) a partir de la información del cliente.
-> **16 unidades propias.** Es la prueba concreta del diferencial "flota propia → el equipo idóneo, no el que sobra" ([`01_brand_guidelines.md`](01_brand_guidelines.md) §0 y §1).
+> Última actualización: 2026-10-09 · **Fuente:** actualización oficial del ADN entregada por el humano (dueño de la agencia). **Reemplaza por completo** el listado del 2026-10-01.
+> **14 equipos propios.** Los nombres son los **oficiales, tal cual aparecen en las artes**. Es la prueba concreta del diferencial "flota propia → el equipo idóneo, no el que sobra" ([`01_brand_guidelines.md`](01_brand_guidelines.md) §0 y §1).
+> **Fuera del registro (2026-10-09):** la Grúa de Plancha 600 (Grúa Azul) y el Camión Grúa RD688S ya no forman parte de la flota; se borraron con sus datos técnicos. **Las grúas no se mencionan ni se promocionan.**
 
 Este archivo tiene **dos partes con reglas distintas**:
 
 | Parte | Para qué | ¿Se publica? |
 |---|---|---|
-| **A · Versión pública** | Redes, campañas, catálogo, captions, guiones | ✅ Sí — con los nombres tal cual |
-| **B · Referencia técnica interna** | Identificar el modelo exacto y buscar imágenes de referencia | ❌ **No.** Nunca va en una pieza, caption, anuncio, landing ni en un prompt cuyo resultado se publique |
+| **A · Flota oficial** | Artes, copys, posts, anuncios, SmartLink, guiones | ✅ Sí — **solo el nombre oficial** |
+| **B · Referencia técnica interna** | Ubicar el modelo exacto al buscar imágenes de referencia | ❌ **Nunca.** Ni placa, ni chasis, ni número de serie en ninguna pieza pública |
 
 ---
 
-## A · Versión pública (uso en redes y campañas)
+## A · Flota oficial (14 equipos)
 
-| # | Equipo |
-|---|---|
-| 1 | Pala Volvo 210 |
-| 2 | Pala Martillo Volvo 210 |
-| 3 | Minipala Volvo 8 ton |
-| 4 | Minipala Volvo 3.5 ton |
-| 5 | Retroexcavadora CAT 416E |
-| 6 | Retro Martillo CAT 416E |
-| 7 | Rola Compactadora Bomag 11 ton |
-| 8 | Rola Compactadora Bomag 2.5 ton |
-| 9 | Camión Volquete Mack Granite |
-| 10 | Grúa de Plancha 600 (Grúa Azul) |
-| 11 | Volquete Internacional |
-| 12 | Camión Volquete Mack |
-| 13 | Camión Grúa Mack |
-| 14 | Mula + Trailer Cama Baja 25 (Ear Beaver) |
-| 15 | Pala CAT 13 ton |
-| 16 | Minipala CAT 3.5 ton |
+**Imágenes:** cada imagen en Drive se llama igual que `Código_Nombre` (espacios → guion bajo). Ejemplo: `RT-01_Retroexcavadora_CAT_416E.jpg`. La columna de la derecha se llena cuando la imagen esté en el Drive del cliente.
 
-**Reglas de uso público:**
-- Los nombres se usan **exactamente como están arriba**: son los que el cliente usa con sus clientes ("pala", "minipala", "rola", "volquete", "mula").
-- **No inventar especificaciones** (capacidad, potencia, alcance, año, disponibilidad, precio) que no estén en esta lista. Si una pieza las necesita, se piden al cliente.
-- Disponibilidad y tarifas **siempre por WhatsApp** (proceso de venta real, §6 del ADN): la flota se muestra, no se cotiza en la pieza.
-- Trato de **usted** en todo copy (regla del ADN).
+### Excavadoras grandes
+
+| Código | Nombre oficial | Nombre de archivo en Drive | Archivo de imagen / link Drive |
+|---|---|---|---|
+| EG-01 | Pala Volvo 210 | `EG-01_Pala_Volvo_210.jpg` | |
+| EG-02 | Pala Martillo Volvo 210 | `EG-02_Pala_Martillo_Volvo_210.jpg` | |
+| EG-03 | Pala CAT 13 toneladas | `EG-03_Pala_CAT_13_toneladas.jpg` | |
+
+### Equipos minis y medianos
+
+| Código | Nombre oficial | Nombre de archivo en Drive | Archivo de imagen / link Drive |
+|---|---|---|---|
+| EM-01 | Miniexcavadora Volvo 8 toneladas | `EM-01_Miniexcavadora_Volvo_8_toneladas.jpg` | |
+| EM-02 | Miniexcavadora Volvo 3.5 toneladas | `EM-02_Miniexcavadora_Volvo_3.5_toneladas.jpg` | |
+| EM-03 | Miniexcavadora CAT 3.5 toneladas | `EM-03_Miniexcavadora_CAT_3.5_toneladas.jpg` | |
+
+### Retroexcavadoras
+
+| Código | Nombre oficial | Nombre de archivo en Drive | Archivo de imagen / link Drive |
+|---|---|---|---|
+| RT-01 | Retroexcavadora CAT 416E | `RT-01_Retroexcavadora_CAT_416E.jpg` | |
+| RT-02 | Retro Martillo CAT 416E | `RT-02_Retro_Martillo_CAT_416E.jpg` | |
+
+### Compactación
+
+| Código | Nombre oficial | Nombre de archivo en Drive | Archivo de imagen / link Drive |
+|---|---|---|---|
+| CP-01 | Rola Compactadora Bomag 11 toneladas | `CP-01_Rola_Compactadora_Bomag_11_toneladas.jpg` | |
+| CP-02 | Rola Compactadora Bomag 2.5 toneladas | `CP-02_Rola_Compactadora_Bomag_2.5_toneladas.jpg` | |
+
+### Transporte
+
+| Código | Nombre oficial | Nombre de archivo en Drive | Archivo de imagen / link Drive |
+|---|---|---|---|
+| TR-01 | Camión Volquete Mack Granite | `TR-01_Camión_Volquete_Mack_Granite.jpg` | |
+| TR-02 | Volquete Internacional | `TR-02_Volquete_Internacional.jpg` | |
+| TR-03 | Camión Volquete Mack | `TR-03_Camión_Volquete_Mack.jpg` | |
+| TR-04 | Mula Mack + Trailer Cama Baja | `TR-04_Mula_Mack_+_Trailer_Cama_Baja.jpg` | |
+
+### Reglas públicas (también en `01_brand_guidelines.md` §8)
+
+- En artes, copys, posts, anuncios y cualquier pieza pública se usa **solo el nombre oficial** de la tabla. **Nunca** placa, chasis ni número de serie.
+- **Solo se promocionan estos 14 equipos.** Las grúas ya no existen en el registro y **no se mencionan**.
+- **No inventar especificaciones** (capacidad, potencia, alcance, año, disponibilidad, precio) que no estén aquí. Disponibilidad y tarifas, siempre por WhatsApp **+507 6086-6581**.
+- Registro: siempre de **usted**.
 
 ---
 
-## B · Referencia técnica interna — ⛔ NO PUBLICAR
+## B · Referencia técnica interna — ⛔ NUNCA PUBLICAR
 
-Solo sirve para **identificar el modelo exacto** de cada unidad y **buscar imágenes de referencia** (p. ej. para que un prompt de imagen/video represente la máquina correcta). Placa y chasis **no** aparecen jamás en una pieza.
+Solo sirve para **ubicar el modelo exacto** de cada unidad al buscar imágenes de referencia (p. ej. para que un prompt de imagen o video represente la máquina correcta). Nada de esta tabla aparece en una pieza pública.
 
-| # (pública) | Unidad | Año | Placa | Chasis (VIN) |
+| Código | Modelo | Año | Placa | Chasis (VIN) |
 |---|---|---|---|---|
-| 9 | Mack Volquete Granite | 2015 | GU813E / AU3708 | 1M2AX18C4FM030278 |
-| 10 | Grúa de Plancha 600 | 1984 | AJ2051 | 1M2B126C2EA010111 |
-| 11 | Internacional Volquete | 1983 | AJ2580 | 1M2B126C7DA009633 |
-| 12 | Mack Volquete | 1993 | AJ0895 | 1HTHCBERXPH484805 |
-| 13 | Camión Grúa RD688S | 2000 | AJ2714 | 1M2P267C9YM054571 |
-| 14 | RD6 (mula) | 1998 | AJ3070 | 1M1P26Y9WM037198 |
-| 14b | Ear Beaver Trailer Cama Baja 25 | 2015 | AI2222 | 112LAX393FL079378 |
-| 15 | Pala CAT 13 ton | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |
-| 16 | Minipala CAT 3.5 ton | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |
+| TR-01 | Mack Granite GU813E | 2015 | AU3708 | 1M2AX18C4FM030278 |
+| TR-02 | International DM686S | 1983 | AJ2580 | 1M2B126C7DA009633 |
+| TR-03 | Mack 8200 | 1993 | AJ0895 | 1HTHCBERXPH484805 |
+| TR-04 | Mula RD6 | 1998 | AJ3070 | 1M1P26Y9WM037198 |
+| TR-04 | Trailer Ear Beaver cama baja 25 | 2015 | AI2222 | 112LAX393FL079378 |
 
-- Las unidades **1 a 8** no tienen referencia técnica todavía (⏳ pedir año/placa/chasis si hace falta el modelo exacto).
-- En la unidad 9 se registraron dos placas (`GU813E / AU3708`) tal como llegaron.
+- Las unidades EG, EM, RT y CP no tienen referencia técnica todavía (⏳ pedir modelo/año si hace falta el modelo exacto para buscar imágenes).
 
-### ⚠️ Datos a verificar con el cliente (se registraron tal cual, sin corregir)
+### ⚠️ Datos a verificar con el cliente (registrados tal cual, sin corregir)
 
-1. **Chasis de la unidad 14 (RD6 mula):** `1M1P26Y9WM037198` tiene **16 caracteres**; un VIN tiene 17. Falta o sobra un carácter.
-2. **Chasis de las unidades 11 y 12 posiblemente cruzados:** el prefijo `1M2` corresponde a Mack y `1HT` a International. Aquí el *Internacional* (11) tiene `1M2…` y el *Mack* (12) tiene `1HT…`. Confirmar si están intercambiados.
-3. **"Ear Beaver":** el fabricante de trailers cama baja con prefijo de chasis `112` es **Eager Beaver**. Confirmar el nombre antes de usarlo en una pieza pública (la unidad 14 de la lista pública dice "Ear Beaver").
+1. **TR-02 y TR-03 parecen cruzados.** Todo lo de TR-02 apunta a Mack (el modelo **DM686S** es de Mack y el chasis `1M2…` es de Mack) y todo lo de TR-03 apunta a International (el **8200** es un modelo International y el chasis `1HT…` es de International). Probablemente el *Volquete Internacional* es el International 8200 de 1993 y el *Camión Volquete Mack* es el Mack DM686S de 1983. **Confirmar antes de buscar imágenes con estos modelos.**
+2. **Chasis de la Mula RD6 (TR-04):** `1M1P26Y9WM037198` tiene **16 caracteres**; un VIN tiene 17. Falta o sobra uno.
+3. **"Ear Beaver":** el fabricante de trailers cama baja con prefijo de chasis `112` es **Eager Beaver**. Solo afecta la referencia interna (el nombre público oficial es "Mula Mack + Trailer Cama Baja").
