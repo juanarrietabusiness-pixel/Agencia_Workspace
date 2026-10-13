@@ -17,7 +17,7 @@ Antes de las personas individuales, esto es lo más confiable que hay porque vie
 - **Perfil [INFERENCIA]:** 30–50 años, dueño de PYME o negocio local en Panamá (retail, servicios, óptica, panadería/comercio) [EVIDENCIA: testimonios y casos reales de óptica, pañalera, panadería, retail].
 - **Situación [EVIDENCIA]:** ya invierte o intentó invertir en publicidad pero "no ve resultados", "no tiene tiempo para manejar sus redes" y "no sabe si su publicidad está funcionando".
 - **Necesidad que resuelve [EVIDENCIA]:** convertir esa inversión en **ventas reales y medibles** rápido, sin tener que aprender de ads ni dedicarle tiempo.
-- **Presupuesto típico [EVIDENCIA, tabla de precios]:** planes de $150–$400/mes de gestión + $100–$600/mes de pauta → negocio pequeño/mediano.
+- **Presupuesto típico [EVIDENCIA, tabla de precios]:** planes de $250–$400/mes de gestión + $300–$2,000/mes de pauta → negocio pequeño/mediano. **Piso duro desde el 2026-10-12:** por debajo de $300/mes de pauta no hay plan, así que este persona empieza en $550/mes entre gestión y pauta.
 - **Disparadores de decisión [EVIDENCIA]:** "propuesta sin costo", resultados en 2 semanas, reportes claros, "nosotros lo hacemos por ti".
 - **Canal preferido [EVIDENCIA]:** WhatsApp (todos los CTA llevan ahí; el fundador prioriza llamar en los primeros 5 minutos de un lead).
 - **Objeción típica real [EVIDENCIA — caso Donpan]:** recelo con el precio, pregunta mucho cuánto cuesta antes de comprometerse. La forma en que Juancito Ads maneja esto: no bajar el precio por presión, sino separar claramente "presupuesto de pauta" (lo que el cliente dice) de "honorarios" (lo que realmente se está negociando), y ofrecer 2 opciones ancladas al esfuerzo real en vez de una sola cotización rígida.

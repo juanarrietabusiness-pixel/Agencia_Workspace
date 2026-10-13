@@ -96,22 +96,31 @@ Coincide exactamente entre CSS real del sitio y Pomelli:
 
 | Plan | Honorarios | Pauta sugerida | Incluye |
 |---|---|---|---|
-| Emprendedor | $150/mes | $100–$250 | Estrategia centrada en ventas · creación de contenido publicitario con IA · configuración completa de la campaña · seguimiento semanal y optimización · reporte básico mensual |
-| Negocio ⭐ más popular | $250/mes | $300–$600 | Estrategia centrada en ventas · creación de contenido publicitario con IA · multicampaña optimizada con segmentación avanzada · seguimiento cada 2 días y optimización continua · reporte mensual detallado |
-| Empresa | $400/mes | $700–$2,000 | Estrategia avanzada centrada en ventas · creación de contenido publicitario con IA · creación de Reels estratégico · múltiples campañas activas + retargeting · seguimiento diario y optimización constante · reporte mensual detallado + reunión de resultados |
-| Corporativo | $600/mes | $2,000–$5,000+ | Estrategia avanzada centrada en ventas · creación de contenido publicitario con IA · creación de Reels estratégicos + múltiples campañas + retargeting · seguimiento diario y optimización avanzada · reporte mensual premium + reunión estratégica mensual |
+| Emprendedor | $250/mes | $300–$600 | Estrategia centrada en ventas · estudio de mercado · creación de contenido publicitario con IA · multicampaña optimizada con segmentación avanzada · seguimiento semanal y optimización continua · reporte mensual detallado |
+| Empresa 🏷️ recomendado | $400/mes | $700–$2,000 | Estrategia avanzada centrada en ventas · estudio de mercado exhaustivo + análisis de competencia · creación de contenido publicitario con IA + humano, según lo pida el estudio · creación de Reels estratégicos · múltiples campañas activas + retargeting · seguimiento diario y optimización constante · reporte mensual detallado + reunión de resultados |
+| Corporativo | $600/mes | $2,000–$5,000+ | Estrategia avanzada centrada en ventas · estudio de mercado avanzado + análisis de competencia · creación de contenido publicitario con IA + humano, según lo pida el estudio · Reels estratégicos + múltiples campañas + retargeting · campañas de catálogo web (Pixel) · seguimiento diario y optimización avanzada · reporte mensual premium + reunión estratégica mensual |
+
+**El plan de $150 se retiró el 2026-10-12.** La entrada son ahora **$300 de pauta mensual**: por debajo de eso la campaña no junta datos suficientes para que el algoritmo encuentre al cliente, así que quien invierta menos **deja de ser cliente objetivo**. Está dicho con todas las letras en `/ayuda` del sitio, para que nadie lo descubra después de escribir por WhatsApp. El plan que se llamaba **"Negocio" pasó a llamarse "Emprendedor"** — mismo precio y mismo alcance, solo cambió el nombre; su seguimiento pasó de "cada 2 días" a **semanal**.
+
+**Por qué el distintivo de Ads dice "recomendado" y no "más popular":** *más popular* es una afirmación de hecho sobre ventas, y solo puede escribirse donde sea cierta. Al quedar tres planes, resaltar el más barato invita a comprar el mínimo, así que el acento se mueve a Empresa — pero con una etiqueta que es una **opinión de la agencia** y no una estadística que haya que poder respaldar. En Redes, Crecimiento sí conserva "más popular" porque lo marcó el fundador.
 
 **B) Campañas + Redes Sociales** (marketing completo; pauta siempre aparte):
 
-| Plan | Honorarios | Redes | Posts/día | Visitas presenciales/grabación al mes | Incluye |
-|---|---|---|---|---|---|
-| Arranque | $450–$550/mes | 2 (Instagram y Facebook) | 1 | 1 | Plan de calendario completo — 1 post diario de lunes a domingo (Post/Reels/Carruseles) · contenido creado con IA · campañas publicitarias básicas en Meta |
-| Crecimiento ⭐ más popular | $600–$800/mes | 3 (Instagram, Facebook y TikTok Básico) | 2 | 2 | Plan de calendario completo — 2 posts diarios de lunes a domingo (Post/Reels/Carruseles) · presencia básica en TikTok · contenido con IA + contenido real · campañas estratégicas activas en Meta · conexión con creadores de contenido e influencers · reporte mensual de resultados |
-| Escala | $900–$1,200/mes | 3 (Instagram, Facebook y TikTok Avanzado) | 4 | 4 | Calendario robusto centrado en ventas — 4 posts diarios de lunes a domingo (Post/Reels/Carruseles) · contenido con IA + contenido real · reels promocionales con presentador incluido · estrategia avanzada de TikTok viral · acceso a red de creadores e influencers · locuciones profesionales para anuncios · múltiples campañas avanzadas + retargeting · estrategia mensual personalizada + reporte |
+**Cada plan contiene al anterior:** Crecimiento es *todo lo de Arranque +*, y Escala *todo lo de Crecimiento +*. La columna "Incluye" solo enumera lo que **suma** respecto al plan de abajo.
 
-**Nota:** "visita presencial" y "visita de grabación" son el mismo evento (no se suman por separado). Arranque incluye 1 al mes, Crecimiento 2 al mes, Escala 4 al mes.
+| Plan | Honorarios | Redes | Publicaciones/día | Reels/mes | Visitas presenciales al mes | Incluye (además de lo del plan anterior) |
+|---|---|---|---|---|---|---|
+| Arranque | $450–$550/mes | 2 (Instagram y Facebook) | 1 | 4 (1 por semana) | 1 | Plan de calendario completo — 1 post diario de lunes a domingo (Post/Reels/Carruseles) · contenido creado con IA · campañas publicitarias básicas en Meta |
+| Crecimiento ⭐ más popular | $600–$750/mes | 3 (Instagram, Facebook y TikTok Básico) | 1 | 8 (2 por semana) | 2 | TikTok básico como tercera red · 2 Reels por semana enfocados a **seguidores e interacción** · contenido con IA + contenido real · campañas estratégicas activas en Meta · conexión con creadores de contenido e influencers · reporte mensual de resultados |
+| Escala | $800–$1,200/mes | 3 (Instagram, Facebook y TikTok Avanzado) | 2 | 12 (3 por semana) | 4 | Se publica **dos veces al día** · 3 Reels **de rostro** por semana, con presentador incluido · TikTok avanzado con estrategia de contenido viral · locuciones profesionales para anuncios · múltiples campañas avanzadas + retargeting · estrategia mensual personalizada · **manejo 360: la agencia asume la responsabilidad del departamento de marketing** · optimización de flujos de atención y asesoría en leads · manejo de webs y catálogos |
 
-*(Fuente: cuadro actualizado por el fundador, 13 de agosto de 2026 — sube el alcance de Arranque (ahora 2 redes) y Crecimiento (ahora 3 redes, incluye TikTok Básico) sin cambiar precio respecto a la versión anterior verificada en el sitio web.)*
+**Esta estructura es la base, no un techo.** El contenido se adapta a lo que pida el negocio mes a mes, en los tres planes. Va publicado así bajo la tabla del sitio, porque si no, cada cifra se lee como un límite rígido.
+
+**Nota sobre las visitas:** "visita presencial" y "visita de grabación" son el mismo evento (no se suman por separado) — Arranque 1 al mes, Crecimiento 2, Escala 4. **No son jornadas de rodaje:** se procura grabar el contenido de todo el mes concentrado en una sola jornada, y las visitas restantes sirven para lo que se escape, para ver stock y para lo que surja. Prometer "4 jornadas de grabación" sería prometer otra cosa.
+
+**Ojo con el manejo 360 de Escala:** incluye optimización de flujos y manejo de webs/catálogos, pero **no incluye el Agente CRM** — ese es un producto aparte, de pago único, y se cotiza por su cuenta (ver D).
+
+*(Fuente: decisiones del fundador del 2026-10-12, aplicadas al sitio web el mismo día. Sustituyen al cuadro del 13 de agosto de 2026.)*
 
 **C) Servicio adicional — Páginas Web (pago único, precios + ITBMS):**
 
@@ -124,7 +133,9 @@ Coincide exactamente entre CSS real del sitio y Pomelli:
 
 **Mantenimiento (Juancito Care, mensual):** Base $35/mes · Pro $75/mes · Business desde $150/mes (2 meses gratis pagando el año completo).
 
-**Complementos:** redacción de textos desde $60/página · segundo idioma desde $180 · chatbot IA desde $350+$25/mes · SEO técnico continuo desde $120/mes · migración desde WordPress desde $250 · pasarela de pago adicional $150.
+**Complementos:** redacción de textos desde $60/página · segundo idioma desde $180 · SEO técnico continuo desde $120/mes · migración desde WordPress desde $250 · pasarela de pago adicional $150.
+
+> **Aquí ya no va ningún chatbot.** Hasta el 2026-10-12 esta lista incluía "chatbot IA desde $350+$25/mes", dos líneas por encima del Agente CRM de $899 del apartado D — el mismo producto a dos precios, en este documento y en el sitio web a la vez. El Agente CRM **no es un complemento de una web** (funciona sin ella, sobre WhatsApp, Instagram, Messenger y Telegram), así que su sitio es el apartado D y nada más. **Al renombrar un servicio o cambiarle el precio, buscar el producto viejo por lo que *hace*, no por cómo se llamaba:** aquí se llamaba "chatbot" y el nuevo "Agente CRM", así que ningún buscador por nombre lo habría encontrado.
 
 **A medida (apps/sistemas web):** login/usuarios desde $450 · panel admin desde $650 · sistema de reservas/citas desde $600 · portal de clientes desde $750 · automatización IA/WhatsApp desde $250.
 

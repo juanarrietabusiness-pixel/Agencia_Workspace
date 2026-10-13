@@ -96,8 +96,9 @@ buscas solo campañas o campañas + redes 🚀
 
 **Regla de clasificación rápida tras la respuesta:**
 - Rubro pequeño + primera vez en publicidad → Emprendedor / Arranque.
-- Ya invierte en ads, quiere mejorar → Negocio / Crecimiento.
-- Empresa con varias sucursales o inversión seria → Empresa/Corporativo / Escala.
+- Ya invierte en ads, quiere mejorar → Empresa / Crecimiento.
+- Empresa con varias sucursales o inversión seria → Corporativo / Escala.
+- **Menos de $300/mes de pauta → no hay plan de Ads.** Desde el 2026-10-12 esa es la entrada; a quien no llegue, se le ofrece página web o Agente CRM, que no dependen de presupuesto publicitario. (El plan de $150 se retiró y "Negocio" pasó a llamarse "Emprendedor" — ver sección 6 de `01_brand_guidelines.md`.)
 
 **Resultado obtenido:** filtra automáticamente entre "Solo Campañas" y "Campañas + Redes" sin que el fundador tenga que preguntarlo manualmente cada vez.
 
@@ -114,7 +115,7 @@ buscas solo campañas o campañas + redes 🚀
   - **Conjunto 2 — Campañas + Redes Sociales:** negocios con más facturación/trayectoria. Edad 30–55. Intereses: gerencia/management, branding, negocios con varias sucursales, herramientas de gestión de redes.
 - **2-3 anuncios por conjunto**, probando ángulos distintos: (a) diagnóstico/problema ("¿Inviertes en publicidad y no ves resultados?"), (b) resultado rápido ("Agenda llena en menos de 2 semanas"), (c) caso de éxito anónimo (usar los casos de la sección 8 del ADN).
 - **Presupuesto:** split 50/50 al inicio entre los dos conjuntos, ajustar después de 3-4 días según costo por mensaje.
-- **Regla dura:** nunca poner los montos ($150, $450, etc.) directamente en el copy del anuncio — el anuncio vende la conversación, el precio se habla en WhatsApp una vez se entiende el negocio del prospecto.
+- **Regla dura:** nunca poner los montos ($250, $450, etc.) directamente en el copy del anuncio — el anuncio vende la conversación, el precio se habla en WhatsApp una vez se entiende el negocio del prospecto.
 - **Checklist antes de publicar:** ningún anuncio menciona precios · todos los CTA llevan a WhatsApp · imágenes en 1:1 o 4:5 para feed, 9:16 si corre en Stories/Reels · verificar que el pixel/conversión de WhatsApp esté bien configurado · dejar correr mínimo 3-4 días antes de pausar cualquier anuncio.
 
 **Resultado obtenido:** estructura usada para la propia campaña de adquisición de clientes de la agencia (no de un cliente externo).
