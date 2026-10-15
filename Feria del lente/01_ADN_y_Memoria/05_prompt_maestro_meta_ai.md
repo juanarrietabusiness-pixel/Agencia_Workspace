@@ -13,7 +13,7 @@
 > [`00_Estandares_Agencia/formato_prompt_maestro_meta_ai.md`](../../00_Estandares_Agencia/formato_prompt_maestro_meta_ai.md)
 > y se copian de ahí. Aquí vive **sólo lo de Feria del Lente**.
 
-> **De dónde sale cada cosa.** Los HEX, las tipografías, el voseo, las
+> **De dónde sale cada cosa.** Los HEX, las tipografías, el registro (español neutro), las
 > ofertas fijas, los WhatsApp por sucursal y las red flags salen de
 > `01_brand_guidelines.md`, verificado por el cliente en el formulario de
 > onboarding de agosto de 2026. La retícula, la escala y las plantillas son
@@ -42,7 +42,7 @@ Así que antes de escribir una pieza hay que saber en qué registro va:
 | Fondo | Crema `#F2EDE4` | Blanco `#FFFFFF` o negro `#000000` |
 | Dorado `#C5A059` | **No se usa** | Sí — franjas y detalles |
 | Ángulo de fe | Sí, es donde la marca es imbatible | **Jamás. Ni una palabra** |
-| Tono | Voseo panameño, cálido, urgente | Neutro-profesional, directo |
+| Tono | Español neutro con tuteo, cálido, urgente | Español neutro-profesional, directo |
 
 **Un lote no mezcla los dos registros.** Se pide uno y se entrega ese. Si el
 humano pide «contenido del mes» sin decir cuál, se pregunta antes de escribir.
@@ -77,7 +77,7 @@ domingo. **Esta plantilla no existe en el registro institucional.**
 ### D · Institucional — B2B
 
 Fondo blanco o negro. Franja diagonal roja o dorada. Cuadros de beneficios
-con checks. **Sin ángulo de fe, sin voseo, sin urgencia de cupos.**
+con checks. **Sin ángulo de fe, en español neutro-profesional, sin urgencia de cupos.**
 
 ---
 
@@ -282,9 +282,9 @@ Panamá. Es la red flag del número por sucursal.
 
 ### Las descripciones
 
-- **Voseo panameño**: «nos visitás», «te llevás», «pensados para vos».
-  Nunca tuteo, nunca usted, en consumer.
-- **Institucional: registro neutro-profesional**, sin voseo y sin fe.
+- **Español neutro con tuteo**: «nos visitas», «te llevas», «pensados para ti».
+  **Nunca voseo** («vos», «visitás», «vení»), nunca usted, en consumer.
+- **Institucional: español neutro-profesional**, sin fe.
 - Las ofertas fijas van literales: *«Lentes listos en 40 minutos · Aros y
   lentes de sol gratis · Aplica para todas las fórmulas · Cupos limitados»*.
 - CTA: «Agenda tu cita» + **el WhatsApp de la sucursal que toque**.
@@ -337,8 +337,8 @@ Además de la lista común del estándar:
     tercera familia?
 [ ] ¿Dibujaste el logo en vez de dejar el cuadro de carga? Quítalo.
 [ ] ¿Aparece algún ojo, persona, aro o lente generados? Quítalos.
-[ ] ¿Está el voseo bien puesto en consumer —«visitás», «llevás», «vos»— y
-    ausente en institucional?
+[ ] ¿Está todo en español neutro —tuteo en consumer («visitas», «llevas»,
+    «ti»)— sin una sola forma de voseo («vos», «visitás», «vení»)?
 [ ] ¿Están con su tilde o su eñe: FÓRMULAS, ÓPTICA, PANAMÁ, MÁS, VISIÓN,
     GRATIS, ARRAIJÁN, SÁBADO, AQUÍ, ÚLTIMAS?
 ```

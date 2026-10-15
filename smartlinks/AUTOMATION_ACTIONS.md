@@ -56,7 +56,7 @@ Si es sobre **contenido/estrategia** → manda `_EL_ORQUESTADOR_MAESTRO.md`.
    admite enlaces sueltos y grupos (`label` + `items`), que se pintan como pills.
    - Orden recomendado: contacto (WhatsApp) → catálogo → ubicación → el resto.
    - Máximo un botón `variant: accent` por landing: es el CTA principal.
-5. **Voz:** las etiquetas y notas se escriben en el tono del ADN del cliente (voseo,
+5. **Voz:** las etiquetas y notas se escriben en el tono del ADN del cliente (tuteo/usted,
    tuteo, léxico propio). Nunca mezcles léxico ni versículos entre clientes.
 6. Valida y commitea:
 

@@ -18,7 +18,7 @@
       "fondo": "#F2EDE4",
       "dorado": "no se usa",
       "anguloDeFe": "sí, es donde la marca es imbatible",
-      "tono": "voseo panameño, cálido, urgente"
+      "tono": "español neutro con tuteo (nos visitas, te llevas, para ti), cálido, urgente. Nunca voseo"
     },
     "institucional": {
       "fondo": "#FFFFFF o #000000",
@@ -213,7 +213,7 @@
       "id": "D",
       "nombre": "Institucional",
       "cuando": "B2B; empresas aliadas y financiamiento por planilla",
-      "composicion": "Fondo blanco o negro. Franja diagonal roja o dorada. Cuadros de beneficios con checks. Sin ángulo de fe, sin voseo, sin urgencia de cupos."
+      "composicion": "Fondo blanco o negro. Franja diagonal roja o dorada. Cuadros de beneficios con checks. Sin ángulo de fe, en español neutro-profesional, sin urgencia de cupos."
     }
   ],
   "logo": {
@@ -254,7 +254,7 @@
     "¿El WhatsApp de cada pieza es el de SU sucursal?",
     "¿Alguna pieza de Nuevo Arraiján promete «40 minutos»? Quítalo.",
     "¿Aparece algún precio? En consumer no va ninguno.",
-    "¿Está el voseo bien puesto en consumer —«visitás», «llevás», «vos»— y ausente en institucional?"
+    "¿Está todo en español neutro —tuteo en consumer («visitas», «llevas», «ti»), neutro-profesional en institucional— sin una sola forma de voseo («vos», «visitás», «vení»)?"
   ],
   "tildes": [
     "FÓRMULAS",
