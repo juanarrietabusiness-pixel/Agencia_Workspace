@@ -6,7 +6,7 @@
 
 ## ⚠️ Nota crítica: esta marca tiene DOS CARAS
 
-1. **Cara CONSUMER / cristiana (redes, público general):** cálida, de fe, voseo panameño, emotiva. Es el **diferenciador único** ("la primera óptica cristiana de Panamá"). Domina en Instagram/TikTok.
+1. **Cara CONSUMER / cristiana (redes, público general):** cálida, de fe, **español neutro con tuteo**, emotiva. Es el **diferenciador único** ("la primera óptica cristiana de Panamá"). Domina en Instagram/TikTok.
 2. **Cara INSTITUCIONAL / B2B (alianzas corporativas):** corporativa, profesional, **"totalmente corporativo, no religioso"** (instrucción explícita y NO negociable del fundador). Proveedor serio de salud visual con financiamiento por planilla. Tagline: *"Tu visión es nuestro compromiso."*
 
 **Regla de oro:** el ángulo cristiano **NUNCA** se mezcla en material institucional/B2B. Sí es el corazón del contenido de redes al público general.
@@ -67,8 +67,8 @@
 
 **Valores:** Compromiso · Accesibilidad · Eficiencia · Calidad de servicio.
 
-**Tono consumer (domina en redes):** informal, cálido y cercano, **voseo panameño** ("nos visitás", "te llevás", "pensados para vos"). Emotivo y espiritual. Urgente en campañas ("cupos limitados", "los cupos vuelan", "decide hoy").
-**Tono institucional/B2B:** Professional · Directo · Servicial · Comprometido — registro neutro-profesional, sin lenguaje religioso.
+**Tono consumer (domina en redes):** informal, cálido y cercano, en **español neutro con tuteo** ("nos visitas", "te llevas", "pensados para ti", "ven", "agenda tu cita"). **Nunca voseo** ("vos", "visitás", "vení", "compartí") ni modismos regionales. Emotivo y espiritual. Urgente en campañas ("cupos limitados", "los cupos vuelan", "decide hoy").
+**Tono institucional/B2B:** Professional · Directo · Servicial · Comprometido — español neutro-profesional, sin lenguaje religioso.
 
 **Léxico propio:** "Lentes en 40 minutos" · "Aros GRATIS" · "Renueva tu visión" · "Óptica cristiana" · Institucional: "Tu visión es nuestro compromiso" · Hashtags: #FeriaDelLente #OpticaCristiana #SaludVisual #VerMejor #Fe #Panamá.
 
@@ -108,7 +108,7 @@ Ofertas fijas consumer: *"Lentes listos en 40 minutos · Aros y lentes de sol gr
 - Usar siempre el **WhatsApp correcto por sucursal**.
 - **No prometer "40 minutos" en Nuevo Arraiján** (aplica solo a Ciudad de Panamá y La Chorrera).
 - No mencionar precios directamente en consumer (van tras examen).
-- Mantener el voseo panameño en consumer.
+- **Todo en español neutro:** tuteo en consumer, neutro-profesional en institucional. **Nunca voseo** ("vos", "visitás", "vení", "compartí") ni modismos regionales — en descripciones, artes, carruseles, guiones ni respuestas. *(Corregido 2026-10-15 por el humano: antes decía "voseo panameño" y generaba textos con "vos/vení".)*
 
 ## 8. Marketing y objetivos
 

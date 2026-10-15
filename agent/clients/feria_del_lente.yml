@@ -1,6 +1,6 @@
 # Óptica Feria del Lente — 3 sucursales (Cd Panamá, La Chorrera, Nuevo Arraiján). +28 años.
 # MARCA CON DOS CARAS estrictamente separadas:
-#   (a) Consumer cristiano — voseo panameño emotivo
+#   (a) Consumer cristiano — español neutro con tuteo, emotivo (nunca voseo)
 #   (b) Institucional B2B — corporativo, totalmente sin religión (instrucción del fundador)
 # El capability dual_voice_split es OBLIGATORIO para no mezclarlas.
 
@@ -54,7 +54,7 @@ capabilities:
       voices:
         - name: consumer_cristiano
           persona_hint: "familia"
-          rules: "voseo panameño emotivo, permitido lenguaje espiritual"
+          rules: "español neutro con tuteo (nos visitas, te llevas, para ti), emotivo, permitido lenguaje espiritual; NUNCA voseo (vos, visitás, vení, compartí)"
         - name: institucional_b2b
           persona_hint: "empresa"
           rules: "corporativo, sin lenguaje religioso"

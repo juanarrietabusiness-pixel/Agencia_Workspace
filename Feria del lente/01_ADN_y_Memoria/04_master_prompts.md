@@ -37,7 +37,7 @@ CTA estándar (pie de cada carrusel):
 **Estructuras de carrusel validadas (6 slides c/u):**
 1. **"Entraste buscando lentes... y encontraste algo más"** — ambiente/diferenciación (música/alabanza, versículos, café gratis, tablero de oración).
 2. **"¿Y si tu problema no es solo de graduación?"** — doble sentido visión física/espiritual, versículo Proverbios 29:18, promesa de beneficios.
-3. **"Esto es lo que te llevás cuando venís a Feria del Lente"** — los 4 beneficios (40 min, aros gratis, lentes de sol, kit de limpieza) con marco de fe.
+3. **"Esto es lo que te llevas cuando vienes a Feria del Lente"** — los 4 beneficios (40 min, aros gratis, lentes de sol, kit de limpieza) con marco de fe.
 4. **"Hay personas que llevan años sin ver bien... y lo normalizaron"** — emocional/misión, el más potente, diseño oscuro, cierre de compartir ("puede que seas la respuesta a su oración").
 
 **Resultado obtenido:** 4 carruseles producidos y publicados; el HTML se re-renderiza a PNG limpio cuando el cliente actualiza el diseño.
@@ -54,7 +54,7 @@ CTA estándar (pie de cada carrusel):
 - Música: alabanza instrumental suave de fondo (video de beneficios puede ir upbeat cristiano).
 - CTA final siempre en texto en pantalla con WhatsApp y ubicaciones.
 - Hashtags: #FeriaDelLente #ÓpticaCristiana #Panama #PanamáOeste #Lentes #Fe.
-- Tono: voseo panameño, cálido, directo a cámara. Cierre emocional con llamado a compartir.
+- Tono: español neutro con tuteo (nunca voseo), cálido, directo a cámara. Cierre emocional con llamado a compartir.
 
 **Ejemplo de cierre de campaña (validado, versión mejorada):**
 ```
@@ -73,7 +73,7 @@ camina con propósito, con fe y con claridad — porque cuando tienes visión, t
 
 "No solo vendemos lentes. También damos vista a los ciegos."
 
-¿A quién conocés que necesita escuchar esto? Compartí este video. Puede que hoy seas
+¿A quién conoces que necesita escuchar esto? Comparte este video. Puede que hoy seas
 la respuesta a su oración. 🙏
 ```
 
