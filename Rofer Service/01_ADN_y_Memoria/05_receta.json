@@ -6,7 +6,7 @@
       "01_brand_guidelines.md",
       "05_prompt_maestro_meta_ai.md"
     ],
-    "fecha": "2026-09-15"
+    "fecha": "2026-10-27"
   },
   "marca": "Rofer Service",
   "slug": "rofer",
@@ -199,6 +199,12 @@
       "nombre": "Portada de Reel",
       "cuando": "portada vertical de un reel de obra",
       "composicion": "Foto de obra a sangre bajo velo azul marino. Titular en blanco de 2 a 4 líneas anclado al centro óptico. Ícono de play. Firma: badge en la esquina inferior derecha."
+    },
+    {
+      "id": "E",
+      "nombre": "Ficha de equipo (arte vigente)",
+      "cuando": "presentar UN equipo de la flota oficial con su nombre, tal como lo muestran las artes vigentes de Rofer (2026-10-27); es el estilo con el que hoy se presenta la flota",
+      "composicion": "Lienzo cuadrado 1080×1080. Foto a sangre del equipo en hora dorada: cielo azul marino arriba que baja a un horizonte ámbar con el sol detrás de la máquina, siluetas de otros equipos a los lados, grava oscura en primer plano. Nombre del equipo arriba a la izquierda en Anton amarillo, en caja alta, en una o dos líneas; el modelo o la capacidad en blanco, más pequeño, debajo del nombre o junto a su última línea. Logo blanco arriba a la derecha como única firma. Sin banda, sin badge, sin precio, sin CTA dentro del arte. Detalle medido en `artesDeEquipo`."
     }
   ],
   "firma": {
@@ -207,7 +213,8 @@
       "A": "badge",
       "B": "banda inferior",
       "C": "banda inferior",
-      "D": "badge"
+      "D": "badge",
+      "E": "logo blanco arriba a la derecha (única firma; sin banda ni badge)"
     }
   },
   "logo": {
@@ -289,6 +296,50 @@
     },
     "seAplicaA": "solo el titular y la cifra, que son lo único por debajo de interlínea 1. El subtítulo, las listas y las notas van por encima de 1: ahí sobra sitio y no hay nada que corregir."
   },
+  "artesDeEquipo": {
+    "$regla": "Estilo de las artes vigentes de Rofer, medido píxel a píxel sobre tres piezas oficiales entregadas por el humano el 2026-10-27: Pala Volvo 210, Miniexcavadora Volvo 3.5 toneladas y Retro Martillo CAT 416E (1080×1080). Es la plantilla E. Las medidas son de referencia: si una pieza nueva se aparta, manda el ojo sobre estas tres artes, no el número.",
+    "lienzo": {
+      "ancho": 1080,
+      "alto": 1080
+    },
+    "titular": {
+      "familia": "Anton (la misma voz de lettering industrial del logo; ⏳ sigue provisional hasta que el cliente confirme la tipografía)",
+      "mayusculas": true,
+      "colorMedido": "#FBB718",
+      "colorOficial": "#FFB400",
+      "nota": "El amarillo del titular mide #FBB718 en las tres artes, a 4 en rojo, 3 en verde y 24 en azul del amarillo oficial: es la misma voz de amarillo de máquina y la diferencia cabe en la exportación. El hex oficial de la marca sigue siendo #FFB400; si el cliente quiere que el medido pase a oficial, es decisión suya y se cambia en todo el sistema a la vez.",
+      "posicion": "arriba a la izquierda: borde izquierdo de la tinta en x≈65, tope en y≈109",
+      "alturaVersalita": "≈59 px",
+      "pasoEntreLineas": "≈77 px de tope a tope cuando el nombre ocupa dos líneas",
+      "sombra": "sombra suave y corta abajo del titular para separarlo del cielo; sin contorno, sin brillo"
+    },
+    "subtitulo": {
+      "color": "#FFFFFF",
+      "contenido": "solo el modelo o la capacidad del equipo (210 · 3.5 TONELADAS · CAT 416E), nunca una frase",
+      "alturaDigitos": "≈32 px",
+      "posicion": "debajo del nombre, alineado a su borde izquierdo (x≈64–75), o a la derecha de la última línea del nombre si esa línea es corta (caso «VOLVO» + «3.5 TONELADAS»)",
+      "peso": "sans bold en caja alta, de la familia Inter del sistema"
+    },
+    "logo": {
+      "version": "blanco (recorte sin fondo), sobre el cielo azul marino",
+      "posicion": "arriba a la derecha, siempre en el mismo sitio: x≈822 a 997, y≈62 a 232 (≈175 px de ancho)",
+      "nota": "Las artes usan una versión BLANCA del logo. En el repo solo existe el lockup azul marino sobre blanco (Assets_Visuales_Base/logo_rofer_service.jpeg). La versión blanca hay que subirla al repo antes de generar piezas nuevas con esta plantilla; no se dibuja ni se recolorea el lockup actual."
+    },
+    "fondo": {
+      "luz": "hora dorada, sol bajo detrás del equipo, la máquina a contraluz",
+      "cielo": "degradado vertical medido en el borde: #0C2756 a #142A5B arriba, #324369 a un tercio de la altura, #E7AE43 en el horizonte (y≈550); no es un azul plano ni el #152473 de la plantilla C",
+      "suelo": "grava y tierra oscuras con reflejos cálidos",
+      "fondoDeObra": "siluetas de otros equipos amarillos a los lados del horizonte, desenfocadas, que dan escala de obra grande",
+      "equipo": "ocupa la mitad inferior y el centro del encuadre, ángulo ligeramente bajo, color de fábrica (amarillo Volvo/CAT), sin retocar su marca"
+    },
+    "reglas": [
+      "El nombre es SOLO el nombre oficial de 05_flota_equipos.md (parte A), en caja alta, sin placa ni chasis.",
+      "Una sola firma: el logo blanco arriba a la derecha. No lleva banda inferior ni badge.",
+      "Sin precio, sin CTA y sin teléfono dentro del arte: el contacto va en la descripción o en el SmartLink.",
+      "El titular amarillo y el subtítulo blanco viven sobre el cielo azul marino; nunca se bajan a la zona clara del horizonte, donde el amarillo se pierde.",
+      "La foto del equipo es de referencia real o la que sube el humano; no se inventa un modelo distinto al del nombre."
+    ]
+  },
   "anclajes": [
     {
       "plantilla": "A",
@@ -309,6 +360,11 @@
       "plantilla": "D",
       "nombre": "Centro óptico",
       "donde": "centro óptico del bloque en y=594; el centro óptico va por encima del geométrico"
+    },
+    {
+      "plantilla": "E",
+      "nombre": "Arriba a la izquierda",
+      "donde": "lienzo 1080×1080; el bloque nombre + modelo se ancla por su tope: borde izquierdo de la tinta en x≈65 y tope de la versalita en y≈109, en el cielo azul marino"
     }
   ]
 }

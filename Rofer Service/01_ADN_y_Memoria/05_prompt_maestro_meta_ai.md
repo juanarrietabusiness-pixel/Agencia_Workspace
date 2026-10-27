@@ -80,9 +80,30 @@ Están en el `05_receta.json` (`reticula.texto`, `escala`, `acento`,
 | B | Autoridad / Educación | Consejo o dato que posiciona los 20 años | Banda inferior |
 | C | Servicio / Equipo | Presentar un servicio o equipo (pilar CONVERSIÓN) | Banda inferior |
 | D | Portada de Reel | Portada vertical de un reel de obra | Badge |
+| E | Ficha de equipo (arte vigente) | Presentar UN equipo de la flota con su nombre oficial | Logo blanco arriba a la derecha |
 
-Cada pieza lleva **una sola firma** (banda inferior azul marino **o** badge),
-nunca las dos. La plantilla C **no lleva precio**: la marca no lo comunica.
+Cada pieza lleva **una sola firma** (banda inferior azul marino, badge **o**, en la
+E, el logo blanco), nunca dos. La plantilla C **no lleva precio**: la marca no lo comunica.
+
+### Plantilla E · el estilo de las artes vigentes (2026-10-27)
+
+Sale de tres artes oficiales de la flota (Pala Volvo 210, Miniexcavadora Volvo 3.5
+toneladas, Retro Martillo CAT 416E), medidas sobre 1080×1080. La medida completa
+está en `artesDeEquipo` del JSON; en corto:
+
+- **Foto en hora dorada, a contraluz:** cielo azul marino arriba (`#0C2756` a
+  `#142A5B`) que baja a un horizonte ámbar (`#E7AE43`) con el sol tras la máquina;
+  siluetas de otros equipos a los lados y grava oscura delante.
+- **Nombre del equipo** arriba a la izquierda, en **Anton amarillo y caja alta**, una
+  o dos líneas, con sombra suave. En las artes mide `#FBB718`; el amarillo oficial
+  sigue siendo `#FFB400` y no cambia sin decisión del cliente.
+- **Modelo o capacidad** en blanco, la mitad de alto que el titular, debajo del
+  nombre o junto a su última línea.
+- **Logo blanco** arriba a la derecha como única firma. Sin banda, sin badge, sin
+  precio y sin teléfono dentro del arte.
+- El texto amarillo y blanco vive sobre el cielo marino, nunca sobre el horizonte claro.
+- ⚠️ Falta subir al repo la **versión blanca del logo** (hoy solo existe el lockup azul
+  sobre blanco).
 
 ## 3 · La firma y el logo
 

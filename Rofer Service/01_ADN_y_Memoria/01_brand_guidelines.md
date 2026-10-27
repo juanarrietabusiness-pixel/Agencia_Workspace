@@ -2,7 +2,7 @@
 
 > 📁 **Multimedia del cliente:** [Google Drive](https://drive.google.com/drive/folders/1o-X9rMHqKG13QH-ssTxRSopjRX-vjNv7) · Canva _(pendiente: crear carpeta cuando la conexión de Canva esté autorizada)_ — los archivos pesados (fotos y videos de equipos/obra, diseños) viven ahí; este repo es la memoria/estrategia. No mezclar multimedia con otros clientes.
 
-> Última actualización: 2026-10-09 (nuevo WhatsApp + flota oficial de 14 equipos) · **Fuente de verdad:** onboarding verificado por el cliente (2026-09-08). El original queda en el historial de git. **Estado del ADN: 🟡 base** — posicionamiento, ADN verbal, público, diferenciales, competencia e **identidad visual (colores + logo)** confirmados por el cliente. Pendientes: **tipografía exacta**, web y precios de referencia. Todo lo marcado ⚠️ **no se inventa**: se pregunta.
+> Última actualización: 2026-10-27 (estilo de las artes de equipo vigentes, plantilla E) · antes: 2026-10-09 (nuevo WhatsApp + flota oficial de 14 equipos) · **Fuente de verdad:** onboarding verificado por el cliente (2026-09-08). El original queda en el historial de git. **Estado del ADN: 🟡 base** — posicionamiento, ADN verbal, público, diferenciales, competencia e **identidad visual (colores + logo)** confirmados por el cliente. Pendientes: **tipografía exacta**, web y precios de referencia. Todo lo marcado ⚠️ **no se inventa**: se pregunta.
 
 ## 0. Datos del negocio (verificado por el cliente)
 
@@ -44,6 +44,17 @@
   - **Archivo:** ✅ `Assets_Visuales_Base/logo_rofer_service.jpeg` (recibido del cliente 2026-09-14, 1280×1280, fondo blanco).
 - **Tipografía:** ⚠️ **pendiente de confirmar.** Provisional para composición mientras tanto: sans **bold/condensada industrial** tipo **Anton** o **Archivo Black** para titulares (coherente con el lettering del logo); sans neutra (Inter/Barlow) para cuerpo.
 - **Estilo visual:** industrial, sólido, confiable, profesional. Azul marino domina; el amarillo `#FFB400` firma y da el punch — **nunca al revés**.
+
+### Estilo de las artes de equipo (artes vigentes, 2026-10-27)
+
+Extraído de tres artes oficiales de la flota entregadas por el humano (Pala Volvo 210, Miniexcavadora Volvo 3.5 toneladas, Retro Martillo CAT 416E; 1080×1080), medido píxel a píxel. Es la **plantilla E** de `05_receta.json` (el detalle numérico vive en `artesDeEquipo`).
+
+- **Fondo:** foto del equipo en **hora dorada**, a contraluz, con el sol bajo detrás de la máquina. El cielo baja de azul marino arriba (`#0C2756` a `#142A5B`) a un horizonte ámbar (`#E7AE43`); siluetas de otros equipos amarillos a los lados dan escala de obra; grava oscura en primer plano. **No es el azul plano `#152473`**: el marino de la marca está en el cielo superior, no como fondo liso.
+- **Titular:** nombre oficial del equipo, **Anton en caja alta, amarillo**, arriba a la izquierda (tinta desde x≈65, tope en y≈109), una o dos líneas, con sombra suave y corta. En las tres artes el amarillo mide `#FBB718`, a pocos puntos del `#FFB400` oficial; **el oficial no cambia** salvo que el cliente lo decida.
+- **Subtítulo:** solo modelo o capacidad (`210`, `3.5 TONELADAS`, `CAT 416E`), **blanco**, sans bold en caja alta, de la mitad de altura del titular; debajo del nombre o a la derecha de su última línea si esa línea es corta.
+- **Firma:** **logo blanco** arriba a la derecha (≈175 px de ancho, siempre en el mismo sitio). Es la única firma: sin banda inferior, sin badge, sin precio ni teléfono dentro del arte.
+- **Regla de color:** el texto amarillo y blanco vive sobre el cielo azul marino; nunca sobre la zona clara del horizonte.
+- ⚠️ **Falta en el repo la versión blanca del logo.** Las artes usan un recorte blanco sin fondo; en el repo solo está el lockup azul marino sobre blanco. Hay que subirla a `Assets_Visuales_Base/` antes de montar piezas nuevas con esta plantilla.
 
 ## 3. ADN Verbal (verificado)
 
@@ -110,6 +121,7 @@
 1. **Tipografía exacta** de la marca (hoy provisional tipo Anton/Archivo Black).
 2. ~~Archivo del logo~~ ✅ recibido 2026-09-14 (`Assets_Visuales_Base/logo_rofer_service.jpeg`).
 3. ~~Acento amarillo~~ ✅ **resuelto 2026-09-15:** el secundario oficial es el **amarillo de máquina `#FFB400`** en toda la identidad (ADN, receta, SmartLink y agente). Único pendiente menor: re-exportar el logo para que "SERVICE" use el amarillo vivo en vez del dorado suave (opcional).
+3 bis. **Logo blanco** (recorte sin fondo) que usan las artes de equipo vigentes: subirlo a `Assets_Visuales_Base/`.
 4. **Web** (si tiene o va a tener).
 5. **Precios de referencia**, condiciones de crédito y forma de facturación.
 6. **Frases textuales** que la marca usa/evita (para afinar el léxico).
