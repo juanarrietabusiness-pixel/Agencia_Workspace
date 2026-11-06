@@ -110,6 +110,24 @@
 - 1 caja = 12 paquetes × 80 = 960 wipes.
 - Costo por caja (interno, según el catálogo del CRM): $21.60 · **Precio de venta: $45.00** · Ganancia: $23.40.
 
+### Pañales VELVEE de cierre — nueva marca (inicio con tallas P, M, G)
+
+> ⚠️ Costo y ganancia = memoria interna, NUNCA se comparten con el cliente.
+> Precios de venta confirmados por el cliente: **2026-11-06**.
+> Se vende en **media caja (½ caja = 3 paquetes)**. Precio caja completa (6 paquetes): **pendiente de confirmar**.
+
+| Talla | Rango de peso | Pañales (½ caja) | Costo ½ caja (interno) | Precio venta | Ganancia |
+|---|---|---|---|---|---|
+| P (S) | 7.5–13 lbs / 3.5–6 kg | 150 | $23.97 | **$35.00** | $11.03 (46%) |
+| M (M) | 12–21 lbs / 5.5–9.5 kg | 132 | $23.76 | **$35.00** | $11.24 (47%) |
+| G (L) | (rango pendiente) | 126 | $23.76 | **$33.00** | $9.24 (39%) |
+
+- Costo por paquete (interno): P = $7.99 · M = $7.92 · G = $7.92.
+- Retail de Velvee en tienda: $11.95/paquete (3 paq = $35.85) → precio Baby Caleb es competitivo.
+- Caja completa equivalente Velvee retail: $71.70 → Baby Caleb sería más económico en caja también.
+- **Tallas iniciales:** P, M, G. Tallas adicionales a incorporar conforme crezca el inventario.
+- **Pendiente:** confirmar precio de caja completa (6 paquetes) y rango de peso de Talla G.
+
 ### Otros
 
 - **Diferenciador operativo:** venta en **cajas grandes** (para todo el mes), no por paquete suelto.
