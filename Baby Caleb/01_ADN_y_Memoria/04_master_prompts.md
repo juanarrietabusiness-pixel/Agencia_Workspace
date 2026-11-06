@@ -224,3 +224,36 @@ Con $1,000 se compararon 3 escenarios:
 - **Comparar siempre por unidad (wipe o pañal), no por caja** — es el error #1 al evaluar proveedores.
 - **Landed cost = producto + flete + pickup + puerto + agente aduana + entrega** — nunca cotizar solo con el precio de producto.
 - **WhatsApp responde rápido = requisito, no lujo** — cada minuto de retraso reduce la tasa de conversión de un lead y penaliza la entrega del algoritmo de Meta con el tiempo.
+
+---
+
+## 8. Videos con IA en el calendario — método y lo aprendido (2026-11-06)
+
+> El método completo (para todos los clientes) está en `00_Estandares_Agencia/metodo_videos_ia.md`. Aquí van los datos y las reglas propias de Baby Caleb. Primera prueba aprobada por el cliente: video animado **«Nateen Pants — Montaña Rusa»** (ID `70041c5a-644f-4edc-98aa-eaefe6cc71ba`) y reel **«¿Le limpias y aún se irrita?»** de Wipes Nateen (ID `9fe168fc-992c-4dee-a2d1-aa91a09b12e9`, versión 4 = la buena: «ese es el que es»).
+
+**Voz de la marca:** **Yuli** (`jy6d6SknixQmWMCivZZm`, femenina, joven, nativa en español), elegida por el cliente el 2026-11-06. Reemplaza a Emma. Mientras el kit siga en Emma, pasarla a mano en cada `generar_locucion`.
+
+**Mascota oficial = el bebé vikingo del logo** (pelo naranja, casco con cuernos, túnica verde, martillito y escudo). En los videos animados sale SIEMPRE él, nunca la figura genérica de la pieza «personaje». Imágenes ya hechas en la galería (fondo verde salvia, usar el fondo de escena `#C3D1B9` para que se funda):
+- Celebrando, brazos arriba: `31afa88b-3c47-453b-ab52-faaf5fe124af`
+- De pie, saludando: `faac8d85-10a6-48fe-b01b-34c0bb7b5dc4`
+- (Descartada: caminando `f7cd324e…`, trae texto inventado.)
+Para poses nuevas: `crear_en_estudio` con el logo `8ed2d26b-b172-4ebb-94e3-cf3ad3846007` en referencias, `sin_logo=true`, «sin texto, sin letras, fondo liso».
+
+**Fotos reales del catálogo (para `imagen` o referencias):**
+- Pañales Nateen pants: `e1c43f30-08a7-47fb-a9e3-65377464e7c1`
+- Pañales Nateen de cierre: `9428dccd-e37f-40df-b013-9adb0bda1b51`
+- Wipes Nateen: `ab99e902-98ff-4c56-a3a0-e6f4cd275132`, `9aba8226-966b-4bf9-9ffe-5b665496db64`
+- Wipes Dany Baby: `d1765820-c651-4d26-baba-de6e9df4bc94`, `10cfc409-f2d5-400b-b710-72e9763e226f`
+
+**Claims por producto en video (copiar sólo del producto que sale):**
+- Pañales Nateen (cierre y pants): hipoalergénicos, sin cloro, sin perfume, **fibras de bambú**, biodegradables.
+- Wipes Nateen: hipoalergénicos, **sin perfume**, libres de químicos agresivos, suaves con la piel delicada, 960 wipes por caja, $45. **NO llevan "fibras de bambú" ni "sin alcohol".**
+- Wipes Dany Baby: 99% agua pura, sin perfume ni alcohol.
+
+**Reel de "problema" (wipes que irritan):** el wipe malo es una **bolsa ROSADA genérica sin marca**; nunca blanca, ni con hojas verdes, ni nada que recuerde a Nateen. El rosado es SÓLO del producto malo: si un clip de Nateen se vuelve rosado al final, cambiar esa toma por su fotograma fijo.
+
+**Fotogramas buenos del reel de Wipes (reutilizables):** paquete Nateen limpiando `b8ae9bda-d316-48d0-a90f-fad48215903e` · mamá limpiando con Nateen `1a37cd2d-8734-4ebe-baf0-f338b755cf8a` · caja + paquete Nateen `cb5bf11a-b042-48b9-8014-e2ff2c8c8fb0` · mamá con bebé y caja `0cbf0a77-d07c-489f-b538-7b2f1c91b042`.
+
+**Música hecha (reutilizable):** «Baby Caleb — tema animado Nateen» (pop acústico con ukelele, para animados) y «Baby Caleb — reel Wipes Nateen» (folk acústico, para reels de producto).
+
+**Costos de referencia:** video animado completo ≈ $0.26 (voz + 3 imágenes de mascota + música). Reel por planos con Veo 3.1 Lite ≈ $1.60 (fotogramas + 10 clips + voz + música); con Seedance 2.5 habría sido ≈ $3.30.
