@@ -2,7 +2,7 @@
 
 > 📁 **Multimedia del cliente:** ⏳ carpetas de Google Drive y Canva aún sin crear — cuando existan, poner aquí los links (mismo formato que el resto de clientes).
 
-> Última actualización: 2026-09-24 (paleta reorganizada desde el logo oficial, por indicación del humano) · **Fuente:** documento de ADN entregado por el cliente — [`Assets_Visuales_Base/01_Comunidad_Brand_Guidelines_2026-09.docx`](Assets_Visuales_Base/01_Comunidad_Brand_Guidelines_2026-09.docx) (extraído de `emprendemosenfe.vercel.app`, páginas Inicio y Visión, el 2026-09-24, y completado con datos que el cliente confirmó) + logo oficial. Lo marcado ⏳ sigue sin confirmar.
+> Última actualización: 2026-11-10 (sistema de posts de versículo aprobado por el humano: naranja `#C95E26` y azul `#143087` medidos de los posts reales; ver §5 «Posts de versículo») · 2026-09-24 (paleta reorganizada desde el logo oficial, por indicación del humano) · **Fuente:** documento de ADN entregado por el cliente — [`Assets_Visuales_Base/01_Comunidad_Brand_Guidelines_2026-09.docx`](Assets_Visuales_Base/01_Comunidad_Brand_Guidelines_2026-09.docx) (extraído de `emprendemosenfe.vercel.app`, páginas Inicio y Visión, el 2026-09-24, y completado con datos que el cliente confirmó) + logo oficial. Lo marcado ⏳ sigue sin confirmar.
 > Nota: COMUNIDAD es una **comunidad / plataforma**, no una marca personal individual ni un negocio que vende. **Es gratis:** no hay precios ni membresía paga. La "conversión" es que un hermano entre a la plataforma, cree su perfil, compre/venda dentro de la comunidad y se forme.
 
 ## 0. Datos generales
@@ -95,21 +95,23 @@
   - [`logo-comunidad-icono-original.jpg`](Assets_Visuales_Base/logo-comunidad-icono-original.jpg) — solo la paloma de fuego.
   - [`logo-comunidad.png`](Assets_Visuales_Base/logo-comunidad.png) y [`logo-comunidad-icono.png`](Assets_Visuales_Base/logo-comunidad-icono.png) — los mismos, recortados y con el fondo negro plano quitado (transparentes), para web/SmartLink. El logo **no se redibuja ni se recolorea**.
 
-### Paleta de marca — tomada del logo oficial (lockup "COMUNIDAD")
+### Paleta de marca
 
-**Regla:** la paleta de marca es **la del logo**. Se midió píxel a píxel sobre [`logo-comunidad-original.jpg`](Assets_Visuales_Base/logo-comunidad-original.jpg) (mediana de cada color en el archivo) el 2026-09-24, por indicación del humano. Esta es la fuente de verdad para piezas, redes, prompts de imagen, correo y landing.
+**Regla:** la paleta del logo (medida el 2026-09-24 sobre `logo-comunidad-original.jpg`) sigue siendo la de **logo y piezas institucionales**. Para los **posts de versículo** (§5, «Posts de versículo») manda la paleta medida de los posts reales de la marca, aprobada por el humano el 2026-11-10. Fuente de verdad para prompts de imagen, redes, correo y landing.
 
-| Nombre | HEX | Dónde está en el logo | Uso |
-|---|---|---|---|
-| Negro | `#000000` | Fondo del logo | Fondo principal de toda pieza |
-| Naranja llama | `#EF8229` | Cuerpo de la paloma y "DAD" del wordmark | **Color dominante de marca**: acento principal, CTA, palabras clave |
-| Azul contorno | `#1952A8` | Contorno de la paloma | Acento secundario: contornos, bordes, detalles. **Nunca para texto sobre negro** (contraste insuficiente) |
-| Blanco | `#FFFFFF` | "COMUNI" y el tagline | Texto principal sobre fondo negro |
-| Gris de apoyo | `#9A9AA7` | — (no está en el logo) | Solo texto secundario / subtítulos. Viene del documento del cliente |
+| Nombre | HEX | Uso |
+|---|---|---|
+| Negro | `#000000` | Fondo principal de toda pieza |
+| Naranja de posts | `#C95E26` | Posts de versículo: comillas, líneas destacadas del titular, borde de la caja de cita. Naranja quemado, rojizo, nunca amarillento |
+| Naranja llama (logo) | `#EF8229` | Solo el logo (cuerpo de la paloma y «DAD» del wordmark) y piezas institucionales fuera de los posts de versículo |
+| Azul de posts | `#143087` | Posts de versículo: una línea del titular, «NTV» y resplandor suave (≈14 % de opacidad) abajo a la derecha. Solo en texto corto y grande; nunca en texto pequeño sobre negro |
+| Azul contorno (logo) | `#1952A8` | Contorno de la paloma; acento secundario en piezas institucionales. Nunca para texto sobre negro |
+| Blanco | `#FFFFFF` | Texto principal sobre fondo negro |
+| Gris de apoyo | `#9A9AA7` | Texto secundario; en posts de versículo, solo la frase propia |
 
 - **Colores de la web app que NO son de marca** (tokens de interfaz de `emprendemosenfe.vercel.app`, no se usan en piezas): `#0A0A0F`, `#FF8A2E`, `#2F7BFF`, `#F4F4F5` y el resto de la paleta de interfaz (sombra, superficie/tarjetas, madera oscura, primario oscuro, bordes, borde activo, acento oscuro, llama clara, texto llama, oro, oro claro, oro profundo, bronce, arena, azul oscuro de fondo, tekhelet, púrpura, carmesí). <!-- v: se listan justamente como descartados -->
 - El archivo del ícono solo (paloma sin wordmark) mide un azul algo distinto (≈`#0D56B5`) por la compresión JPG. **Manda el lockup**: el azul de marca es `#1952A8`. <!-- v: valor medido que se descarta -->
-- El logo se usa tal cual: no se recolorea.
+- El logo se usa tal cual: no se recolorea. Ningún color fuera de esta tabla.
 
 ### Tipografía
 
@@ -125,6 +127,22 @@
 
 - Fondos oscuros con **degradados suaves en naranja brasa, dorado y azul, con 4% a 22% de opacidad**.
 - Estética **cálida-devocional sobre base oscura**, no corporativa fría.
+
+### Posts de versículo (Instagram 4:5) — aprobado 2026-11-10
+
+Serie «versículo NTV + frase propia». Referencia aprobada: Proverbios 21:5, versión C.
+
+- **Tipografía (solo en estos posts):** titular en sans condensada ultra bold, mayúsculas, alineada a la izquierda, líneas de ≤ ~20 caracteres; referencia en sans con espaciado ancho; frase propia en sans condensada medium. (Cinzel/EB Garamond siguen para web y piezas institucionales.)
+- **Foto:** cinematográfica oscura de manos trabajando (emprendedores latinos), rostros fuera de cuadro o desenfocados; luz cálida puntual 2700–3000 K, resto en penumbra; 85 mm (o 50 mm), f/2.0–2.2, fondo desenfocado, grano fino, sin HDR; sin texto ni marcas legibles en los objetos.
+- **Estructura fija:**
+  1. Comilla de apertura naranja `#C95E26` pequeña (≈5 % de la altura), arriba a la izquierda.
+  2. Titular = versículo NTV en 3 a 6 líneas, 60 % del ancho: una línea blanca, una naranja y una azul `#143087`. Comilla de cierre pequeña pegada a la última línea.
+  3. Caja de cita pegada debajo, borde fino naranja: LIBRO C:V en blanco + NTV en azul.
+  4. Frase propia aparte, en gris `#9A9AA7`, una sola línea mínima abajo a la izquierda. Nunca debe parecer parte del versículo (otro tamaño, otro estilo, separada de la cita).
+  5. Logo oficial (solo la llama) abajo a la derecha, 13 % del ancho, centro al 86 % del ancho y 90 % de la altura; sin redibujar ni recolorear.
+  6. Degradado negro de izquierda a derecha sobre el 58 % izquierdo, brasa naranja suave detrás del titular, resplandor azul frío ≈14 % abajo a la derecha, chispas finas a muy baja opacidad.
+- **Texto:** cada línea aparece una sola vez (sin duplicar); versículo siempre de la NTV.
+- **Evitar:** comillas grandes, frases duplicadas, naranja brillante o amarillento, colores fuera de la paleta, logo a la izquierda, frase propia del tamaño o estilo del versículo, letras de más o sin tilde.
 
 ## 6. Límites estrictos (Red Flags)
 
