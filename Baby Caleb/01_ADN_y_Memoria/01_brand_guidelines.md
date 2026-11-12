@@ -94,7 +94,7 @@
 - **1 caja = 6 paquetes × 100 unidades = 600 wipes.** Nunca escribir "12 paquetes × 50": esa presentación ya no se vende.
 - **Precio de venta: $20.00** la caja (2026-11-12).
 - **Promoción vigente: 2 cajas = 1,200 wipes (12 paquetes × 100) por $35.00.** Cuando se hable de los wipes Dany Baby se ofrecen las dos opciones: la caja sola y la promo de 2.
-- Costo por caja (interno, según el catálogo del CRM): $14.00 → ganancia $6.00 por caja y $7.00 por promo. **Por confirmar con el cliente:** el costo de la presentación 6×100 (en el análisis de 2026-07 era $9.90).
+- Costo por caja (interno, confirmado por el cliente 2026-11-12): **$9.90 + 7% ITBMS = $10.59** → ganancia **$9.41** por caja y **$13.81** por promo de 2 cajas (costo $21.19).
 - Descuento del proveedor: **10% al comprar 15 cajas o más**.
 
 ### Wipes DANY BABY — adulto (uso interno, NO se vende)
