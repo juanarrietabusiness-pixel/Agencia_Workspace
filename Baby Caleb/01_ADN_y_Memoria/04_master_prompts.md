@@ -128,8 +128,11 @@ hipoalergénicos. Nuestro precio es rango medio — no somos los más baratos ni
 más caros.
 
 Producto actual de wipes: wipes de agua Dany Baby — toallitas de agua 99% pura.
-Vendemos por caja: 12 paquetes de 50 = 600 wipes a $25. Cada caja nos cuesta
-$14.00 ($12.60 comprando 15 cajas o más). Por caja ganamos $11.00.
+Vendemos por caja: 6 paquetes de 100 = 600 wipes a $20, y la promoción de 2
+cajas (1,200 wipes) por $35.
+
+Cómo se paga: completo y por adelantado (productos + delivery) al Yappy
+Comercial @babycalebpanama. No es contra entrega y no se pide abono.
 
 Producto actual de pañales: NATEEN — hipoalergénicos, súper absorbentes, sin
 cloro ni perfumes, 100% fibras de bambú, biodegradables. Tallas: RN, S, M, L,
@@ -147,7 +150,7 @@ Lo que necesito de ti: [DESCRIBIR AQUÍ LA TAREA ESPECÍFICA]
 
 **Cuándo usarlo:** al analizar cualquier propuesta de proveedor nuevo o al calcular precios/promociones. La regla que ya se validó en conversación: **comparar por costo por wipe (o por pañal), no por caja** — es el error que llevó a recomendar mal AquaWipes 50 en vez de AquaWipes 100.
 
-> ⚠️ Las cifras de esta sección son del análisis de 2026-07. Las vigentes (2026-09-29) están en `01_brand_guidelines.md` §4: wipes Dany Baby a $25 la caja de 600 (costo $14.00, ganancia $11.00; ya no hay combo de 2 cajas) y Caja RN a $50.
+> ⚠️ Las cifras de esta sección son del análisis de 2026-07. Las vigentes están en `01_brand_guidelines.md` §4: wipes Dany Baby a $20 la caja de 600 (6×100) y la promo de 2 cajas por $35 (2026-11-12), y Caja RN a $50.
 
 **Wipes hoy (AquaWipes 100 — Dany Baby):**
 - Caja: 6 packs × 100 wipes = 600 wipes · costo $9.90 · costo por wipe **$0.017**.
