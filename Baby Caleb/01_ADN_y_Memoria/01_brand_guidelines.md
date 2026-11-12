@@ -64,7 +64,9 @@
 
 ## 4. Productos, tallas y precios (verificado)
 
-> Precios actualizados por el cliente el **2026-09-29**: Caja RN a $50, pants con costo, wipes Dany Baby por caja suelta (se acabó el combo de 2 cajas), wipes Dany Baby adulto (uso interno) y fular Moon con precio. Wipes Nateen confirmados: caja de 960 a $45.
+> Precios actualizados por el cliente el **2026-09-29**: Caja RN a $50, pants con costo, wipes Dany Baby adulto (uso interno) y fular Moon con precio. Wipes Nateen confirmados: caja de 960 a $45.
+>
+> **Actualizado por el cliente el 2026-11-12:** wipes Dany Baby a **$20** la caja de 600 (ahora **6 paquetes × 100**) y **vuelve la promoción de 2 cajas (1,200 wipes) por $35**.
 
 *(Costo y ganancia = memoria interna, NUNCA se dicen al cliente. La guía de peso por talla sí sirve para atención.)*
 
@@ -89,10 +91,11 @@
 
 ### Wipes de agua DANY BABY — bebé (agua 99% pura)
 
-- **1 caja = 12 paquetes × 50 unidades = 600 wipes.**
-- Costo por caja (interno): $14.00 · **Precio de venta: $25.00** · Ganancia: $11.00.
-- Descuento del proveedor: **10% al comprar 15 cajas o más** → costo $12.60/caja.
-- **Ya no hay combo de 2 cajas:** se vende por caja.
+- **1 caja = 6 paquetes × 100 unidades = 600 wipes.** Nunca escribir "12 paquetes × 50": esa presentación ya no se vende.
+- **Precio de venta: $20.00** la caja (2026-11-12).
+- **Promoción vigente: 2 cajas = 1,200 wipes (12 paquetes × 100) por $35.00.** Cuando se hable de los wipes Dany Baby se ofrecen las dos opciones: la caja sola y la promo de 2.
+- Costo por caja (interno, según el catálogo del CRM): $14.00 → ganancia $6.00 por caja y $7.00 por promo. **Por confirmar con el cliente:** el costo de la presentación 6×100 (en el análisis de 2026-07 era $9.90).
+- Descuento del proveedor: **10% al comprar 15 cajas o más**.
 
 ### Wipes DANY BABY — adulto (uso interno, NO se vende)
 
@@ -136,6 +139,7 @@
 - **Público A ("Mamá primeriza cuidadosa"):** madre/cuidadora principal, 25–45 años, activa en redes, con capacidad económica. Le resuelve evitar irritación/rozaduras con pañales hipoalergénicos suaves. La convence: marcas de buena reputación, cajas para el mes, atención por WhatsApp, confianza.
 - **Público B:** familias con bebés de piel delicada que buscan pañales buenos y no muy caros que "les den paz". Le vendes tranquilidad; lo convence: cajas grandes más accesibles que por paquete + confianza hipoalergénica.
 - **FAQ frecuentes:** ¿cuánto cuesta el delivery? (depende de la ubicación) · ¿hay que abonar antes de la entrega? · ¿es contra entrega? · ¿son pants o de cierre?
+- **Pagos (confirmado por el cliente 2026-11-12):** el pedido se paga **completo por adelantado** (productos + delivery) al **Yappy Comercial @babycalebpanama** (está en el directorio oficial de Yappy) y se envía el comprobante. **No es contra entrega y ya no se pide abono.** La única excepción: una talla o producto agotado se puede apartar con un abono de mínimo $5. El abono de $5 no se anuncia en piezas.
 - **Presupuesto de pauta:** $200–$500/mes (escalamiento validado). **Objetivo 3 meses:** escalar el volumen (~40 cajas/mes actuales) manteniendo el ROI y evaluar abrir una **pañalera física** especializada.
 
 ## 6. Límites estrictos (Red Flags)
@@ -146,5 +150,5 @@
 
 ## 7. Pendiente de validar
 
-- Zona exacta y costo del delivery; métodos de pago (abono vs. contra entrega).
+- Zona exacta y costo del delivery. *(Métodos de pago ✅ resuelto el 2026-11-12: pago completo por adelantado al Yappy Comercial, ver §5.)*
 - Datos de historia/fundación de la marca.
