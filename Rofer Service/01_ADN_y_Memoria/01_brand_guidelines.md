@@ -85,7 +85,7 @@ Extraído de tres artes oficiales de la flota entregadas por el humano (Pala Vol
 
 ## 5. Objeciones y garantía (verificado)
 
-- **Manejo de objeciones / garantía de confianza:** **el pago se realiza cuando el equipo ya está en el proyecto, no antes.** Se atiende la necesidad real del cliente antes de cerrar (asesoría primero).
+- **Manejo de objeciones / garantía de confianza:** ❌ **Retirado (2026-11-13, Juan):** «el pago se realiza cuando el equipo ya está en el proyecto» **no es así** — no se publica ni se usa como garantía. Se atiende la necesidad real del cliente antes de cerrar (asesoría primero).
 - **Precios / crédito / facturación:** ⚠️ **pendientes** — no se dieron montos ni condiciones. **No inventar precios.** (El cliente confirma que hay dudas frecuentes de pago/crédito/facturación → material para FAQ, pero los valores los da él.)
 
 ## 6. Proceso de venta (verificado)

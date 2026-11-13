@@ -16,7 +16,7 @@
   - *"¿Tienen crédito?"*
   - *"¿El equipo que creo necesitar es el idóneo?"* (duda técnica — es justo donde Rofer gana).
   - *"¿Cómo se factura?"*
-- **Qué lo tranquiliza (garantía de confianza):** el **pago se hace cuando el equipo ya está en el proyecto**, no antes. Y se atiende su necesidad real antes de cerrar.
+- **Qué lo tranquiliza (garantía de confianza):** que se atienda su necesidad real antes de cerrar (asesoría primero). ❌ **Retirado (2026-11-13, Juan):** «el pago se realiza cuando el equipo ya está en el proyecto» **no es así** — no se publica ni se usa como garantía.
 - **Ruta de compra:** WhatsApp → pide asesoría → pide fotos de equipos → recibe cotización → cierra por WhatsApp / llamada / presencial.
 - **Prueba social que le habla:** proyectos de respaldo — ASP, Gana Empresa, Remodelación Multiplaza, Figali.
 - **⚠️ Pendiente:** de qué canal llega hoy (referidos, IG, FB), y frases/vocabulario textual propio.
@@ -26,7 +26,7 @@
 | Duda del cliente | Ángulo de Rofer Service |
 |---|---|
 | "¿Es este el equipo idóneo?" | Asesoría primero: mostramos cómo elegimos la máquina según el trabajo (autoridad de 20 años). |
-| "¿Cómo pago / hay crédito / cómo se factura?" | Explicar el proceso claro; recordar que **se paga con el equipo ya en el proyecto**. (Montos y crédito: los confirma el cliente.) |
+| "¿Cómo pago / hay crédito / cómo se factura?" | Explicar el proceso claro (asesoría → fotos → cotización). **No** decir que se paga con el equipo ya en el proyecto. (Montos, crédito y facturación: los confirma el cliente.) |
 | "¿Van a cumplir con el tiempo?" | Rapidez de entrega + flota propia + casos de respaldo. |
 | "¿Tienen experiencia real?" | 20 años en el medio + proyectos: ASP, Gana Empresa, Multiplaza, Figali. |
 

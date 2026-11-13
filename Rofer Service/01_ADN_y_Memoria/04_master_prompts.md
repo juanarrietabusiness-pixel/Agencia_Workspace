@@ -19,7 +19,7 @@ Todo lo de Rofer Service gira alrededor de una idea: **"el equipo correcto para 
 - **Asesoría / autoridad** — "cómo elegir el equipo idóneo para X trabajo" (educa y posiciona los 20 años).
 - **Prueba / obra real** — equipos trabajando, proyectos de respaldo (ASP, Gana Empresa, Multiplaza, Figali — con permiso).
 - **Servicio / catálogo** — qué equipos hay, para qué sirve cada uno (excavación, conformación, demolición).
-- **Confianza / proceso** — "usted paga cuando el equipo ya está en su proyecto", cómo se cotiza, cómo se factura.
+- **Confianza / proceso** — cómo se asesora y cómo se cotiza (facturación y pago: solo lo que confirme el cliente; **nunca** "usted paga cuando el equipo ya está en su proyecto").
 
 ## Plantilla de brief de contenido (pieza individual)
 
@@ -44,8 +44,7 @@ Buenos días, gracias por escribir a Rofer Service. Con gusto lo asesoramos.
 Para recomendarle el equipo idóneo, cuénteme:
 1) ¿Qué trabajo va a realizar? (excavación, conformación de terreno, demolición…)
 2) ¿Dónde y para cuándo lo necesita?
-Con eso le digo cuál es la máquina indicada y le paso fotos y cotización. Recuerde que
-el pago se realiza cuando el equipo ya está en su proyecto.
+Con eso le digo cuál es la máquina indicada y le paso fotos y cotización.
 ```
 > Ajustar a "usted" siempre. Montos/crédito: solo los que confirme el cliente.
 
@@ -54,6 +53,5 @@ el pago se realiza cuando el equipo ya está en su proyecto.
 - **"El error más caro en una obra"** (Asesoría): el equipo mal recomendado. Rofer asesora antes de rentar.
 - **"¿Cuál excavadora necesita para su trabajo?"** (Autoridad/Educación): mini-guía por tipo de trabajo.
 - **"Equipo propio, entrega rápida"** (Servicio/Confianza): flota propia = el equipo idóneo, no el que sobra.
-- **"Usted paga cuando el equipo ya está en su proyecto"** (Confianza): la garantía de tranquilidad, tal cual la dio el cliente.
 
 > ⚠️ **No inventar:** precios, crédito, facturación, web, ni afirmar ciudad/mercado si no está confirmado (§SEO). Nombres de proyectos de respaldo, solo con permiso de mención.
