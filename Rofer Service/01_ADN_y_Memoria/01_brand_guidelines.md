@@ -10,7 +10,7 @@
 - **Dueño / contacto:** Alex Fernando Sepúlveda Gamba.
 - **Categoría:** construcción — **movimiento de tierra** y **alquiler/venta de equipos pesados**.
 - **Servicios:** excavaciones, conformación de terrenos, demoliciones, **alquiler de equipos**, **venta de equipos**.
-- **Antigüedad / experiencia:** **20 años en el medio.**
+- **Experiencia:** **20 años de experiencia.** ⚠️ Corregido 2026-11-13 (Juan): son 20 años **de experiencia**, no 20 años de la empresa en el mercado. Se dice siempre «20 años de experiencia»; nunca «20 años en el medio», «en el mercado» ni «de trayectoria».
 - **Contacto:** WhatsApp **+507 6086-6581** (nuevo desde 2026-10-09; reemplaza al anterior) · Instagram [@roferservice](https://instagram.com/roferservice) · Facebook **Rofer Service**.
 - **Web:** ⚠️ pendiente (no declarada).
 - **Canales de venta hoy:** WhatsApp (canal principal), Instagram, Facebook.
@@ -20,10 +20,10 @@
 
 **Rofer Service no solo te alquila un equipo: te da la recomendación correcta para el trabajo.** El posicionamiento central es **asesoría técnica confiable respaldada por 20 años de trayectoria** — evitando el error más común del rubro: que al cliente le asesoren mal y le den un equipo que no es el idóneo para la obra.
 
-**Promesa central:** el equipo correcto para el trabajo correcto, con asesoría de alguien que lleva 20 años en el medio — no "el equipo que sobra".
+**Promesa central:** el equipo correcto para el trabajo correcto, con asesoría de alguien con 20 años de experiencia — no "el equipo que sobra".
 
 **Diferenciadores (verificados):**
-- **Asesoría técnica basada en experiencia real** (20 años de trayectoria).
+- **Asesoría técnica basada en experiencia real** (20 años de experiencia).
 - **Solución rápida y eficaz.**
 - **Tecnología / equipos propios** (flota propia → puede dar el equipo idóneo, no el disponible).
 - **Rapidez de entrega.**
@@ -64,7 +64,7 @@ Extraído de tres artes oficiales de la flota entregadas por el humano (Pala Vol
 
 **Lo que la marca SÍ hace:**
 1. Asesora primero — recomienda el equipo idóneo para el trabajo antes de cotizar.
-2. Respalda con trayectoria y proyectos reales.
+2. Respalda con sus 20 años de experiencia y proyectos reales.
 3. Da certeza operativa: rapidez de entrega, atención personalizada, equipo propio.
 
 **Lo que la marca NUNCA hace:**
@@ -72,7 +72,7 @@ Extraído de tres artes oficiales de la flota entregadas por el humano (Pala Vol
 - ❌ Prometer sin respaldo / exagerar.
 - ❌ Tutear al cliente (el registro es de usted).
 
-**Léxico de referencia (a validar con ejemplos del cliente):** asesoría, equipo idóneo, movimiento de tierra, excavación, conformación, flota propia, rapidez de entrega, trayectoria, 20 años. ⚠️ El cliente aún no dio frases textuales que usa/evita — pedir ejemplos para afinar.
+**Léxico de referencia (a validar con ejemplos del cliente):** asesoría, equipo idóneo, movimiento de tierra, excavación, conformación, flota propia, rapidez de entrega, 20 años de experiencia (nunca «20 años en el medio», «en el mercado» ni «de trayectoria»). ⚠️ El cliente aún no dio frases textuales que usa/evita — pedir ejemplos para afinar.
 
 ## 4. Público — Buyer Persona (verificado)
 

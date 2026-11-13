@@ -28,7 +28,7 @@
 | "¿Es este el equipo idóneo?" | Asesoría primero: mostramos cómo elegimos la máquina según el trabajo (autoridad de 20 años). |
 | "¿Cómo pago / hay crédito / cómo se factura?" | Explicar el proceso claro (asesoría → fotos → cotización). **No** decir que se paga con el equipo ya en el proyecto. (Montos, crédito y facturación: los confirma el cliente.) |
 | "¿Van a cumplir con el tiempo?" | Rapidez de entrega + flota propia + casos de respaldo. |
-| "¿Tienen experiencia real?" | 20 años en el medio + proyectos: ASP, Gana Empresa, Multiplaza, Figali. |
+| "¿Tienen experiencia real?" | 20 años de experiencia + proyectos: ASP, Gana Empresa, Multiplaza, Figali. |
 
 ## Próximos pasos para completar este archivo
 

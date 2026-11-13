@@ -13,10 +13,10 @@ Prompts y plantillas base para Rofer Service. Fuente: `01_brand_guidelines.md` (
 
 ## Eje de contenido de la marca
 
-Todo lo de Rofer Service gira alrededor de una idea: **"el equipo correcto para el trabajo correcto, con asesoría de 20 años."** El error del rubro que Rofer resuelve es que **al cliente le den la máquina equivocada.** Cada pieza refuerza autoridad + prueba + asesoría, con trato **de usted**.
+Todo lo de Rofer Service gira alrededor de una idea: **"el equipo correcto para el trabajo correcto, con asesoría de 20 años de experiencia."** El error del rubro que Rofer resuelve es que **al cliente le den la máquina equivocada.** Cada pieza refuerza autoridad + prueba + asesoría, con trato **de usted**.
 
 **Mezcla sugerida (a validar con la operación):**
-- **Asesoría / autoridad** — "cómo elegir el equipo idóneo para X trabajo" (educa y posiciona los 20 años).
+- **Asesoría / autoridad** — "cómo elegir el equipo idóneo para X trabajo" (educa y posiciona los 20 años de experiencia).
 - **Prueba / obra real** — equipos trabajando, proyectos de respaldo (ASP, Gana Empresa, Multiplaza, Figali — con permiso).
 - **Servicio / catálogo** — qué equipos hay, para qué sirve cada uno (excavación, conformación, demolición).
 - **Confianza / proceso** — cómo se asesora y cómo se cotiza (facturación y pago: solo lo que confirme el cliente; **nunca** "usted paga cuando el equipo ya está en su proyecto").
@@ -24,7 +24,7 @@ Todo lo de Rofer Service gira alrededor de una idea: **"el equipo correcto para 
 ## Plantilla de brief de contenido (pieza individual)
 
 ```
-CLIENTE: Rofer Service — movimiento de tierra + alquiler/venta de equipo pesado (20 años).
+CLIENTE: Rofer Service — movimiento de tierra + alquiler/venta de equipo pesado (20 años de experiencia; nunca «en el medio» ni «en el mercado»).
 REGISTRO: usted (siempre).
 PILAR: [Asesoría/Autoridad | Prueba/Obra real | Servicio/Catálogo | Confianza/Proceso]
 MATERIAL BASE: [foto/video real del equipo o de la obra] — obligatorio si existe; si no hay, avisar antes de usar stock.
