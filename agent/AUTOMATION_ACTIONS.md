@@ -66,7 +66,7 @@ branding:
 # calidad premium (sube primary a sonnet-5) o si es muy liviano (deja como está).
 llm:
   primary: { provider: claude, model: haiku-4-5 }
-  fast: { provider: groq, model: llama-3.3-70b-versatile }
+  fast: { provider: groq, model: openai/gpt-oss-120b }
 
 # Fuentes — declara SOLO las que apliquen. Si no maneja YouTube, no lo pongas.
 sources:
@@ -242,6 +242,8 @@ Edita `agent/clients/<id>.yml` → bloque `capabilities → market_trends_scan`.
 
 Solo hazlo si el humano lo pide explícitamente o si detectas costo excesivo en el dashboard. Edita el bloque `llm`. Referencia: Haiku 4.5 ≈ $0.02/correo, Sonnet 5 ≈ $0.35/correo (~17× más).
 
+**Excepción: un modelo de Groq retirado.** Groq apaga modelos con fecha (lista en https://console.groq.com/docs/deprecations) y el agente no se entera: cada llamada cae a Haiku con un warning en el correo. Ya pasó una vez (`llama-3.3-70b-versatile`, apagado el 2026-08-16). Para cambiarlo hay que tocar **cuatro sitios a la vez**: la lista `GROQ_MODELS` de `agent/lib/providers/groq.ts`, el union `GroqModel` y `DEFAULT_LLM_CONFIG` de `agent/types.ts`, el `fast` de cada `agent/clients/*.yml` y la plantilla de §2.2. Solo modelos de producción, nunca de "preview".
+
 ### 3.6. Desactivar un cliente
 
 ```yaml
@@ -279,6 +281,8 @@ Solo si el humano pide algo que ninguna capability actual cubre. Pasos:
 | `manifestLoader` falla con Zod error | YAML mal formado o campo faltante | Comparar con un `.yml` que funciona (ej. `dcasa.yml`) |
 | `Reddit /r/X 403` | Sandbox o rate limit | En Actions funcionará; en dev usa mock (ya activo automáticamente) |
 | `Groq API 403: Host not in allowlist` | Sandbox bloquea api.groq.com | Fallback a Haiku activa solo, warning aparece en email |
+| `Modelo Groq no reconocido o retirado` o `Groq API 404`/`400` con `model_decommissioned` | Groq apagó el modelo, o el manifiesto pide uno que ya no está en la lista | Ver §3.5 (excepción del modelo retirado). Mientras tanto el correo sale igual, con Haiku |
+| `Ningún modelo de Groq respondió` | Todos los modelos de la lista fallaron (límite de tokens por minuto, caída de Groq) | Fallback a Haiku activa solo. Si se repite varios días, revisar el plan de Groq |
 | `Google Trends 403` | Sandbox o cambio en endpoint interno | Mock fallback activa solo. Si en producción sigue fallando 1 semana, considerar cambiar a SerpAPI (pagado) |
 | Email HTML se ve mal en Gmail | Estilos con features CSS avanzadas | Simplificar el template. Gmail no soporta `<style>` con selectores complejos en algunos casos |
 | Reporte vacío/aborta | `adn_completeness_guard` disparó | El ADN está vacío/incompleto — verificar `01_ADN_y_Memoria/` |

@@ -6,7 +6,7 @@ import { generateWithFallback } from "../lib/llmClient.ts";
 import { resolveLLM } from "../lib/llmResolver.ts";
 
 // PRE-procesador barato: toma métricas crudas + historial de reportes y
-// devuelve un DIGEST compacto que Claude luego consume. Corre con Groq/Llama gratis.
+// devuelve un DIGEST compacto que Claude luego consume. Corre con el fast LLM (Groq, GPT-OSS).
 // Este es el trabajo pesado de "leer y resumir"; el trabajo creativo estratégico
 // lo hace Claude en instagram_content_ideas con este digest como input limpio.
 export const insightsDigest: Capability = {

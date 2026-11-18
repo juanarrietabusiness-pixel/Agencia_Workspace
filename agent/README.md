@@ -8,7 +8,7 @@ Sistema modular multi-cliente que corre cada mañana en GitHub Actions, lee el A
 
 - **Manifiestos por cliente** en `agent/clients/*.yml` — declaran qué **capabilities** ejecutar + branding (colores propios de cada marca) + fuentes. Sin código nuevo para agregar un cliente.
 - **Capabilities** en `agent/capabilities/` — módulos independientes (métricas IG, tendencias Reddit + Google Trends, ideas de contenido, chequeo CTA WA, dual voice, etc.). Cada uno declara sus inputs y outputs.
-- **Cascada híbrida de LLMs con fallback automático**: Groq/Llama 3.3 (gratis) preprocesa/destila datos → Claude Haiku 4.5 (~$0.02/correo) hace la síntesis. Si Groq falla, cae a Claude Haiku automáticamente.
+- **Cascada híbrida de LLMs con fallback automático**: Groq/GPT-OSS 120B (con GPT-OSS 20B de respaldo) preprocesa/destila datos → Claude Haiku 4.5 (~$0.02/correo) hace la síntesis. Si Groq falla, cae a Claude Haiku automáticamente. Groq retira modelos con fecha: Llama 3.3, el modelo original, se apagó el 2026-08-16 (ver `lib/providers/groq.ts`).
 - **ADN sigue viviendo en los .md** de `01_ADN_y_Memoria/`. Los manifiestos NUNCA duplican tono, personas ni SEO (regla del `_EL_ORQUESTADOR_MAESTRO.md`).
 - **Cada correo lleva los colores propios de la marca** (definidos en `branding` del manifiesto).
 

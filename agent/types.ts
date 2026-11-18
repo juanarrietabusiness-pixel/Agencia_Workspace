@@ -18,11 +18,10 @@ export type CapabilityId =
 export type LLMProvider = "claude" | "groq";
 
 export type ClaudeModel = "sonnet-5" | "haiku-4-5";
-export type GroqModel =
-  | "llama-3.1-8b-instant"
-  | "llama-3.3-70b-versatile"
-  | "llama-3.1-70b-versatile"
-  | "mixtral-8x7b-32768";
+// Solo modelos de Groq VIGENTES. Groq los retira con fecha (ver el comentario
+// de `agent/lib/providers/groq.ts`); uno apagado no se deja aquí, para que el
+// manifiesto que lo pida falle con un mensaje claro en vez de en silencio.
+export type GroqModel = "openai/gpt-oss-120b" | "openai/gpt-oss-20b";
 export type LLMModel = ClaudeModel | GroqModel;
 
 export interface LLMChoice {
@@ -41,8 +40,10 @@ export const DEFAULT_LLM_CONFIG: LLMConfig = {
   // Haiku 4.5: el Claude más económico (~$0.80/M in · $4/M out) — suficiente para síntesis
   // con contexto ya destilado por Groq. Cambiar a sonnet-5 si algún cliente exige más calidad.
   primary: { provider: "claude", model: "haiku-4-5" },
-  // Llama 3.3 70B versátil en Groq: gratis y de calidad muy alta para destilado.
-  fast: { provider: "groq", model: "llama-3.3-70b-versatile" },
+  // GPT-OSS 120B en Groq: el reemplazo que Groq recomienda para Llama 3.3 70B,
+  // retirado el 2026-08-16. Si falla, el provider prueba gpt-oss-20b y, si
+  // tampoco, generateWithFallback cae a Claude Haiku.
+  fast: { provider: "groq", model: "openai/gpt-oss-120b" },
 };
 
 export interface ClientBranding {

@@ -28,7 +28,7 @@ branding:
 
 llm:
   primary: { provider: claude, model: haiku-4-5 }
-  fast: { provider: groq, model: llama-3.3-70b-versatile }
+  fast: { provider: groq, model: openai/gpt-oss-120b }
 
 sources:
   instagram:
