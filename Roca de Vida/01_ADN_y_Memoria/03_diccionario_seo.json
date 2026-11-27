@@ -1,0 +1,31 @@
+{
+  "cliente": "Roca de Vida Panamá",
+  "actualizado": "2026-11-27",
+  "fuente": "ADN entregado por el humano (Assets_Visuales_Base/ADN_Roca_de_Vida_Panama_2026-11-27.pdf). Términos tomados del ADN; volumen de búsqueda sin validar.",
+  "keywords_principales": [
+    "Roca de Vida Panamá",
+    "iglesia cristiana en Panamá",
+    "iglesia en Ave. Samuel Lewis",
+    "Reunión Familiar domingo"
+  ],
+  "keywords_secundarias": [
+    "estudio bíblico miércoles Panamá",
+    "células Roca de Vida",
+    "Nuevo Inicio",
+    "1 Minuto de Palabra",
+    "Pastor Juan Mario Herrero",
+    "prédicas en vivo YouTube"
+  ],
+  "entidades_semanticas_lsi": [
+    "sana doctrina",
+    "predicación expositiva",
+    "presencia de Dios",
+    "evangelio",
+    "arrepentimiento",
+    "discipulado",
+    "Bendecidos para Bendecir",
+    "Metanoia"
+  ],
+  "hashtags_base": ["#rocadevidapanama", "#rocadevida", "#rdvpty"],
+  "hashtags_tematicos": ["#evangelio", "#libertad", "#restauración", "#verdad"]
+}
