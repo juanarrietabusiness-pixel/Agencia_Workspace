@@ -8,9 +8,12 @@
 1. Todo el contenido de las redes de Roca de Vida Panamá (posts, carruseles, Reels, guiones,
    captions, historias, frases, versículos) sale **exclusivamente** de los documentos
    listados abajo. **Ni más ni menos.**
-2. Nada que no esté en estos documentos: ni enseñanzas, ni versículos, ni frases, ni datos de
-   la iglesia (horarios, direcciones, nombres, eventos) que no aparezcan aquí. Si un pedido
-   necesita algo que no está en las fuentes, se avisa al humano y se pregunta — **no se rellena**.
+2. Nada que no esté en estos documentos: ni enseñanzas, ni versículos, ni frases, ni eventos.
+   Si un pedido necesita algo que no está en las fuentes, se avisa al humano y se pregunta —
+   **no se rellena**.
+   **Única excepción (confirmada por el humano el 2026-11-27):** los datos logísticos del ADN
+   — horarios de reuniones, dirección y células con su hora — sí se usan en invitaciones y
+   flyers. Lo marcado ⏳ en el ADN (días de célula, WhatsApp, piso) sigue sin publicarse.
 3. Cada pieza cita de qué documento sale (nombre del archivo y página), para poder
    comprobarlo.
 4. Los documentos de esta carpeta son de **solo lectura** (Regla de Oro 3): se leen, nunca se
@@ -33,6 +36,11 @@
 - **No es contenido público:** las "notas para moderadores", las instrucciones de clase
   (asistencia, tareas, dinámicas de grupo con tiempos) ni los enlaces a videos de terceros que
   aparecen en las láminas.
+- **Nunca se nombra a personas reales como ejemplo negativo.** Doctrina · La Bendita Esperanza,
+  p. 12, pone como ejemplos de falsos profetas a quienes predijeron que ciertos políticos
+  panameños ganarían las elecciones, con nombres propios. Eso fue un ejemplo de clase: **no va
+  a redes ni con nombres ni insinuado**. Lo que sí se publica de esa lámina son los versículos
+  (Judas 1:4; 1 Timoteo 4:1) y la enseñanza sobre falsos maestros (pp. 8–10).
 - **Nombres de personas:** el organigrama (Doctrina · La Iglesia, p. 7) nombra a líderes y
   servidores. Ninguno se publica sin el visto bueno del humano, salvo los pastores que ya
   figuran en el ADN.
@@ -85,6 +93,8 @@ Todos recibidos el 2026-11-27. Son láminas de clase: mucho versículo, poca pro
 | [`El_Temor_de_Dios.pdf`](Doctrina/El_Temor_de_Dios.pdf) | Por qué temer a Dios, a qué conduce una visión correcta de Dios (amor, obediencia, sabiduría), qué es el temor de Dios, ejemplos (Josué vs. Acán), temor vs. miedo | 12 | 1 |
 | [`La_Iglesia_Diezmos_Ofrendas_y_Primicias.pdf`](Doctrina/La_Iglesia_Diezmos_Ofrendas_y_Primicias.pdf) | La Iglesia (cuerpo, familia, ministerios de Efesios 4, organigrama de RDV en p. 7) y la mayordomía del dinero: diezmos (línea de tiempo bíblica), ofrendas, primicias | 16 | 1, 8 |
 | [`La_Mayordomia.pdf`](Doctrina/La_Mayordomia.pdf) | (Clase #9) Dios es dueño de todo, qué es un mayordomo (oikonomia), parábola de los talentos, mayordomía del tiempo, cuerpo, relaciones, palabras, dones y talentos; "bien, buen siervo y fiel" | 18 | 1, 2, 15 |
+| [`La_Santidad_de_Dios_y_la_Entera_Santificacion.pdf`](Doctrina/La_Santidad_de_Dios_y_la_Entera_Santificacion.pdf) | Dios es santo (los dos sentidos de «santo», el fuego como Su presencia), llamados a ser pueblo santo, separación del mal (1 Tesalonicenses 4), "Si ya recibí a Cristo, ¿soy santo?": santificación instantánea y progresiva, medios (la Palabra, la fe, la disciplina de Dios — Hebreos 12) y reflexión final | 18 | 1, 5, 6 (video), 7, 8, 13 — **la mitad de la clase está en imagen** |
+| [`La_Bendita_Esperanza_2025.pdf`](Doctrina/La_Bendita_Esperanza_2025.pdf) | (2025) La segunda venida: qué es la bendita esperanza (Tito 2), por qué vuelve Jesús, señales (engaños, falsos cristos, apostasía, falsos maestros, 2 Timoteo 3), perseverar; **evangelismo** (por qué evangelizar, mentiras que nos creemos, "¿y si me rechazan?", presentación del evangelio paso a paso, pp. 17–25); **sanidad divina** (pp. 26–28); **escatología**: la Tribulación de 7 años, sellos/trompetas/copas, Armagedón, bodas del Cordero, el Milenio, Satanás suelto, el juicio según las obras, cielo nueva y tierra nueva (pp. 31–47) | 48 | 1, 2, 11, 16, 19, 30, 46 (video). p. 12: ver regla de personas reales. p. 29: actividad de calle ya pasada — no se publica |
 
 ## Datos de la iglesia que aparecen en las fuentes y no están en el ADN
 
